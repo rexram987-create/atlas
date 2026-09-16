@@ -1,12 +1,13 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { normalizeCountryFacts, formatPopulation, compactList } from './facts.mjs';
+import { normalizeCountryFacts, formatPopulation, compactList, localizeCapitalList } from './facts.mjs';
 
 test('normalizes compact facts by ISO alpha-2 code', () => {
   const result = normalizeCountryFacts([
     {
       cca2: 'IL',
       capital: ['Jerusalem'],
+      capitalNames: { Jerusalem: 'ירושלים' },
       languages: { ara: 'Arabic', heb: 'Hebrew' },
       currencies: { ILS: { name: 'Israeli new shekel', nameHe: 'שקל חדש ישראלי', symbol: '₪' } },
       population: 10305000
@@ -15,6 +16,7 @@ test('normalizes compact facts by ISO alpha-2 code', () => {
 
   assert.deepEqual(result.IL, {
     capital: ['Jerusalem'],
+    capitalNames: { Jerusalem: 'ירושלים' },
     languages: ['ara', 'heb'],
     currencies: ['ILS'],
     currencyNames: { ILS: 'שקל חדש ישראלי' },
@@ -25,9 +27,16 @@ test('normalizes compact facts by ISO alpha-2 code', () => {
 test('ignores malformed records and keeps safe defaults', () => {
   const result = normalizeCountryFacts([
     null,
-    { cca2: 'XX', capital: null, languages: null, currencies: null, population: -1 }
+    { cca2: 'XX', capital: null, capitalNames: null, languages: null, currencies: null, population: -1 }
   ]);
-  assert.deepEqual(result.XX, { capital: [], languages: [], currencies: [], currencyNames: {}, population: null });
+  assert.deepEqual(result.XX, { capital: [], capitalNames: {}, languages: [], currencies: [], currencyNames: {}, population: null });
+});
+
+test('uses Hebrew capital labels when available and falls back safely', () => {
+  assert.deepEqual(
+    localizeCapitalList(['Kampala', 'Unknown City'], { Kampala: 'קמפלה' }),
+    ['קמפלה', 'Unknown City']
+  );
 });
 
 test('formats population compactly for Hebrew UI', () => {
