@@ -3,7 +3,7 @@ import { getCountryDetail } from './details.mjs';
 import { compactList, formatPopulation, normalizeCountryFacts } from './facts.mjs';
 
 const labels = { all: 'כל העולם', Asia: 'אסיה', Europe: 'אירופה', Africa: 'אפריקה', 'North America': 'אמריקה הצפונית', 'South America': 'אמריקה הדרומית', Oceania: 'אוקיאניה', Antarctica: 'אנטארקטיקה' };
-const FACTS_URL = 'https://restcountries.com/v3.1/all?fields=cca2,capital,languages,currencies,population';
+const FACTS_URL = '/api/country-facts';
 const FACTS_CACHE_KEY = 'atlas-country-facts-v1';
 const FACTS_MAX_AGE = 24 * 60 * 60 * 1000;
 const $ = id => document.getElementById(id);
