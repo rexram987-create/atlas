@@ -29,3 +29,11 @@ test('validSources drops malformed and non-HTTPS source entries', () => {
   ];
   assert.deepEqual(validSources(sources), [{ label: 'Good', url: 'https://example.com' }]);
 });
+
+test('validSources preserves source order', () => {
+  const sources = [
+    { label: 'First', url: 'https://example.com/1' },
+    { label: 'Second', url: 'https://example.com/2' }
+  ];
+  assert.deepEqual(validSources(sources), sources);
+});
