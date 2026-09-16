@@ -105,6 +105,12 @@ $('country-dialog').addEventListener('close', () => {
 try {
   const response = await fetch('/countries.json'); if (!response.ok) throw new Error('Data unavailable');
   countries = await response.json(); countries.sort((a,b) => a.name.localeCompare(b.name, 'he'));
+  try {
+    const detailsResponse = await fetch('/country-details.json');
+    if (detailsResponse.ok) countryDetails = await detailsResponse.json();
+  } catch {
+    countryDetails = {};
+  }
   $('total').textContent = countries.length;
   for (const [key, name] of Object.entries(labels)) {
     const button = document.createElement('button'); button.className = 'continent'; button.dataset.continent = key; button.textContent = name;
