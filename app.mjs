@@ -1,10 +1,83 @@
 import { filterCountries } from './search.mjs';
 import { getCountryDetail } from './details.mjs';
+import { compactList, formatPopulation, normalizeCountryFacts } from './facts.mjs';
+
 const labels = { all: 'כל העולם', Asia: 'אסיה', Europe: 'אירופה', Africa: 'אפריקה', 'North America': 'אמריקה הצפונית', 'South America': 'אמריקה הדרומית', Oceania: 'אוקיאניה', Antarctica: 'אנטארקטיקה' };
+const FACTS_URL = 'https://restcountries.com/v3.1/all?fields=cca2,capital,languages,currencies,population';
+const FACTS_CACHE_KEY = 'atlas-country-facts-v1';
+const FACTS_MAX_AGE = 24 * 60 * 60 * 1000;
 const $ = id => document.getElementById(id);
-let countries = [], countryDetails = {}, selected = 'all', installPrompt, dialogOrigin = null;
+const languageNames = (() => { try { return new Intl.DisplayNames(['he'], { type: 'language' }); } catch { return null; } })();
+const currencyNames = (() => { try { return new Intl.DisplayNames(['he'], { type: 'currency' }); } catch { return null; } })();
+let countries = [], countryDetails = {}, countryFacts = {}, selected = 'all', installPrompt, dialogOrigin = null, dialogCountry = null, factsAttempted = false;
 const localFlag = code => `/flags/${code.toLowerCase()}.svg`;
 const remoteFlag = code => `https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.5.0/flags/4x3/${code.toLowerCase()}.svg`;
+
+function readFactsCache() {
+  try {
+    const cached = JSON.parse(localStorage.getItem(FACTS_CACHE_KEY));
+    if (cached?.facts && typeof cached.facts === 'object') {
+      factsAttempted = true;
+      return cached;
+    }
+  } catch {}
+  return null;
+}
+
+const cachedFacts = readFactsCache();
+if (cachedFacts) countryFacts = cachedFacts.facts;
+
+function localizeLanguage(code) {
+  try { return languageNames?.of(code) || code; } catch { return code; }
+}
+
+function localizeCurrency(code) {
+  try {
+    const name = currencyNames?.of(code);
+    return name && name !== code ? `${name} (${code})` : code;
+  } catch { return code; }
+}
+
+function setFact(id, value, fullValue = value) {
+  const element = $(id);
+  element.textContent = value;
+  element.setAttribute('aria-label', fullValue || value);
+}
+
+function renderCountryFacts(code) {
+  const fact = countryFacts[code];
+  if (!fact) {
+    const value = factsAttempted ? 'לא זמין' : 'טוען…';
+    for (const id of ['country-fact-capital','country-fact-languages','country-fact-currency','country-fact-population']) setFact(id, value);
+    return;
+  }
+
+  const capitals = fact.capital.length ? fact.capital : ['לא זמין'];
+  const languages = fact.languages.map(localizeLanguage);
+  const currencies = fact.currencies.map(localizeCurrency);
+  setFact('country-fact-capital', compactList(capitals, 2), capitals.join(', '));
+  setFact('country-fact-languages', compactList(languages, 2), languages.join(', ') || 'לא זמין');
+  setFact('country-fact-currency', compactList(currencies, 1), currencies.join(', ') || 'לא זמין');
+  const population = formatPopulation(fact.population);
+  setFact('country-fact-population', fact.population == null ? population : `≈ ${population}`, population);
+}
+
+async function refreshCountryFacts() {
+  if (cachedFacts && Date.now() - Number(cachedFacts.updatedAt || 0) < FACTS_MAX_AGE) return;
+  try {
+    const response = await fetch(FACTS_URL, { headers: { Accept: 'application/json' } });
+    if (!response.ok) throw new Error('Country facts unavailable');
+    const normalized = normalizeCountryFacts(await response.json());
+    if (Object.keys(normalized).length < 190) throw new Error('Country facts incomplete');
+    countryFacts = normalized;
+    localStorage.setItem(FACTS_CACHE_KEY, JSON.stringify({ updatedAt: Date.now(), facts: normalized }));
+  } catch {
+    // Keep the last successfully cached facts when offline or if the public data source is unavailable.
+  } finally {
+    factsAttempted = true;
+    if (dialogCountry && $('country-dialog').open) renderCountryFacts(dialogCountry.code);
+  }
+}
 
 function closeCountryDialog() {
   const dialog = $('country-dialog');
@@ -13,6 +86,7 @@ function closeCountryDialog() {
 
 function openCountryDialog(country, originElement) {
   dialogOrigin = originElement;
+  dialogCountry = country;
   const detail = getCountryDetail(countryDetails, country.code);
   const flag = $('country-dialog-flag');
   flag.src = localFlag(country.code);
@@ -21,6 +95,7 @@ function openCountryDialog(country, originElement) {
   $('country-dialog-title').textContent = country.name;
   $('country-dialog-english').textContent = country.english;
   $('country-dialog-code').textContent = country.code;
+  renderCountryFacts(country.code);
   $('country-detail-content').hidden = !detail;
   $('country-detail-unavailable').hidden = Boolean(detail);
   if (detail) {
@@ -96,6 +171,7 @@ $('country-dialog').addEventListener('click', event => {
   if (event.target === $('country-dialog')) closeCountryDialog();
 });
 $('country-dialog').addEventListener('close', () => {
+  dialogCountry = null;
   if (dialogOrigin) {
     const origin = dialogOrigin;
     dialogOrigin = null;
@@ -118,6 +194,7 @@ try {
     button.addEventListener('click', () => { selected = key; render(); }); $('continents').append(button);
   }
   render();
+  refreshCountryFacts();
 } catch { $('load-error').hidden = false; }
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js').then(reg => {
