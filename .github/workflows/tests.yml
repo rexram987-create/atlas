@@ -3,7 +3,7 @@ name: Atlas tests
 on:
   push:
     branches:
-      - feature/country-detail-cards
+      - 'feature/**'
   pull_request:
     branches:
       - main
@@ -18,5 +18,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Check browser module syntax
+        run: node --check app.mjs && node --check details.mjs && node --check facts.mjs && node --check search.mjs
       - name: Run tests
         run: node --test *.test.mjs
