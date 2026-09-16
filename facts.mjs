@@ -6,6 +6,9 @@ export function normalizeCountryFacts(records) {
     const code = typeof record?.cca2 === 'string' ? record.cca2.trim().toUpperCase() : '';
     if (!code) continue;
     const capital = Array.isArray(record.capital) ? record.capital.filter(value => typeof value === 'string' && value.trim()) : [];
+    const capitalNames = record.capitalNames && typeof record.capitalNames === 'object'
+      ? Object.fromEntries(Object.entries(record.capitalNames).filter(([key, value]) => typeof key === 'string' && key.trim() && typeof value === 'string' && value.trim()).map(([key, value]) => [key.trim(), value.trim()]))
+      : {};
     const languages = record.languages && typeof record.languages === 'object' ? Object.keys(record.languages) : [];
     const currencies = record.currencies && typeof record.currencies === 'object' ? Object.keys(record.currencies) : [];
     const currencyNames = Object.fromEntries(currencies.map(currencyCode => {
@@ -16,10 +19,15 @@ export function normalizeCountryFacts(records) {
       return [currencyCode, name];
     }));
     const population = Number.isFinite(record.population) && record.population >= 0 ? Math.round(record.population) : null;
-    byCode[code] = { capital, languages, currencies, currencyNames, population };
+    byCode[code] = { capital, capitalNames, languages, currencies, currencyNames, population };
   }
 
   return byCode;
+}
+
+export function localizeCapitalList(capitals, capitalNames = {}) {
+  if (!Array.isArray(capitals)) return [];
+  return capitals.map(capital => capitalNames?.[capital] || capital);
 }
 
 export function formatPopulation(population, locale = 'he-IL') {
