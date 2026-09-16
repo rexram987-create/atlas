@@ -1,10 +1,10 @@
 import { filterCountries } from './search.mjs';
 import { getCountryDetail } from './details.mjs';
-import { compactList, formatPopulation, normalizeCountryFacts } from './facts.mjs';
+import { compactList, formatPopulation, localizeCapitalList, normalizeCountryFacts } from './facts.mjs';
 
 const labels = { all: 'כל העולם', Asia: 'אסיה', Europe: 'אירופה', Africa: 'אפריקה', 'North America': 'אמריקה הצפונית', 'South America': 'אמריקה הדרומית', Oceania: 'אוקיאניה', Antarctica: 'אנטארקטיקה' };
 const FACTS_URL = '/api/country-facts';
-const FACTS_CACHE_KEY = 'atlas-country-facts-v2';
+const FACTS_CACHE_KEY = 'atlas-country-facts-v3';
 const FACTS_MAX_AGE = 24 * 60 * 60 * 1000;
 const $ = id => document.getElementById(id);
 const languageNames = (() => { try { return new Intl.DisplayNames(['he'], { type: 'language' }); } catch { return null; } })();
@@ -54,7 +54,8 @@ function renderCountryFacts(code) {
     return;
   }
 
-  const capitals = fact.capital.length ? fact.capital : ['לא זמין'];
+  const localizedCapitals = localizeCapitalList(fact.capital, fact.capitalNames);
+  const capitals = localizedCapitals.length ? localizedCapitals : ['לא זמין'];
   const languages = fact.languages.map(localizeLanguage);
   const currencies = fact.currencies.map(currencyCode => localizeCurrency(currencyCode, fact.currencyNames));
   setFact('country-fact-capital', compactList(capitals, 2), capitals.join(', '));
