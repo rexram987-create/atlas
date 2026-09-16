@@ -18,5 +18,23 @@
   </main>
   <footer><a class="footer-brand" href="/">◎ אטלס</a><p>נוצר בשביל הסקרנות.</p><details><summary>על המאגר והמקורות</summary><p>197 מדינות: 193 חברות האו״ם, הוותיקן, פלסטין, קוסובו וטאיוואן. הסיווג נועד להתמצאות גאוגרפית ואינו קביעה בדבר מעמד מדיני. מדינות בין־יבשתיות מוצגות פעם אחת לפי אזור המקור. אנטארקטיקה אינה מכילה מדינות ריבוניות.</p><p>נתונים: <a href="https://github.com/mledoze/countries">mledoze/countries</a> ברישיון ODbL; שמות בעברית: Unicode CLDR דרך Intl.DisplayNames; דגלים: <a href="https://github.com/lipis/flag-icons">flag-icons</a> ברישיון MIT.</p></details></footer>
   <dialog id="install-dialog"><button class="close" id="close-dialog" aria-label="סגירה">×</button><span class="dialog-icon">◎</span><h2>אטלס במסך הבית</h2><p id="install-help">ב־Android או במחשב: פתחו את תפריט הדפדפן ובחרו ״התקנת האפליקציה״ או ״הוספה למסך הבית״.<br><br>ב־iPhone או ב־iPad: פתחו ב־Safari, לחצו על שיתוף ואז על ״הוספה למסך הבית״.</p><p class="muted">רשימת המדינות וקובצי הליבה נשמרים לשימוש לא מקוון; דגלים עשויים להיטען מהאינטרנט אם אינם קיימים מקומית.</p></dialog>
+  <dialog id="country-dialog" class="country-dialog" aria-labelledby="country-dialog-title">
+    <button class="close" id="country-dialog-close" aria-label="סגירת פרטי המדינה">×</button>
+    <header class="country-dialog-head">
+      <img id="country-dialog-flag" class="country-dialog-flag" alt="" width="80" height="54">
+      <div>
+        <h2 id="country-dialog-title"></h2>
+        <p id="country-dialog-english" class="country-dialog-english" lang="en"></p>
+        <span id="country-dialog-code" class="country-dialog-code" lang="en"></span>
+      </div>
+    </header>
+    <div id="country-detail-content">
+      <section class="detail-section"><h3>אטימולוגיה</h3><p id="country-detail-etymology"></p></section>
+      <section class="detail-section"><h3>איך התקבל השם</h3><p id="country-detail-name-story"></p></section>
+      <section class="detail-section"><h3>הקמת המדינה המודרנית</h3><p><strong id="country-detail-year"></strong></p><p id="country-detail-year-note" class="muted"></p></section>
+      <details class="detail-sources"><summary>מקורות</summary><ul id="country-detail-sources"></ul></details>
+    </div>
+    <p id="country-detail-unavailable" class="detail-unavailable" hidden>המידע המורחב למדינה זו אינו זמין כרגע.</p>
+  </dialog>
   <script type="module" src="/app.mjs"></script>
 </body></html>
