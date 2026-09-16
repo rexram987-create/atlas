@@ -27,3 +27,10 @@ export function formatPopulation(population, locale = 'he-IL') {
   }
   return new Intl.NumberFormat(locale).format(population);
 }
+
+export function compactList(values, max = 2) {
+  const clean = Array.isArray(values) ? values.filter(value => typeof value === 'string' && value.trim()) : [];
+  if (!clean.length) return 'לא זמין';
+  if (clean.length <= max) return clean.join(', ');
+  return `${clean.slice(0, max).join(', ')} +${clean.length - max}`;
+}
