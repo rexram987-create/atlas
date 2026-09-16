@@ -16,8 +16,8 @@
     <section class="explore" aria-label="מילון המדינות"><div class="search-wrap"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><label class="sr-only" for="search">חיפוש מדינה</label><input id="search" type="search" autocomplete="off" placeholder="איזו מדינה מחפשים? בעברית או באנגלית"><kbd aria-hidden="true">/</kbd></div><div id="continents" class="continents" role="group" aria-label="סינון לפי יבשת"></div><div class="results-heading"><h2 id="results-title">כל מדינות העולם <span id="count"></span></h2><span class="sort-note">מסודרות לפי א׳–ב׳</span></div><p id="status" class="sr-only" role="status" aria-live="polite"></p><div id="countries" class="country-grid"></div><div id="empty" class="empty" hidden><span aria-hidden="true">◎</span><h3 id="empty-title"></h3><p id="empty-message"></p><button id="reset">בחזרה לכל המדינות</button></div><p id="load-error" class="error" hidden>לא הצלחנו לטעון את המדינות. בדקו את החיבור ונסו לרענן את העמוד.</p></section>
     <section class="offline-strip"><span class="offline-symbol" aria-hidden="true">↙</span><div><h3>העולם תמיד איתכם.</h3><p id="offline-status" role="status">התקינו את אטלס לגישה מהירה ממסך הבית.</p></div><button id="install-bottom">איך מתקינים? <span aria-hidden="true">←</span></button></section>
   </main>
-  <footer><a class="footer-brand" href="/">◎ אטלס</a><p>נוצר בשביל הסקרנות.</p><details><summary>על המאגר והמקורות</summary><p>197 מדינות: 193 חברות האו״ם, הוותיקן, פלסטין, קוסובו וטאיוואן. הסיווג נועד להתמצאות גאוגרפית ואינו קביעה בדבר מעמד מדיני. מדינות בין־יבשתיות מוצגות פעם אחת לפי אזור המקור. אנטארקטיקה אינה מכילה מדינות ריבוניות.</p><p>נתונים: <a href="https://github.com/mledoze/countries">mledoze/countries</a> ברישיון ODbL; שמות בעברית: Unicode CLDR דרך Intl.DisplayNames; דגלים: <a href="https://github.com/lipis/flag-icons">flag-icons</a> ברישיון MIT.</p></details></footer>
-  <dialog id="install-dialog"><button class="close" id="close-dialog" aria-label="סגירה">×</button><span class="dialog-icon">◎</span><h2>אטלס במסך הבית</h2><p id="install-help">ב־Android או במחשב: פתחו את תפריט הדפדפן ובחרו ״התקנת האפליקציה״ או ״הוספה למסך הבית״.<br><br>ב־iPhone או ב־iPad: פתחו ב־Safari, לחצו על שיתוף ואז על ״הוספה למסך הבית״.</p><p class="muted">רשימת המדינות וקובצי הליבה נשמרים לשימוש לא מקוון; דגלים עשויים להיטען מהאינטרנט אם אינם קיימים מקומית.</p></dialog>
+  <footer><a class="footer-brand" href="/">◎ אטלס</a><p>נוצר בשביל הסקרנות.</p><details><summary>על המאגר והמקורות</summary><p>197 מדינות: 193 חברות האו״ם, הוותיקן, פלסטין, קוסובו וטאיוואן. הסיווג נועד להתמצאות גאוגרפית ואינו קביעה בדבר מעמד מדיני. מדינות בין־יבשתיות מוצגות פעם אחת לפי אזור המקור. אנטארקטיקה אינה מכילה מדינות ריבוניות.</p><p>נתונים: <a href="https://github.com/mledoze/countries">mledoze/countries</a> ברישיון ODbL; שמות בעברית: Unicode CLDR דרך Intl.DisplayNames; דגלים: <a href="https://github.com/lipis/flag-icons">flag-icons</a> ברישיון MIT; בירה, שפות, מטבע ואוכלוסייה משוערת: <a href="https://restcountries.com/">REST Countries</a>.</p></details></footer>
+  <dialog id="install-dialog"><button class="close" id="close-dialog" aria-label="סגירה">×</button><span class="dialog-icon">◎</span><h2>אטלס במסך הבית</h2><p id="install-help">ב־Android או במחשב: פתחו את תפריט הדפדפן ובחרו ״התקנת האפליקציה״ או ״הוספה למסך הבית״.<br><br>ב־iPhone או ב־iPad: פתחו ב־Safari, לחצו על שיתוף ואז על ״הוספה למסך הבית״.</p><p class="muted">רשימת המדינות וקובצי הליבה נשמרים לשימוש לא מקוון; נתוני היסוד האחרונים שנקלטו נשמרים במכשיר; דגלים עשויים להיטען מהאינטרנט אם אינם קיימים מקומית.</p></dialog>
   <dialog id="country-dialog" class="country-dialog" aria-labelledby="country-dialog-title">
     <button class="close" id="country-dialog-close" aria-label="סגירת פרטי המדינה">×</button>
     <header class="country-dialog-head">
@@ -28,6 +28,12 @@
         <span id="country-dialog-code" class="country-dialog-code" lang="en"></span>
       </div>
     </header>
+    <section class="country-facts" aria-label="מידע בסיסי על המדינה">
+      <div class="country-fact"><span>בירה</span><strong id="country-fact-capital" dir="auto">טוען…</strong></div>
+      <div class="country-fact"><span>שפות רשמיות</span><strong id="country-fact-languages">טוען…</strong></div>
+      <div class="country-fact"><span>מטבע</span><strong id="country-fact-currency">טוען…</strong></div>
+      <div class="country-fact"><span>אוכלוסייה</span><strong id="country-fact-population">טוען…</strong></div>
+    </section>
     <div id="country-detail-content">
       <section class="detail-section"><h3>אטימולוגיה</h3><p id="country-detail-etymology"></p></section>
       <section class="detail-section"><h3>איך התקבל השם</h3><p id="country-detail-name-story"></p></section>
