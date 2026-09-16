@@ -1,0 +1,32 @@
+{
+  "IL": {
+    "etymology": "השם ״ישראל״ הוא שם עברי קדום. במקרא הוא ניתן ליעקב, ובהמשך נעשה כינוי לעם ולישויות המדיניות הקדומות שנשאו את השם. פירושו המדויק שנוי במחלוקת לשונית, ובין ההסברים המקובלים: ״אל שׂר/מושל״ או קשר לשורש ש־ר־ה במשמעות מאבק.",
+    "nameStory": "בעת הכרזת המדינה ב־14 במאי 1948 נקבע שמה הרשמי ״מדינת ישראל״. ההכרזה עצמה מציינת שהמדינה היהודית שהוקמה בארץ ישראל תיקרא ישראל.",
+    "modernStateYear": 1948,
+    "modernStateNote": "מדינת ישראל הוכרזה ב־14 במאי 1948, ערב סיום המנדט הבריטי.",
+    "sources": [
+      {"label": "הכנסת — מגילת העצמאות", "url": "https://main.knesset.gov.il/about/occasion/pages/declaration.aspx"},
+      {"label": "Encyclopaedia Britannica 1911 — Israel", "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Israel"}
+    ]
+  },
+  "JP": {
+    "etymology": "השם המקומי 日本 נקרא Nihon או Nippon ומשמעות סימניו היא בקירוב ״מקור השמש״. מכאן נולד גם הכינוי ״ארץ השמש העולה״. הצורה האנגלית Japan התפתחה דרך גרסאות זרות של שם הארץ במזרח אסיה.",
+    "nameStory": "הכינוי Nihon/Nippon התבסס כשם המדינה לאחר שהיפנים ביקשו להחליף כינויים קדומים יותר. שתי ההגיות משמשות עד היום, בעוד Japan נשאר השם המקובל באנגלית ובשפות רבות אחרות.",
+    "modernStateYear": 1947,
+    "modernStateNote": "ליפן רצף מדיני עתיק בהרבה; 1947 נבחר כאן כנקודת היסוד של המסגרת החוקתית המודרנית, עם כניסת החוקה הנוכחית לתוקף.",
+    "sources": [
+      {"label": "שגרירות יפן בגרמניה — Nihon/Nippon", "url": "https://www.de.emb-japan.go.jp/feature/nippon.html"},
+      {"label": "Japan — World Factbook archive", "url": "https://archive.govglance.org/factbook/japan"}
+    ]
+  },
+  "BR": {
+    "etymology": "השם Brasil נגזר מעץ ה־pau-brasil (ברזילווד), שהיה נפוץ לאורך החוף ושימש להפקת צבע אדום עמוק. שמו של העץ נעשה בהדרגה לשמו של השטח ולאחר מכן של המדינה.",
+    "nameStory": "בתקופה הקולוניאלית הפורטוגלית הכינוי הקשור ל־pau-brasil נעשה השם המקובל של הארץ. לאחר העצמאות נשמר Brasil כחלק משמה של המדינה גם תחת האימפריה וגם ברפובליקה.",
+    "modernStateYear": 1822,
+    "modernStateNote": "ברזיל הכריזה על עצמאותה מפורטוגל ב־7 בספטמבר 1822; הרפובליקה הוכרזה מאוחר יותר, ב־1889.",
+    "sources": [
+      {"label": "CIA World Factbook Archive — Brazil", "url": "https://www.cia.gov/the-world-factbook/about/archives/2022/countries/brazil/"},
+      {"label": "UK Government — Brazil Toponymic Factfile", "url": "https://assets.publishing.service.gov.uk/media/67eaade0ba01abac8e9fe98c/Brazil_Toponymic_Factfile.pdf"}
+    ]
+  }
+}
