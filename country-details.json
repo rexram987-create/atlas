@@ -1,4 +1,204 @@
 {
+  "AF": {
+    "etymology": "השם Afghanistan מורכב מן הכינוי Afghan ומן הסיומת הפרסית ‎-stan, שפירושה ״ארץ״ או ״מקום״ — כלומר בקירוב ״ארץ האפגנים״. הכינוי Afghan שימש היסטורית במיוחד ביחס לפשטונים, ובהמשך קיבל משמעות לאומית רחבה יותר.",
+    "nameStory": "השם אפגניסטן הלך והתקבע כשם המדינה במהלך המאות ה־18 וה־19, עם התגבשות ישות מדינית סביב השושלות האפגניות. במאה ה־20 נעשה זהו שמה הבינלאומי והרשמי של המדינה הריבונית.",
+    "modernStateYear": 1919,
+    "modernStateNote": "1919 נבחרה כשנת הריבונות המודרנית, לאחר שאפגניסטן השתחררה משליטה בריטית בענייני החוץ. המדינה האפגנית עצמה נוסדה מוקדם יותר, ב־1747 תחת אחמד שאה דוראני.",
+    "sources": [
+      {"label": "CIA World Factbook Archive — Afghanistan", "url": "https://www.cia.gov/the-world-factbook/about/archives/2021/countries/afghanistan/"},
+      {"label": "Encyclopaedia Britannica — Afghanistan", "url": "https://www.britannica.com/place/Afghanistan"}
+    ]
+  },
+  "AO": {
+    "etymology": "השם Angola קשור לתואר ngola, שנשאו שליטי ממלכת נדונגו באזור. הפורטוגלים השתמשו בביטוי Reino de Angola — ״ממלכת אנגולה״ — והשם עבר בהדרגה מן השליט והאזור אל המושבה ולבסוף אל המדינה.",
+    "nameStory": "בתקופה הפורטוגלית התקבע Angola כשם הטריטוריה הקולוניאלית. עם קבלת העצמאות מפורטוגל ב־1975 נשמר השם למדינה החדשה.",
+    "modernStateYear": 1975,
+    "modernStateNote": "אנגולה נעשתה מדינה עצמאית ב־11 בנובמבר 1975 לאחר סיום השלטון הקולוניאלי הפורטוגלי.",
+    "sources": [
+      {"label": "CIA World Factbook Archive — Angola", "url": "https://www.cia.gov/the-world-factbook/about/archives/2021/countries/angola/"},
+      {"label": "Encyclopaedia Britannica — Angola", "url": "https://www.britannica.com/place/Angola"}
+    ]
+  },
+  "AL": {
+    "etymology": "מקור השם הבינלאומי Albania אינו ודאי לחלוטין; הוא קשור לשמות קדומים כגון Albanoi ו־Albanon. האלבנים עצמם קוראים לארצם Shqipëria, ולשון העם קושרת לעיתים את השם לנשר, אף שהאטימולוגיה המדעית של השם המקומי מורכבת יותר.",
+    "nameStory": "הצורה Albania התקבעה בשפות אירופה מן השמות העתיקים והימי־ביניימיים של האזור. המדינה שהכריזה עצמאות ב־1912 אימצה רשמית את השם המקומי Shqipëria, בעוד Albania נשאר השם הבינלאומי המקובל.",
+    "modernStateYear": 1912,
+    "modernStateNote": "אלבניה הכריזה על עצמאותה מן האימפריה העות׳מאנית ב־28 בנובמבר 1912.",
+    "sources": [
+      {"label": "CIA World Factbook Archive — Albania", "url": "https://www.cia.gov/the-world-factbook/about/archives/2021/countries/albania/"},
+      {"label": "Encyclopaedia Britannica — Albania", "url": "https://www.britannica.com/place/Albania"}
+    ]
+  },
+  "AD": {
+    "etymology": "מקור השם Andorra אינו מוסכם. הוצעו מקורות קדם־רומיים, איבריים או באסקיים, אך אין הסבר יחיד שהתקבל בוודאות. לכן נכון לראות באטימולוגיה של השם בלתי־מוכרעת.",
+    "nameStory": "השם אנדורה שימש את העמק והישות הפוליטית במשך מאות שנים. הסדר הפריאז׳ של 1278 ייסד את הנסיכות המשותפת; ב־1993 אושרה חוקה שהפכה אותה למדינה פרלמנטרית מודרנית תוך שמירת מוסד שני הנסיכים.",
+    "modernStateYear": 1993,
+    "modernStateNote": "1993 נבחרה כשנת המדינה החוקתית המודרנית. לנסיכות אנדורה יש רציפות מוסדית עתיקה בהרבה, המבוססת על הסכם משנת 1278.",
+    "sources": [
+      {"label": "Govern d’Andorra — Constitution and institutions", "url": "https://www.govern.ad/en/andorra"},
+      {"label": "Encyclopaedia Britannica — Andorra", "url": "https://www.britannica.com/place/Andorra"}
+    ]
+  },
+  "AE": {
+    "etymology": "השם ״איחוד האמירויות הערביות״ הוא תיאורי: איחוד פדרלי של אמירויות ערביות. המילה ״אמירות״ מציינת טריטוריה הנשלטת בידי אמיר, והשם מדגיש את המבנה הפדרלי של המדינה.",
+    "nameStory": "לאחר הודעת בריטניה על נסיגתה מהמפרץ החלו שליטי האמירויות המתפייסות במגעים להקמת איחוד. שש אמירויות הכריזו ב־2 בדצמבר 1971 על ״איחוד האמירויות הערביות״; ראס אל־ח׳ימה הצטרפה בפברואר 1972.",
+    "modernStateYear": 1971,
+    "modernStateNote": "הפדרציה העצמאית הוקמה רשמית ב־2 בדצמבר 1971. האמירות השביעית, ראס אל־ח׳ימה, הצטרפה ב־10 בפברואר 1972.",
+    "sources": [
+      {"label": "ממשלת איחוד האמירויות — היסטוריית המדינה", "url": "https://u.ae/en/about-the-uae/History"},
+      {"label": "Encyclopaedia Britannica — United Arab Emirates", "url": "https://www.britannica.com/place/United-Arab-Emirates"}
+    ]
+  },
+  "AR": {
+    "etymology": "Argentina נגזר מן הלטינית argentum, ״כסף״. השם קשור לאגדות ולדיווחים מוקדמים על מתכות יקרות באזור ריו דה לה פלטה — ״נהר הכסף״ — והצורה Argentina נעשתה בהדרגה לשם הארץ.",
+    "nameStory": "במהלך התקופה הקולוניאלית והמאבק לעצמאות שימשו כמה שמות לטריטוריה, ובהם Provincias Unidas del Río de la Plata. במהלך המאה ה־19 התקבע República Argentina כשמה הרשמי של המדינה.",
+    "modernStateYear": 1816,
+    "modernStateNote": "הקונגרס בטוקומאן הכריז על עצמאות מן הכתר הספרדי ב־9 ביולי 1816; האיחוד המדיני והחוקה התגבשו בשלבים מאוחרים יותר.",
+    "sources": [
+      {"label": "CIA World Factbook Archive — Argentina", "url": "https://www.cia.gov/the-world-factbook/about/archives/2021/countries/argentina/"},
+      {"label": "Encyclopaedia Britannica — Argentina", "url": "https://www.britannica.com/place/Argentina"}
+    ]
+  },
+  "AM": {
+    "etymology": "השם Armenia הוא שם עתיק שמקורו המדויק אינו ודאי; צורות דומות מופיעות כבר בכתובות מן העת העתיקה. בארמנית נקראת הארץ Hayastan — ״ארץ ה־Hay״ — והמסורת הארמנית קושרת את Hay לאב הקדמון האגדי הַייק.",
+    "nameStory": "Armenia נשאר השם המקובל בשפות זרות לאורך תקופות שונות, בעוד Hayastan הוא השם המקומי. לאחר פירוק ברית המועצות אימצה הרפובליקה העצמאית ב־1991 את השם Republic of Armenia.",
+    "modernStateYear": 1991,
+    "modernStateNote": "ארמניה הכריזה על עצמאותה מברית המועצות ב־21 בספטמבר 1991. קדמו לה ישויות ארמניות עתיקות ורפובליקה עצמאית קצרה בשנים 1918–1920.",
+    "sources": [
+      {"label": "CIA World Factbook Archive — Armenia", "url": "https://www.cia.gov/the-world-factbook/about/archives/2021/countries/armenia/"},
+      {"label": "Encyclopaedia Britannica — Armenia", "url": "https://www.britannica.com/place/Armenia"}
+    ]
+  },
+  "AG": {
+    "etymology": "אנטיגואה נקראה בידי כריסטופר קולומבוס על שם Santa María la Antigua בסביליה. Barbuda היא מילה ספרדית הקשורה ל״מזוקן/מזוקנת״; ההסבר המקובל קושר אותה למראה הצמחייה או עצי התאנה שבאי.",
+    "nameStory": "שמות שני האיים התקבעו בתקופה האירופית הקולוניאלית. כאשר המושבה הבריטית קיבלה עצמאות ב־1981, נשמר הצירוף Antigua and Barbuda כשמה של המדינה.",
+    "modernStateYear": 1981,
+    "modernStateNote": "אנטיגואה וברבודה נעשתה מדינה עצמאית מן הממלכה המאוחדת ב־1 בנובמבר 1981.",
+    "sources": [
+      {"label": "CIA World Factbook Archive — Antigua and Barbuda", "url": "https://www.cia.gov/the-world-factbook/about/archives/2021/countries/antigua-and-barbuda/"},
+      {"label": "Encyclopaedia Britannica — Antigua and Barbuda", "url": "https://www.britannica.com/place/Antigua-and-Barbuda"}
+    ]
+  },
+  "AU": {
+    "etymology": "Australia נגזר מן הלטינית australis, ״דרומי״. במשך מאות שנים הופיע במפות ובכתבים הרעיון של Terra Australis — ״הארץ הדרומית״ — ולבסוף התקבע Australia כשם היבשת והמדינה.",
+    "nameStory": "השם Australia נכנס לשימוש רחב בראשית המאה ה־19 וקיבל מעמד רשמי בהדרגה. ב־1901 התאחדו שש המושבות הבריטיות למדינה פדרלית בשם Commonwealth of Australia.",
+    "modernStateYear": 1901,
+    "modernStateNote": "ב־1 בינואר 1901 התאחדו שש המושבות והוקם חבר העמים של אוסטרליה. קשרים חוקתיים עם בריטניה צומצמו בשלבים מאוחרים יותר.",
+    "sources": [
+      {"label": "Parliament of Australia — Federation", "url": "https://www.aph.gov.au/About_Parliament/House_of_Representatives/About_the_House_News/News/Parliament_Explained_Federation"},
+      {"label": "Encyclopaedia Britannica — Australia", "url": "https://www.britannica.com/place/Australia"}
+    ]
+  },
+  "AT": {
+    "etymology": "השם הגרמני Österreich פירושו בקירוב ״הממלכה/התחום המזרחי״, והוא מתועד בימי הביניים בצורת Ostarrîchi. השם האנגלי Austria התפתח מן הצורה הלטינית של אותו שם.",
+    "nameStory": "לאחר קריסת האימפריה האוסטרו־הונגרית ב־1918 הוכרזה רפובליקה בשם Deutschösterreich. חוזה סן־ז׳רמן אסר את האיחוד עם גרמניה, וב־1919 התקבע השם Republik Österreich — רפובליקת אוסטריה.",
+    "modernStateYear": 1918,
+    "modernStateNote": "הרפובליקה האוסטרית נוסדה ב־12 בנובמבר 1918. לאחר הסיפוח לגרמניה ב־1938 הוקמה אוסטריה מחדש ב־1945, וריבונות מלאה הושבה ב־1955.",
+    "sources": [
+      {"label": "הפרלמנט האוסטרי — לידת הרפובליקה", "url": "https://www.parlament.gv.at/verstehen/historisches/1918-1945/geburt-der-republik"},
+      {"label": "Encyclopaedia Britannica — Austria", "url": "https://www.britannica.com/place/Austria"}
+    ]
+  },
+  "AZ": {
+    "etymology": "Azerbaijan קשור לשמו של אטרופטס, מושל מן התקופה ההלניסטית, ולשם האזור העתיק Atropatene/Āturpātakān. עם הזמן התפתח השם לצורות הפרסיות והטורקיות שמהן נגזר Azerbaijan המודרני.",
+    "nameStory": "השם ההיסטורי שימש בעיקר אזורים מדרום לנהר אראס, אך בראשית המאה ה־20 אומץ גם בידי הרפובליקה שהוקמה מצפון לו. לאחר פירוק ברית המועצות נשמר Azerbaijan כשם המדינה העצמאית.",
+    "modernStateYear": 1991,
+    "modernStateNote": "אזרבייג׳ן השיבה את עצמאותה ב־1991 עם התפרקות ברית המועצות; קדמה לה רפובליקה עצמאית בשנים 1918–1920.",
+    "sources": [
+      {"label": "CIA World Factbook Archive — Azerbaijan", "url": "https://www.cia.gov/the-world-factbook/about/archives/2021/countries/azerbaijan/"},
+      {"label": "Encyclopaedia Britannica — Azerbaijan", "url": "https://www.britannica.com/place/Azerbaijan"}
+    ]
+  },
+  "BI": {
+    "etymology": "Burundi נגזר מן השם המקומי Rundi/Urundi ומן המבנה הלשוני של שפות הבנטו באזור. התחילית Bu- משמשת לציון ארץ או טריטוריה, ולכן Burundi הוא בקירוב ״ארץ בני רונדי״.",
+    "nameStory": "בתקופה הקולוניאלית נכלל האזור ברואנדה־אורונדי תחת שלטון בלגי. עם העצמאות ב־1962 אימצה הממלכה העצמאית את השם Burundi, שנשמר גם לאחר ביטול המלוכה ב־1966.",
+    "modernStateYear": 1962,
+    "modernStateNote": "בורונדי קיבלה עצמאות מבלגיה ב־1 ביולי 1962; ב־1966 הפכה מממלכה לרפובליקה.",
+    "sources": [
+      {"label": "CIA World Factbook Archive — Burundi", "url": "https://www.cia.gov/the-world-factbook/about/archives/2021/countries/burundi/"},
+      {"label": "Encyclopaedia Britannica — Burundi", "url": "https://www.britannica.com/place/Burundi"}
+    ]
+  },
+  "BE": {
+    "etymology": "Belgium נגזר מן Belgae, קבוצת שבטים שחיה בחלקים מצפון גאליה בתקופה הרומית. הרומאים קראו לאזור Gallia Belgica, והשם ההיסטורי הוחזר לשימוש בעת יצירת המדינה המודרנית.",
+    "nameStory": "במהפכה של 1830 נפרדו המחוזות הדרומיים מן הממלכה המאוחדת של ארצות השפלה והכריזו על עצמאות. השם Belgium נבחר בהשראת השם הרומי העתיק לאזור.",
+    "modernStateYear": 1830,
+    "modernStateNote": "בלגיה הכריזה על עצמאותה ב־1830; ליאופולד הראשון נשבע אמונים כמלך הבלגים ביולי 1831.",
+    "sources": [
+      {"label": "CIA World Factbook Archive — Belgium", "url": "https://www.cia.gov/the-world-factbook/about/archives/2021/countries/belgium/"},
+      {"label": "Encyclopaedia Britannica — Belgium", "url": "https://www.britannica.com/place/Belgium"}
+    ]
+  },
+  "BJ": {
+    "etymology": "השם Benin נלקח ממפרץ בנין, ששמו קשור לממלכת בנין ההיסטורית. ממלכת בנין עצמה שכנה בעיקר בשטח ניגריה של ימינו, ולכן השם המודרני אינו מצביע על המשכיות טריטוריאלית ישירה עם אותה ממלכה.",
+    "nameStory": "בעת העצמאות ב־1960 נקראה המדינה Dahomey, על שם ממלכת דהומיי המקומית. ב־1975 הוחלף השם ל־Benin, שם שנחשב ניטרלי יותר ביחס לקבוצות האתניות והאזורים במדינה.",
+    "modernStateYear": 1960,
+    "modernStateNote": "הרפובליקה של דהומיי קיבלה עצמאות מצרפת ב־1 באוגוסט 1960; שמה שונה לרפובליקה העממית של בנין ב־1975.",
+    "sources": [
+      {"label": "CIA World Factbook Archive — Benin", "url": "https://www.cia.gov/the-world-factbook/about/archives/2021/countries/benin/"},
+      {"label": "Encyclopaedia Britannica — Benin", "url": "https://www.britannica.com/place/Benin"}
+    ]
+  },
+  "BF": {
+    "etymology": "Burkina Faso הוא שם שנוצר משתי שפות מקומיות: burkina במוֹרֶה מציין יושר או אדם הגון, ו־faso בדיוּלה פירושו מולדת/בית האב. יחד מקובל לתרגם את השם כ״ארץ האנשים הישרים״.",
+    "nameStory": "המדינה נקראה Upper Volta — וולטה עילית — מן העצמאות ועד 1984. הנשיא תומא סנקרה שינה אז את השם ל־Burkina Faso כדי להעניק למדינה שם אפריקאי שאינו מבוסס על הכינוי הקולוניאלי.",
+    "modernStateYear": 1960,
+    "modernStateNote": "וולטה עילית קיבלה עצמאות מצרפת ב־5 באוגוסט 1960. השם Burkina Faso אומץ ב־1984.",
+    "sources": [
+      {"label": "CIA World Factbook Archive — Burkina Faso", "url": "https://www.cia.gov/the-world-factbook/about/archives/2021/countries/burkina-faso/"},
+      {"label": "Encyclopaedia Britannica — Burkina Faso", "url": "https://www.britannica.com/place/Burkina-Faso"}
+    ]
+  },
+  "BD": {
+    "etymology": "Bangladesh מורכב מ־Bangla, השם הבנגלי של בנגל ושל השפה הבנגלית, ומן המילה desh, ״ארץ״ או ״מדינה״. משמעותו הישירה היא לכן ״ארץ בנגל״.",
+    "nameStory": "האזור היה מזרח בנגל ולאחר חלוקת הודו ב־1947 נקרא מזרח פקיסטן. התנועה הלאומית הבנגלית אימצה את Bangladesh כשם המולדת, והוא נעשה שמה של המדינה שקמה במלחמת העצמאות של 1971.",
+    "modernStateYear": 1971,
+    "modernStateNote": "בנגלדש הכריזה על עצמאות מפקיסטן ב־1971; לאחר מלחמת העצמאות נכנעו הכוחות הפקיסטניים בדצמבר אותה שנה.",
+    "sources": [
+      {"label": "CIA World Factbook Archive — Bangladesh", "url": "https://www.cia.gov/the-world-factbook/about/archives/2021/countries/bangladesh/"},
+      {"label": "Encyclopaedia Britannica — Bangladesh", "url": "https://www.britannica.com/place/Bangladesh"}
+    ]
+  },
+  "BG": {
+    "etymology": "Bulgaria פירושו ״ארץ הבולגרים״, על שם הבולגרים — קבוצה שנכנסה לאזור הבלקן בראשית ימי הביניים והתמזגה בהדרגה עם אוכלוסיות סלאביות מקומיות. מקור השם Bulgar עצמו אינו מוסכם לחלוטין.",
+    "nameStory": "השם בולגריה שימש ממלכות בולגריות מאז ימי הביניים. המדינה הבולגרית המודרנית קמה מחדש כנסיכות אוטונומית ב־1878 והכריזה על עצמאות מלאה ב־1908.",
+    "modernStateYear": 1908,
+    "modernStateNote": "1908 נבחרה כשנת המדינה הריבונית המודרנית, כאשר בולגריה הכריזה על עצמאות מלאה מן האימפריה העות׳מאנית; אוטונומיה רחבה הושגה כבר ב־1878.",
+    "sources": [
+      {"label": "CIA World Factbook Archive — Bulgaria", "url": "https://www.cia.gov/the-world-factbook/about/archives/2021/countries/bulgaria/"},
+      {"label": "Encyclopaedia Britannica — Bulgaria", "url": "https://www.britannica.com/place/Bulgaria"}
+    ]
+  },
+  "BH": {
+    "etymology": "Bahrain הוא מן הערבית al-Baḥrayn — צורת זוג של baḥr, ״ים״ — ולכן משמעותו המילולית ״שני הימים״. קיימים כמה הסברים היסטוריים למה בדיוק התייחסו שני הימים או מקורות המים.",
+    "nameStory": "השם Bahrain שימש בתקופות שונות גם אזור רחב יותר במפרץ, ובהמשך התקבע במיוחד לארכיפלג ולישות המדינית הנוכחית. עם סיום מעמד החסות הבריטי נשמר השם למדינה העצמאית.",
+    "modernStateYear": 1971,
+    "modernStateNote": "בחריין הכריזה על עצמאותה מן הממלכה המאוחדת ב־15 באוגוסט 1971; ב־2002 הוכרזה כממלכה.",
+    "sources": [
+      {"label": "CIA World Factbook Archive — Bahrain", "url": "https://www.cia.gov/the-world-factbook/about/archives/2021/countries/bahrain/"},
+      {"label": "Encyclopaedia Britannica — Bahrain", "url": "https://www.britannica.com/place/Bahrain"}
+    ]
+  },
+  "BS": {
+    "etymology": "מקור Bahamas אינו ודאי לחלוטין. ההסבר הנפוץ קושר אותו לספרדית baja mar — ״ים רדוד״ — תיאור שמתאים לריבוי המים הרדודים סביב האיים; הוצעו גם הסברים הקשורים לשמות ילידיים.",
+    "nameStory": "הצורה Bahamas התקבעה במפות ובשימוש האירופי בתקופה הקולוניאלית. כשהארכיפלג קיבל עצמאות מן הממלכה המאוחדת ב־1973 נשמר השם The Bahamas.",
+    "modernStateYear": 1973,
+    "modernStateNote": "איי בהאמה נעשו מדינה עצמאית בתוך חבר העמים ב־10 ביולי 1973.",
+    "sources": [
+      {"label": "CIA World Factbook Archive — The Bahamas", "url": "https://www.cia.gov/the-world-factbook/about/archives/2021/countries/bahamas-the/"},
+      {"label": "Encyclopaedia Britannica — The Bahamas", "url": "https://www.britannica.com/place/The-Bahamas"}
+    ]
+  },
+  "BA": {
+    "etymology": "Bosnia נגזר משמו של נהר Bosna, אך מקור שם הנהר עצמו אינו ודאי. Herzegovina פירושו בקירוב ״ארץ ההרצוג״: herzog הוא ״דוכס״ בגרמנית, והשם נקשר לתואר שאימץ במאה ה־15 השליט סטייפן ווקצ׳יץ׳ קוסאצ׳ה.",
+    "nameStory": "שני השמות ההיסטוריים של האזורים — בוסניה והרצגובינה — אוחדו בשם הטריטוריה בתקופה האוסטרו־הונגרית ונשמרו גם במסגרת יוגוסלביה. עם העצמאות ב־1992 נשמר הצירוף Bosnia and Herzegovina כשם המדינה.",
+    "modernStateYear": 1992,
+    "modernStateNote": "בוסניה והרצגובינה הכריזה על עצמאות מיוגוסלביה ב־1992. הסדר החוקתי הנוכחי עוצב בהסכם דייטון שנחתם ב־1995.",
+    "sources": [
+      {"label": "CIA World Factbook Archive — Bosnia and Herzegovina", "url": "https://www.cia.gov/the-world-factbook/about/archives/2021/countries/bosnia-and-herzegovina/"},
+      {"label": "Encyclopaedia Britannica — Bosnia and Herzegovina", "url": "https://www.britannica.com/place/Bosnia-and-Herzegovina"}
+    ]
+  },
   "IL": {
     "etymology": "השם ״ישראל״ הוא שם עברי קדום. במקרא הוא ניתן ליעקב, ובהמשך נעשה כינוי לעם ולישויות המדיניות הקדומות שנשאו את השם. פירושו המדויק שנוי במחלוקת לשונית, ובין ההסברים המקובלים: ״אל שׂר/מושל״ או קשר לשורש ש־ר־ה במשמעות מאבק.",
     "nameStory": "בעת הכרזת המדינה ב־14 במאי 1948 נקבע שמה הרשמי ״מדינת ישראל״. ההכרזה עצמה מציינת שהמדינה היהודית שהוקמה בארץ ישראל תיקרא ישראל.",
