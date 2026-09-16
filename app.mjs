@@ -1,9 +1,53 @@
 import { filterCountries } from './search.mjs';
+import { getCountryDetail } from './details.mjs';
 const labels = { all: 'כל העולם', Asia: 'אסיה', Europe: 'אירופה', Africa: 'אפריקה', 'North America': 'אמריקה הצפונית', 'South America': 'אמריקה הדרומית', Oceania: 'אוקיאניה', Antarctica: 'אנטארקטיקה' };
 const $ = id => document.getElementById(id);
-let countries = [], selected = 'all', installPrompt;
+let countries = [], countryDetails = {}, selected = 'all', installPrompt, dialogOrigin = null;
 const localFlag = code => `/flags/${code.toLowerCase()}.svg`;
 const remoteFlag = code => `https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.5.0/flags/4x3/${code.toLowerCase()}.svg`;
+
+function closeCountryDialog() {
+  const dialog = $('country-dialog');
+  if (dialog.open) dialog.close();
+}
+
+function openCountryDialog(country, originElement) {
+  dialogOrigin = originElement;
+  const detail = getCountryDetail(countryDetails, country.code);
+  const flag = $('country-dialog-flag');
+  flag.src = localFlag(country.code);
+  flag.alt = `דגל ${country.name}`;
+  flag.onerror = () => { flag.onerror = null; flag.src = remoteFlag(country.code); };
+  $('country-dialog-title').textContent = country.name;
+  $('country-dialog-english').textContent = country.english;
+  $('country-dialog-code').textContent = country.code;
+  $('country-detail-content').hidden = !detail;
+  $('country-detail-unavailable').hidden = Boolean(detail);
+  if (detail) {
+    $('country-detail-etymology').textContent = detail.etymology;
+    $('country-detail-name-story').textContent = detail.nameStory;
+    $('country-detail-year').textContent = String(detail.modernStateYear);
+    $('country-detail-year-note').textContent = detail.modernStateNote;
+    $('country-detail-year-note').hidden = !detail.modernStateNote;
+    const items = detail.sources.map(source => {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = source.url;
+      a.textContent = source.label;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      li.append(a);
+      return li;
+    });
+    $('country-detail-sources').replaceChildren(...items);
+    $('country-detail-sources').closest('details').hidden = items.length === 0;
+  } else {
+    $('country-detail-sources').replaceChildren();
+  }
+  $('country-dialog').showModal();
+  $('country-dialog-close').focus();
+}
+
 function render() {
   const found = filterCountries(countries, $('search').value, selected);
   $('count').textContent = found.length;
@@ -11,6 +55,16 @@ function render() {
   $('status').textContent = `${found.length} מדינות נמצאו`;
   $('countries').replaceChildren(...found.map(c => {
     const article = document.createElement('article'); article.className = 'country-card';
+    article.tabIndex = 0;
+    article.setAttribute('role', 'button');
+    article.setAttribute('aria-label', `פתיחת פרטים על ${c.name}`);
+    article.addEventListener('click', () => openCountryDialog(c, article));
+    article.addEventListener('keydown', event => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        openCountryDialog(c, article);
+      }
+    });
     const top = document.createElement('div'); top.className = 'card-top';
     const flag = document.createElement('img'); flag.src = localFlag(c.code); flag.alt = `דגל ${c.name}`; flag.className = 'flag'; flag.width = 55; flag.height = 38; flag.loading = 'lazy';
     flag.addEventListener('error', () => { if (flag.src !== remoteFlag(c.code)) flag.src = remoteFlag(c.code); }, { once: true });
@@ -28,7 +82,7 @@ function render() {
 }
 function reset() { selected = 'all'; $('search').value = ''; render(); $('search').focus(); }
 $('search').addEventListener('input', render); $('reset').addEventListener('click', reset);
-document.addEventListener('keydown', e => { if (e.key === '/' && !['INPUT','TEXTAREA'].includes(document.activeElement.tagName) && !$('install-dialog').open) { e.preventDefault(); $('search').focus(); } });
+document.addEventListener('keydown', e => { if (e.key === '/' && !['INPUT','TEXTAREA'].includes(document.activeElement.tagName) && !$('install-dialog').open && !$('country-dialog').open) { e.preventDefault(); $('search').focus(); } });
 async function install() {
   if (installPrompt) { await installPrompt.prompt(); await installPrompt.userChoice; installPrompt = null; }
   else { $('install-dialog').showModal(); }
@@ -37,6 +91,17 @@ window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); instal
 window.addEventListener('appinstalled', () => { $('install').textContent = 'היישומון מותקן'; installPrompt = null; });
 $('install').addEventListener('click', install); $('install-bottom').addEventListener('click', install);
 $('close-dialog').addEventListener('click', () => $('install-dialog').close());
+$('country-dialog-close').addEventListener('click', closeCountryDialog);
+$('country-dialog').addEventListener('click', event => {
+  if (event.target === $('country-dialog')) closeCountryDialog();
+});
+$('country-dialog').addEventListener('close', () => {
+  if (dialogOrigin) {
+    const origin = dialogOrigin;
+    dialogOrigin = null;
+    origin.focus();
+  }
+});
 try {
   const response = await fetch('/countries.json'); if (!response.ok) throw new Error('Data unavailable');
   countries = await response.json(); countries.sort((a,b) => a.name.localeCompare(b.name, 'he'));
