@@ -8,8 +8,15 @@ export function normalizeCountryFacts(records) {
     const capital = Array.isArray(record.capital) ? record.capital.filter(value => typeof value === 'string' && value.trim()) : [];
     const languages = record.languages && typeof record.languages === 'object' ? Object.keys(record.languages) : [];
     const currencies = record.currencies && typeof record.currencies === 'object' ? Object.keys(record.currencies) : [];
+    const currencyNames = Object.fromEntries(currencies.map(currencyCode => {
+      const info = record.currencies?.[currencyCode];
+      const name = typeof info?.nameHe === 'string' && info.nameHe.trim()
+        ? info.nameHe.trim()
+        : (typeof info?.name === 'string' && info.name.trim() ? info.name.trim() : currencyCode);
+      return [currencyCode, name];
+    }));
     const population = Number.isFinite(record.population) && record.population >= 0 ? Math.round(record.population) : null;
-    byCode[code] = { capital, languages, currencies, population };
+    byCode[code] = { capital, languages, currencies, currencyNames, population };
   }
 
   return byCode;
