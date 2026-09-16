@@ -8,7 +8,7 @@ test('normalizes compact facts by ISO alpha-2 code', () => {
       cca2: 'IL',
       capital: ['Jerusalem'],
       languages: { ara: 'Arabic', heb: 'Hebrew' },
-      currencies: { ILS: { name: 'Israeli new shekel', symbol: '₪' } },
+      currencies: { ILS: { name: 'Israeli new shekel', nameHe: 'שקל חדש ישראלי', symbol: '₪' } },
       population: 10305000
     }
   ]);
@@ -17,6 +17,7 @@ test('normalizes compact facts by ISO alpha-2 code', () => {
     capital: ['Jerusalem'],
     languages: ['ara', 'heb'],
     currencies: ['ILS'],
+    currencyNames: { ILS: 'שקל חדש ישראלי' },
     population: 10305000
   });
 });
@@ -26,7 +27,7 @@ test('ignores malformed records and keeps safe defaults', () => {
     null,
     { cca2: 'XX', capital: null, languages: null, currencies: null, population: -1 }
   ]);
-  assert.deepEqual(result.XX, { capital: [], languages: [], currencies: [], population: null });
+  assert.deepEqual(result.XX, { capital: [], languages: [], currencies: [], currencyNames: {}, population: null });
 });
 
 test('formats population compactly for Hebrew UI', () => {
