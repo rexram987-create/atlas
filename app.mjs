@@ -4,7 +4,7 @@ import { compactList, formatPopulation, normalizeCountryFacts } from './facts.mj
 
 const labels = { all: 'כל העולם', Asia: 'אסיה', Europe: 'אירופה', Africa: 'אפריקה', 'North America': 'אמריקה הצפונית', 'South America': 'אמריקה הדרומית', Oceania: 'אוקיאניה', Antarctica: 'אנטארקטיקה' };
 const FACTS_URL = '/api/country-facts';
-const FACTS_CACHE_KEY = 'atlas-country-facts-v1';
+const FACTS_CACHE_KEY = 'atlas-country-facts-v2';
 const FACTS_MAX_AGE = 24 * 60 * 60 * 1000;
 const $ = id => document.getElementById(id);
 const languageNames = (() => { try { return new Intl.DisplayNames(['he'], { type: 'language' }); } catch { return null; } })();
@@ -31,11 +31,13 @@ function localizeLanguage(code) {
   try { return languageNames?.of(code) || code; } catch { return code; }
 }
 
-function localizeCurrency(code) {
+function localizeCurrency(code, fallbackNames = {}) {
   try {
     const name = currencyNames?.of(code);
-    return name && name !== code ? `${name} (${code})` : code;
-  } catch { return code; }
+    if (name && name !== code) return `${name} (${code})`;
+  } catch {}
+  const fallback = fallbackNames?.[code];
+  return fallback && fallback !== code ? `${fallback} (${code})` : code;
 }
 
 function setFact(id, value, fullValue = value) {
@@ -54,7 +56,7 @@ function renderCountryFacts(code) {
 
   const capitals = fact.capital.length ? fact.capital : ['לא זמין'];
   const languages = fact.languages.map(localizeLanguage);
-  const currencies = fact.currencies.map(localizeCurrency);
+  const currencies = fact.currencies.map(currencyCode => localizeCurrency(currencyCode, fact.currencyNames));
   setFact('country-fact-capital', compactList(capitals, 2), capitals.join(', '));
   setFact('country-fact-languages', compactList(languages, 2), languages.join(', ') || 'לא זמין');
   setFact('country-fact-currency', compactList(currencies, 1), currencies.join(', ') || 'לא זמין');
