@@ -1,5 +1,9 @@
 const COUNTRY_SOURCE = 'https://raw.githubusercontent.com/mledoze/countries/master/countries.json';
 const POPULATION_SOURCE = 'https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?format=json&per_page=400&date=2024';
+const currencyDisplayNames = (() => {
+  try { return new Intl.DisplayNames(['he'], { type: 'currency' }); }
+  catch { return null; }
+})();
 
 export default async function handler(request, response) {
   if (request.method !== 'GET') {
@@ -27,13 +31,24 @@ export default async function handler(request, response) {
       }
     }
 
-    const compact = countries.map(country => ({
-      cca2: country.cca2,
-      capital: country.capital,
-      languages: country.languages,
-      currencies: country.currencies,
-      population: populationByCode[country.cca2] ?? null
-    }));
+    const compact = countries.map(country => {
+      const currencies = {};
+      for (const [code, info] of Object.entries(country.currencies || {})) {
+        let nameHe = '';
+        try {
+          const localized = currencyDisplayNames?.of(code);
+          if (localized && localized !== code) nameHe = localized;
+        } catch {}
+        currencies[code] = { ...info, nameHe };
+      }
+      return {
+        cca2: country.cca2,
+        capital: country.capital,
+        languages: country.languages,
+        currencies,
+        population: populationByCode[country.cca2] ?? null
+      };
+    });
 
     response.setHeader('Cache-Control', 's-maxage=86400, stale-while-revalidate=604800');
     return response.status(200).json(compact);
