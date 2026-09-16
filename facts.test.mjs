@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { normalizeCountryFacts, formatPopulation } from './facts.mjs';
+import { normalizeCountryFacts, formatPopulation, compactList } from './facts.mjs';
 
 test('normalizes compact facts by ISO alpha-2 code', () => {
   const result = normalizeCountryFacts([
@@ -33,4 +33,10 @@ test('formats population compactly for Hebrew UI', () => {
   assert.equal(formatPopulation(10305000, 'he-IL'), '10.3 מיליון');
   assert.equal(formatPopulation(450000, 'he-IL'), '450 אלף');
   assert.equal(formatPopulation(null, 'he-IL'), 'לא זמין');
+});
+
+test('compacts long lists without hiding how many more values exist', () => {
+  assert.equal(compactList(['עברית', 'ערבית'], 2), 'עברית, ערבית');
+  assert.equal(compactList(['אנגלית', 'זולו', 'קוסה', 'אפריקאנס'], 2), 'אנגלית, זולו +2');
+  assert.equal(compactList([], 2), 'לא זמין');
 });
