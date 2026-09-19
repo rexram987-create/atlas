@@ -3145,10 +3145,26 @@
       }
     ],
     "history": {
-      "independence": null,
-      "formation": null,
-      "constitution": null,
-      "nameChange": null
+      "independence": {
+        "year": 1911,
+        "note": "בדצמבר 1911 הוכרזה עצמאות מונגוליה בעקבות נפילת שושלת צ׳ינג; בשנים שלאחר מכן מעמדה הוגבל לאוטונומיה תחת ריבונות סינית, ולכן אין לראות בהכרזה הכרה בינלאומית מלאה.",
+        "source": "https://www.britannica.com/place/Mongolia"
+      },
+      "formation": {
+        "year": 1924,
+        "note": "בנובמבר 1924 הוכרזה הרפובליקה העממית של מונגוליה, לאחר מהפכת 1921. אין זו תחילתה של ההיסטוריה המדינית המונגולית.",
+        "source": "https://www.britannica.com/place/Mongolia"
+      },
+      "constitution": {
+        "year": 1992,
+        "note": "החוקה הדמוקרטית הנוכחית נכנסה לתוקף ב־12 בפברואר 1992.",
+        "source": "https://conscourt.gov.mn/?lang=en&page_id=842"
+      },
+      "nameChange": {
+        "year": 1992,
+        "note": "עם המעבר למשטר הדמוקרטי הושמטה מן השם הרשמי המילה ״עממית״; השם הרשמי נעשה מונגוליה.",
+        "source": "https://mjp.univ-perp.fr/constit/mn.htm"
+      }
     },
     "historicalMilestone": {
       "year": 1921,
