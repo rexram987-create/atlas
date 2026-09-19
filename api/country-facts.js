@@ -8,7 +8,7 @@ const CAPITAL_OVERRIDES = Object.freeze({
   JO: { Amman: 'עמאן' },
   OM: { Muscat: 'מסקט' },
   KZ: { Astana: 'אסטנה' },
-  MN: { Ulaanbaatar: 'אולן בטור' },
+  MN: { Ulaanbaatar: 'אולן בטור', 'Ulan Bator': 'אולן בטור' },
   KG: { Bishkek: 'בישקק' }
 });
 const currencyDisplayNames = (() => {
