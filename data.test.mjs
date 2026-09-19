@@ -36,3 +36,11 @@ test('Mongolia first history batch has independently sourced milestones', () => 
   assert.deepEqual([history.independence.year, history.formation.year, history.constitution.year, history.nameChange.year], [1911, 1924, 1992, 1992]);
   for (const item of Object.values(history)) assert.ok(item.source.startsWith('https://'));
 });
+
+test('history batch 2 separates Italy and Yemen state formation from constitutional dates', () => {
+  assert.deepEqual([details.IT.history.formation.year, details.IT.history.constitution.year], [1861, 1948]);
+  assert.deepEqual([details.YE.history.formation.year, details.YE.history.constitution.year], [1990, 1991]);
+  for (const code of ['IT', 'YE']) for (const key of ['formation', 'constitution']) {
+    assert.ok(details[code].history[key].source.startsWith('https://'));
+  }
+});
