@@ -39,6 +39,17 @@ test('uses Hebrew capital labels when available and falls back safely', () => {
   );
 });
 
+test('shows Hebrew capital names even when Wikidata and local cache lack them', () => {
+  assert.deepEqual(localizeCapitalList(['Sanaa'], {}, 'YE'), ['צנעא']);
+  assert.deepEqual(localizeCapitalList(["Sana'a"], {}, 'YE'), ['צנעא']);
+  assert.deepEqual(localizeCapitalList(['Amman'], {}, 'JO'), ['עמאן']);
+  assert.deepEqual(localizeCapitalList(['Muscat'], {}, 'OM'), ['מסקט']);
+  assert.deepEqual(localizeCapitalList(['Astana'], {}, 'KZ'), ['אסטנה']);
+  assert.deepEqual(localizeCapitalList(['Ulaanbaatar'], {}, 'MN'), ['אולן בטור']);
+  assert.deepEqual(localizeCapitalList(['Bishkek'], {}, 'KG'), ['בישקק']);
+  assert.deepEqual(localizeCapitalList(['Unknown City'], {}, 'XX'), ['Unknown City']);
+});
+
 test('formats population compactly for Hebrew UI', () => {
   assert.equal(formatPopulation(10305000, 'he-IL'), '10.3 מיליון');
   assert.equal(formatPopulation(450000, 'he-IL'), '450 אלף');
