@@ -104,9 +104,39 @@ function openCountryDialog(country, originElement) {
   if (detail) {
     $('country-detail-etymology').textContent = detail.etymology;
     $('country-detail-name-story').textContent = detail.nameStory;
-    $('country-detail-year').textContent = String(detail.modernStateYear);
-    $('country-detail-year-note').textContent = detail.modernStateNote;
-    $('country-detail-year-note').hidden = !detail.modernStateNote;
+    const labels = { independence: 'עצמאות', formation: 'ייסוד המדינה / איחוד', constitution: 'אימוץ חוקה', nameChange: 'שינוי שם המדינה' };
+    const historyItems = [];
+    for (const [key, label] of Object.entries(labels)) {
+      const item = detail.history?.[key];
+      const wrapper = document.createElement('div');
+      wrapper.className = 'history-item';
+      const term = document.createElement('dt');
+      term.textContent = label;
+      const description = document.createElement('dd');
+      if (item) {
+        const year = document.createElement('strong');
+        year.textContent = String(item.year);
+        description.append(year);
+        if (item.note) {
+          const note = document.createElement('span');
+          note.textContent = item.note;
+          description.append(note);
+        }
+        if (item.source) {
+          const source = document.createElement('a');
+          source.href = item.source;
+          source.textContent = 'מקור לאירוע';
+          source.target = '_blank';
+          source.rel = 'noopener noreferrer';
+          description.append(source);
+        }
+      } else description.textContent = 'טרם אומת במאגר';
+      wrapper.append(term, description);
+      historyItems.push(wrapper);
+    }
+    $('country-history').replaceChildren(...historyItems);
+    $('country-detail-year-note').textContent = `ציון דרך היסטורי במאגר הקודם (${detail.historicalMilestone?.year ?? detail.modernStateYear}): ${detail.historicalMilestone?.note ?? detail.modernStateNote}`;
+    $('country-detail-year-note').hidden = false;
     const items = detail.sources.map(source => {
       const li = document.createElement('li');
       const a = document.createElement('a');
