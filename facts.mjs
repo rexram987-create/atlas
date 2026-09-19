@@ -25,9 +25,18 @@ export function normalizeCountryFacts(records) {
   return byCode;
 }
 
-export function localizeCapitalList(capitals, capitalNames = {}) {
+const HEBREW_CAPITAL_FALLBACKS = Object.freeze({
+  YE: { Sanaa: 'צנעא', "Sana'a": 'צנעא', 'Sana’a': 'צנעא' },
+  JO: { Amman: 'עמאן' },
+  OM: { Muscat: 'מסקט' },
+  KZ: { Astana: 'אסטנה' },
+  MN: { Ulaanbaatar: 'אולן בטור' },
+  KG: { Bishkek: 'בישקק' }
+});
+
+export function localizeCapitalList(capitals, capitalNames = {}, countryCode = '') {
   if (!Array.isArray(capitals)) return [];
-  return capitals.map(capital => capitalNames?.[capital] || capital);
+  return capitals.map(capital => HEBREW_CAPITAL_FALLBACKS[countryCode]?.[capital] || capitalNames?.[capital] || capital);
 }
 
 export function formatPopulation(population, locale = 'he-IL') {
