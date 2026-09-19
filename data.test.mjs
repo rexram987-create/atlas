@@ -15,10 +15,18 @@ test('every Atlas country has one valid detail record and no extras', () => {
   for (const code of codes) {
     const detail = getCountryDetail(details, code);
     assert.ok(detail, `missing or malformed detail record: ${code}`);
+    assert.equal(detail.historicalMilestone.year, detail.modernStateYear, `legacy milestone mismatch: ${code}`);
     assert.ok(detail.sources.length >= 2 && detail.sources.length <= 4, `invalid source count: ${code}`);
   }
 
   for (const code of Object.keys(details)) {
     assert.ok(codes.has(code), `extra detail record not found in countries.json: ${code}`);
   }
+});
+
+test('Japan constitution is not labeled as state foundation', () => {
+  assert.equal(details.JP.history.constitution.year, 1947);
+  assert.equal(details.JP.history.formation, null);
+  assert.equal(details.IR.history.constitution.year, 1979);
+  assert.equal(details.YE.history.formation.year, 1990);
 });
