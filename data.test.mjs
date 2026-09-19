@@ -44,3 +44,8 @@ test('history batch 2 separates Italy and Yemen state formation from constitutio
     assert.ok(details[code].history[key].source.startsWith('https://'));
   }
 });
+
+test('history batch 3 keeps Australia federation and constitution distinct, and Japan constitution effective date', () => {
+  assert.deepEqual([details.AU.history.formation.year, details.AU.history.constitution.year, details.JP.history.constitution.year], [1901, 1901, 1947]);
+  for (const event of [details.AU.history.formation, details.AU.history.constitution, details.JP.history.constitution]) assert.ok(event.source.startsWith('https://'));
+});
