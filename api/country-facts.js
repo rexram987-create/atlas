@@ -1,6 +1,16 @@
 const COUNTRY_SOURCE = 'https://raw.githubusercontent.com/mledoze/countries/master/countries.json';
 const POPULATION_SOURCE = 'https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?format=json&per_page=400&date=2024';
 const WIKIDATA_API = 'https://www.wikidata.org/w/api.php';
+// Stable Hebrew spellings for capitals whose English Wikipedia titles can differ
+// from the names in the country data, or whose Hebrew sitelink is unavailable.
+const CAPITAL_OVERRIDES = Object.freeze({
+  YE: { 'Sana\'a': 'צנעא', Sanaa: 'צנעא', "Sana'a": 'צנעא' },
+  JO: { Amman: 'עמאן' },
+  OM: { Muscat: 'מסקט' },
+  KZ: { Astana: 'אסטנה' },
+  MN: { Ulaanbaatar: 'אולן בטור' },
+  KG: { Bishkek: 'בישקק' }
+});
 const currencyDisplayNames = (() => {
   try { return new Intl.DisplayNames(['he'], { type: 'currency' }); }
   catch { return null; }
@@ -19,8 +29,9 @@ async function fetchHebrewCapitalNames(countries) {
         format: 'json',
         sites: 'enwiki',
         titles: chunk.join('|'),
-        props: 'sitelinks',
+        props: 'sitelinks|labels',
         sitefilter: 'enwiki|hewiki',
+        languages: 'he',
         origin: '*'
       });
       const result = await fetch(`${WIKIDATA_API}?${params}`, {
@@ -30,7 +41,7 @@ async function fetchHebrewCapitalNames(countries) {
       const payload = await result.json();
       for (const entity of Object.values(payload?.entities || {})) {
         const english = entity?.sitelinks?.enwiki?.title;
-        const hebrew = entity?.sitelinks?.hewiki?.title;
+        const hebrew = entity?.sitelinks?.hewiki?.title || entity?.labels?.he?.value;
         if (english && hebrew) names[english] = hebrew;
       }
     } catch {}
@@ -80,7 +91,8 @@ export default async function handler(request, response) {
 
       const capitalNames = {};
       for (const capital of Array.isArray(country.capital) ? country.capital : []) {
-        if (capitalNameByEnglish[capital]) capitalNames[capital] = capitalNameByEnglish[capital];
+        const translated = CAPITAL_OVERRIDES[country.cca2]?.[capital] || capitalNameByEnglish[capital];
+        if (translated) capitalNames[capital] = translated;
       }
 
       return {
