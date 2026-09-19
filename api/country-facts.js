@@ -4,7 +4,7 @@ const WIKIDATA_API = 'https://www.wikidata.org/w/api.php';
 // Stable Hebrew spellings for capitals whose English Wikipedia titles can differ
 // from the names in the country data, or whose Hebrew sitelink is unavailable.
 const CAPITAL_OVERRIDES = Object.freeze({
-  YE: { 'Sana\'a': 'צנעא', Sanaa: 'צנעא', "Sana'a": 'צנעא' },
+  YE: { Sanaa: 'צנעא', "Sana'a": 'צנעא', 'Sana’a': 'צנעא' },
   JO: { Amman: 'עמאן' },
   OM: { Muscat: 'מסקט' },
   KZ: { Astana: 'אסטנה' },
