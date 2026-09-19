@@ -226,10 +226,14 @@
       "independence": null,
       "formation": {
         "year": 1901,
-        "note": "איחוד שש המושבות לפדרציה האוסטרלית.",
-        "source": "https://www.britannica.com/place/Australia"
+        "note": "ב־1 בינואר 1901 התאחדו שש המושבות הבריטיות לפדרציה — חבר העמים של אוסטרליה; אין זו תחילת ההיסטוריה של העמים הילידיים ביבשת.",
+        "source": "https://www.naa.gov.au/students-and-teachers/student-research-portal/learning-resource-themes/government-and-democracy/federation/federation-australia"
       },
-      "constitution": null,
+      "constitution": {
+        "year": 1901,
+        "note": "חוקת אוסטרליה נכנסה לתוקף ב־1 בינואר 1901, עם הקמת הפדרציה. החוק המכונן קיבל הסכמה מלכותית ב־9 ביולי 1900.",
+        "source": "https://www.legislation.gov.au/constitution"
+      },
       "nameChange": null
     },
     "historicalMilestone": {
@@ -2291,8 +2295,8 @@
       "formation": null,
       "constitution": {
         "year": 1947,
-        "note": "חוקת יפן נכנסה לתוקף ב־3 במאי 1947; אין זו שנת ייסוד יפן.",
-        "source": "https://www.shugiin.go.jp/internet/itdb_kenpou.nsf/html/kenpou/en/constitution.htm"
+        "note": "החוקה הנוכחית פורסמה ב־3 בנובמבר 1946 ונכנסה לתוקף ב־3 במאי 1947; אין זו שנת ייסוד יפן.",
+        "source": "https://www.shugiin.go.jp/internet/itdb_english.nsf/html/statics/guide/dietfun.htm"
       },
       "nameChange": null
     },
