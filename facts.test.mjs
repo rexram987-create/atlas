@@ -46,6 +46,7 @@ test('shows Hebrew capital names even when Wikidata and local cache lack them', 
   assert.deepEqual(localizeCapitalList(['Muscat'], {}, 'OM'), ['מסקט']);
   assert.deepEqual(localizeCapitalList(['Astana'], {}, 'KZ'), ['אסטנה']);
   assert.deepEqual(localizeCapitalList(['Ulaanbaatar'], {}, 'MN'), ['אולן בטור']);
+  assert.deepEqual(localizeCapitalList(['Ulan Bator'], {}, 'MN'), ['אולן בטור']);
   assert.deepEqual(localizeCapitalList(['Bishkek'], {}, 'KG'), ['בישקק']);
   assert.deepEqual(localizeCapitalList(['Unknown City'], {}, 'XX'), ['Unknown City']);
 });
