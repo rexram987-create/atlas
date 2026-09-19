@@ -1,4 +1,4 @@
-const CACHE = 'atlas-v6';
+const CACHE = 'atlas-v7';
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const response = await fetch('/precache.json', {cache:'no-store'});
