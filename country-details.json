@@ -2204,10 +2204,14 @@
       "independence": null,
       "formation": {
         "year": 1861,
-        "note": "הכרזת ממלכת איטליה המאוחדת ב־17 במרץ 1861.",
-        "source": "https://www.britannica.com/place/Italy"
+        "note": "ב־17 במרץ 1861 הוכרזה ממלכת איטליה המאוחדת. זהו איחוד מדיני, ולא ראשית ההיסטוריה של איטליה או של העמים שחיו בחצי האי.",
+        "source": "https://archiviodistatotorino.cultura.gov.it/iorestoacasa-nascita-regno-italia/"
       },
-      "constitution": null,
+      "constitution": {
+        "year": 1948,
+        "note": "חוקת הרפובליקה האיטלקית נכנסה לתוקף ב־1 בינואר 1948; איטליה הפכה לרפובליקה בעקבות משאל העם ב־1946.",
+        "source": "https://www.senato.it/en/constitution"
+      },
       "nameChange": null
     },
     "historicalMilestone": {
@@ -5092,10 +5096,14 @@
       "independence": null,
       "formation": {
         "year": 1990,
-        "note": "איחוד צפון תימן ודרום תימן לרפובליקה של תימן ב־22 במאי.",
-        "source": "https://www.britannica.com/place/Yemen"
+        "note": "ב־22 במאי 1990 התאחדו הרפובליקה הערבית של תימן והרפובליקה הדמוקרטית העממית של תימן לרפובליקה של תימן; זו שנת האיחוד, לא שנת תחילתה של ההיסטוריה התימנית.",
+        "source": "https://history.state.gov/countries/yemen"
       },
-      "constitution": null,
+      "constitution": {
+        "year": 1991,
+        "note": "חוקת הרפובליקה המאוחדת אושרה במשאל עם ב־15–16 במאי 1991; בהמשך תוקנה, בין השאר ב־1994 וב־2001.",
+        "source": "https://peacemaker.un.org/es/node/1777"
+      },
       "nameChange": null
     },
     "historicalMilestone": {
