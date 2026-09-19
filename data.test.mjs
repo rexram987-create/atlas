@@ -30,3 +30,9 @@ test('Japan constitution is not labeled as state foundation', () => {
   assert.equal(details.IR.history.constitution.year, 1979);
   assert.equal(details.YE.history.formation.year, 1990);
 });
+
+test('Mongolia first history batch has independently sourced milestones', () => {
+  const history = details.MN.history;
+  assert.deepEqual([history.independence.year, history.formation.year, history.constitution.year, history.nameChange.year], [1911, 1924, 1992, 1992]);
+  for (const item of Object.values(history)) assert.ok(item.source.startsWith('https://'));
+});
