@@ -106,37 +106,48 @@ function openCountryDialog(country, originElement) {
     $('country-detail-name-story').textContent = detail.nameStory;
     const labels = { independence: 'עצמאות', formation: 'ייסוד המדינה / איחוד', constitution: 'אימוץ חוקה', nameChange: 'שינוי שם המדינה' };
     const historyItems = [];
+    const pending = [];
     for (const [key, label] of Object.entries(labels)) {
       const item = detail.history?.[key];
+      if (!item) {
+        pending.push(label);
+        continue;
+      }
       const wrapper = document.createElement('div');
       wrapper.className = 'history-item';
       const term = document.createElement('dt');
       term.textContent = label;
       const description = document.createElement('dd');
-      if (item) {
-        const year = document.createElement('strong');
-        year.textContent = String(item.year);
-        description.append(year);
-        if (item.note) {
-          const note = document.createElement('span');
-          note.textContent = item.note;
-          description.append(note);
-        }
-        if (item.source) {
-          const source = document.createElement('a');
-          source.href = item.source;
-          source.textContent = 'מקור לאירוע';
-          source.target = '_blank';
-          source.rel = 'noopener noreferrer';
-          description.append(source);
-        }
-      } else description.textContent = 'טרם אומת במאגר';
+      const year = document.createElement('strong');
+      year.textContent = String(item.year);
+      description.append(year);
+      if (item.note) {
+        const note = document.createElement('span');
+        note.textContent = item.note;
+        description.append(note);
+      }
+      if (item.source) {
+        const source = document.createElement('a');
+        source.href = item.source;
+        source.textContent = 'מקור לאירוע';
+        source.target = '_blank';
+        source.rel = 'noopener noreferrer';
+        description.append(source);
+      }
       wrapper.append(term, description);
       historyItems.push(wrapper);
     }
     $('country-history').replaceChildren(...historyItems);
-    $('country-detail-year-note').textContent = `ציון דרך היסטורי במאגר הקודם (${detail.historicalMilestone?.year ?? detail.modernStateYear}): ${detail.historicalMilestone?.note ?? detail.modernStateNote}`;
-    $('country-detail-year-note').hidden = false;
+    $('country-history-pending').textContent = pending.length ? `טרם אומת במאגר: ${pending.join(' · ')}` : '';
+    $('country-history-pending').hidden = pending.length === 0;
+    const milestone = detail.historicalMilestone;
+    const milestoneYear = milestone?.year ?? detail.modernStateYear;
+    const milestoneNote = milestone?.note ?? detail.modernStateNote;
+    const alreadyShown = Object.values(detail.history ?? {}).some(item => item?.year === milestoneYear);
+    const legacy = $('country-history-legacy');
+    legacy.hidden = alreadyShown || !milestoneNote;
+    legacy.open = false;
+    $('country-detail-year-note').textContent = `${milestoneYear}: ${milestoneNote}`;
     const items = detail.sources.map(source => {
       const li = document.createElement('li');
       const a = document.createElement('a');
