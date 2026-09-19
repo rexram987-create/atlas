@@ -9,6 +9,8 @@ test('getCountryDetail returns the matching valid record by ISO code', () => {
       nameStory: 'סיפור השם',
       modernStateYear: 1948,
       modernStateNote: '',
+      historicalMilestone: { year: 1948, note: '' },
+      history: { independence: { year: 1948, note: 'הכרזה', source: 'https://example.com' }, formation: null, constitution: null, nameChange: null },
       sources: [{ label: 'Source', url: 'https://example.com' }]
     }
   };
@@ -36,4 +38,10 @@ test('validSources preserves source order', () => {
     { label: 'Second', url: 'https://example.com/2' }
   ];
   assert.deepEqual(validSources(sources), sources);
+});
+
+test('rejects historical dates without category or source', () => {
+  const base = { etymology: 'שם', nameStory: 'סיפור', modernStateYear: 1947, modernStateNote: '', historicalMilestone: { year: 1947, note: '' }, sources: [] };
+  assert.equal(getCountryDetail({ JP: { ...base, history: { independence: null } } }, 'JP'), null);
+  assert.equal(getCountryDetail({ JP: { ...base, history: { independence: null, formation: null, constitution: { year: 1947, note: 'חוקה', source: '' }, nameChange: null } } }, 'JP'), null);
 });
