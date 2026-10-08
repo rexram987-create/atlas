@@ -11,3 +11,5 @@
 .history-legacy summary{color:var(--green);cursor:pointer;font-size:13px}
 .history-legacy #country-detail-year-note{margin-top:9px}
 @media(max-width:650px){.history-list{grid-template-columns:1fr}.history-item{padding:11px 13px}.history-item dd strong{font-size:18px}}
+
+@media(max-width:650px){.english,.continent-label,.sort-note,.muted,.history-item dt,.history-item dd span,.history-item dd a{font-size:13px}.continent{min-height:44px}.close{min-width:44px;min-height:44px}.detail-section p{font-size:16px}}

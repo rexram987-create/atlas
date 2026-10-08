@@ -179,7 +179,7 @@
 {"code":"TN","name":"תוניסיה","english":"Tunisia","continent":"Africa"},
 {"code":"TR","name":"טורקיה","english":"Türkiye","continent":"Asia","aliases":["Turkey","Turkiye"]},
 {"code":"TV","name":"טובאלו","english":"Tuvalu","continent":"Oceania"},
-{"code":"TW","name":"טייוואן","english":"Taiwan","continent":"Asia","aliases":["Republic of China","Chinese Taipei"]},
+{"code":"TW","name":"טייוואן","english":"Taiwan","continent":"Asia","aliases":["Republic of China","Chinese Taipei","טאיוואן"]},
 {"code":"TZ","name":"טנזניה","english":"Tanzania","continent":"Africa"},
 {"code":"UG","name":"אוגנדה","english":"Uganda","continent":"Africa"},
 {"code":"UA","name":"אוקראינה","english":"Ukraine","continent":"Europe"},

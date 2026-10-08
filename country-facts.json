@@ -1,0 +1,5165 @@
+[
+  {
+    "cca2": "AF",
+    "capital": [
+      "Kabul"
+    ],
+    "capitalNames": {
+      "Kabul": "קאבול"
+    },
+    "languages": {
+      "prs": "Dari",
+      "pus": "Pashto",
+      "tuk": "Turkmen"
+    },
+    "currencies": {
+      "AFN": {
+        "name": "Afghan afghani",
+        "symbol": "؋",
+        "nameHe": "אפגני אפגני"
+      }
+    },
+    "population": 42647492,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "AO",
+    "capital": [
+      "Luanda"
+    ],
+    "capitalNames": {
+      "Luanda": "לואנדה"
+    },
+    "languages": {
+      "por": "Portuguese"
+    },
+    "currencies": {
+      "AOA": {
+        "name": "Angolan kwanza",
+        "symbol": "Kz",
+        "nameHe": "קואנזה אנגולי"
+      }
+    },
+    "population": 37885849,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "AL",
+    "capital": [
+      "Tirana"
+    ],
+    "capitalNames": {
+      "Tirana": "טירנה"
+    },
+    "languages": {
+      "sqi": "Albanian"
+    },
+    "currencies": {
+      "ALL": {
+        "name": "Albanian lek",
+        "symbol": "L",
+        "nameHe": "לק אלבני"
+      }
+    },
+    "population": 2377128,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "AD",
+    "capital": [
+      "Andorra la Vella"
+    ],
+    "capitalNames": {
+      "Andorra la Vella": "אנדורה לה ולה"
+    },
+    "languages": {
+      "cat": "Catalan"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 81938,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "AE",
+    "capital": [
+      "Abu Dhabi"
+    ],
+    "capitalNames": {
+      "Abu Dhabi": "אבו דאבי"
+    },
+    "languages": {
+      "ara": "Arabic"
+    },
+    "currencies": {
+      "AED": {
+        "name": "United Arab Emirates dirham",
+        "symbol": "د.إ",
+        "nameHe": "דירהם של איחוד הנסיכויות הערביות"
+      }
+    },
+    "population": 10986400,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "AR",
+    "capital": [
+      "Buenos Aires"
+    ],
+    "capitalNames": {
+      "Buenos Aires": "בואנוס איירס"
+    },
+    "languages": {
+      "grn": "Guaraní",
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "ARS": {
+        "name": "Argentine peso",
+        "symbol": "$",
+        "nameHe": "פסו ארגנטינאי"
+      }
+    },
+    "population": 45696159,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "AM",
+    "capital": [
+      "Yerevan"
+    ],
+    "capitalNames": {
+      "Yerevan": "ירוואן"
+    },
+    "languages": {
+      "hye": "Armenian"
+    },
+    "currencies": {
+      "AMD": {
+        "name": "Armenian dram",
+        "symbol": "֏",
+        "nameHe": "דראם ארמני"
+      }
+    },
+    "population": 3033500,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "AG",
+    "capital": [
+      "Saint John's"
+    ],
+    "capitalNames": {
+      "Saint John's": "סנט ג'ונס (פירושונים)"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "XCD": {
+        "name": "Eastern Caribbean dollar",
+        "symbol": "$",
+        "nameHe": "דולר מזרח קריבי"
+      }
+    },
+    "population": 93772,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "AU",
+    "capital": [
+      "Canberra"
+    ],
+    "capitalNames": {
+      "Canberra": "קנברה"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "AUD": {
+        "name": "Australian dollar",
+        "symbol": "$",
+        "nameHe": "דולר אוסטרלי"
+      }
+    },
+    "population": 27194286,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "AT",
+    "capital": [
+      "Vienna"
+    ],
+    "capitalNames": {
+      "Vienna": "וינה"
+    },
+    "languages": {
+      "bar": "Austro-Bavarian German"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 9177982,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "AZ",
+    "capital": [
+      "Baku"
+    ],
+    "capitalNames": {
+      "Baku": "באקו"
+    },
+    "languages": {
+      "aze": "Azerbaijani",
+      "rus": "Russian"
+    },
+    "currencies": {
+      "AZN": {
+        "name": "Azerbaijani manat",
+        "symbol": "₼",
+        "nameHe": "מאנאט אזרבייג׳ני"
+      }
+    },
+    "population": 10202830,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "BI",
+    "capital": [
+      "Gitega"
+    ],
+    "capitalNames": {
+      "Gitega": "גיטגה"
+    },
+    "languages": {
+      "fra": "French",
+      "run": "Kirundi"
+    },
+    "currencies": {
+      "BIF": {
+        "name": "Burundian franc",
+        "symbol": "Fr",
+        "nameHe": "פרנק בורונדי"
+      }
+    },
+    "population": 14047786,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "BE",
+    "capital": [
+      "Brussels"
+    ],
+    "capitalNames": {
+      "Brussels": "בריסל (מחוז)"
+    },
+    "languages": {
+      "deu": "German",
+      "fra": "French",
+      "nld": "Dutch"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 11858610,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "BJ",
+    "capital": [
+      "Porto-Novo"
+    ],
+    "capitalNames": {
+      "Porto-Novo": "פורטו נובו"
+    },
+    "languages": {
+      "fra": "French"
+    },
+    "currencies": {
+      "XOF": {
+        "name": "West African CFA franc",
+        "symbol": "Fr",
+        "nameHe": "פרנק CFA מערב אפריקני"
+      }
+    },
+    "population": 14462724,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "BF",
+    "capital": [
+      "Ouagadougou"
+    ],
+    "capitalNames": {
+      "Ouagadougou": "ואגאדוגו"
+    },
+    "languages": {
+      "fra": "French"
+    },
+    "currencies": {
+      "XOF": {
+        "name": "West African CFA franc",
+        "symbol": "Fr",
+        "nameHe": "פרנק CFA מערב אפריקני"
+      }
+    },
+    "population": 23548781,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "BD",
+    "capital": [
+      "Dhaka"
+    ],
+    "capitalNames": {
+      "Dhaka": "דאקה"
+    },
+    "languages": {
+      "ben": "Bengali"
+    },
+    "currencies": {
+      "BDT": {
+        "name": "Bangladeshi taka",
+        "symbol": "৳",
+        "nameHe": "טאקה בנגלדשי"
+      }
+    },
+    "population": 173562364,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "BG",
+    "capital": [
+      "Sofia"
+    ],
+    "capitalNames": {
+      "Sofia": "סופיה"
+    },
+    "languages": {
+      "bul": "Bulgarian"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 6441421,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "BH",
+    "capital": [
+      "Manama"
+    ],
+    "capitalNames": {
+      "Manama": "מנאמה"
+    },
+    "languages": {
+      "ara": "Arabic"
+    },
+    "currencies": {
+      "BHD": {
+        "name": "Bahraini dinar",
+        "symbol": ".د.ب",
+        "nameHe": "דינר בחרייני"
+      }
+    },
+    "population": 1588670,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "BS",
+    "capital": [
+      "Nassau"
+    ],
+    "capitalNames": {
+      "Nassau": "נסאו"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "BSD": {
+        "name": "Bahamian dollar",
+        "symbol": "$",
+        "nameHe": "דולר בהאמי"
+      },
+      "USD": {
+        "name": "United States dollar",
+        "symbol": "$",
+        "nameHe": "דולר אמריקאי"
+      }
+    },
+    "population": 401283,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "BA",
+    "capital": [
+      "Sarajevo"
+    ],
+    "capitalNames": {
+      "Sarajevo": "סרייבו"
+    },
+    "languages": {
+      "bos": "Bosnian",
+      "hrv": "Croatian",
+      "srp": "Serbian"
+    },
+    "currencies": {
+      "BAM": {
+        "name": "Bosnia and Herzegovina convertible mark",
+        "symbol": "KM",
+        "nameHe": "מארק סחיר של בוסניה והרצגובינה"
+      }
+    },
+    "population": 3164253,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "BY",
+    "capital": [
+      "Minsk"
+    ],
+    "capitalNames": {
+      "Minsk": "מינסק"
+    },
+    "languages": {
+      "bel": "Belarusian",
+      "rus": "Russian"
+    },
+    "currencies": {
+      "BYN": {
+        "name": "Belarusian ruble",
+        "symbol": "Br",
+        "nameHe": "רובל בלרוסי"
+      }
+    },
+    "population": 9132629,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "BZ",
+    "capital": [
+      "Belmopan"
+    ],
+    "capitalNames": {
+      "Belmopan": "בלמופן"
+    },
+    "languages": {
+      "bjz": "Belizean Creole",
+      "eng": "English",
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "BZD": {
+        "name": "Belize dollar",
+        "symbol": "$",
+        "nameHe": "דולר בליזי"
+      }
+    },
+    "population": 417072,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "BO",
+    "capital": [
+      "Sucre"
+    ],
+    "capitalNames": {
+      "Sucre": "סוקרה"
+    },
+    "languages": {
+      "aym": "Aymara",
+      "grn": "Guaraní",
+      "que": "Quechua",
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "BOB": {
+        "name": "Bolivian boliviano",
+        "symbol": "Bs.",
+        "nameHe": "בוליביאנו"
+      }
+    },
+    "population": 12413315,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "BR",
+    "capital": [
+      "Brasília"
+    ],
+    "capitalNames": {
+      "Brasília": "ברזיליה"
+    },
+    "languages": {
+      "por": "Portuguese"
+    },
+    "currencies": {
+      "BRL": {
+        "name": "Brazilian real",
+        "symbol": "R$",
+        "nameHe": "ריאל ברזילאי"
+      }
+    },
+    "population": 211998573,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "BB",
+    "capital": [
+      "Bridgetown"
+    ],
+    "capitalNames": {
+      "Bridgetown": "ברידג'טאון"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "BBD": {
+        "name": "Barbadian dollar",
+        "symbol": "$",
+        "nameHe": "דולר ברבדיאני"
+      }
+    },
+    "population": 282467,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "BN",
+    "capital": [
+      "Bandar Seri Begawan"
+    ],
+    "capitalNames": {
+      "Bandar Seri Begawan": "בנדר סרי בגוואן"
+    },
+    "languages": {
+      "msa": "Malay"
+    },
+    "currencies": {
+      "BND": {
+        "name": "Brunei dollar",
+        "symbol": "$",
+        "nameHe": "דולר ברוניי"
+      },
+      "SGD": {
+        "name": "Singapore dollar",
+        "symbol": "$",
+        "nameHe": "דולר סינגפורי"
+      }
+    },
+    "population": 462721,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "BT",
+    "capital": [
+      "Thimphu"
+    ],
+    "capitalNames": {
+      "Thimphu": "טהימפהו"
+    },
+    "languages": {
+      "dzo": "Dzongkha"
+    },
+    "currencies": {
+      "BTN": {
+        "name": "Bhutanese ngultrum",
+        "symbol": "Nu.",
+        "nameHe": "נגולטרום בהוטני"
+      },
+      "INR": {
+        "name": "Indian rupee",
+        "symbol": "₹",
+        "nameHe": "רופי הודי"
+      }
+    },
+    "population": 791524,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "BW",
+    "capital": [
+      "Gaborone"
+    ],
+    "capitalNames": {
+      "Gaborone": "גאבורונה"
+    },
+    "languages": {
+      "eng": "English",
+      "tsn": "Tswana"
+    },
+    "currencies": {
+      "BWP": {
+        "name": "Botswana pula",
+        "symbol": "P",
+        "nameHe": "פולה בוטסואני"
+      }
+    },
+    "population": 2521139,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "CF",
+    "capital": [
+      "Bangui"
+    ],
+    "capitalNames": {
+      "Bangui": "בנגי"
+    },
+    "languages": {
+      "fra": "French",
+      "sag": "Sango"
+    },
+    "currencies": {
+      "XAF": {
+        "name": "Central African CFA franc",
+        "symbol": "Fr",
+        "nameHe": "פרנק CFA מרכז אפריקני"
+      }
+    },
+    "population": 5330690,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "CA",
+    "capital": [
+      "Ottawa"
+    ],
+    "capitalNames": {
+      "Ottawa": "אוטווה"
+    },
+    "languages": {
+      "eng": "English",
+      "fra": "French"
+    },
+    "currencies": {
+      "CAD": {
+        "name": "Canadian dollar",
+        "symbol": "$",
+        "nameHe": "דולר קנדי"
+      }
+    },
+    "population": 41262329,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "CH",
+    "capital": [
+      "Bern"
+    ],
+    "capitalNames": {
+      "Bern": "ברן"
+    },
+    "languages": {
+      "fra": "French",
+      "gsw": "Swiss German",
+      "ita": "Italian",
+      "roh": "Romansh"
+    },
+    "currencies": {
+      "CHF": {
+        "name": "Swiss franc",
+        "symbol": "Fr.",
+        "nameHe": "פרנק שוויצרי"
+      }
+    },
+    "population": 9005582,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "CL",
+    "capital": [
+      "Santiago"
+    ],
+    "capitalNames": {
+      "Santiago": "סנטיאגו דה צ'ילה"
+    },
+    "languages": {
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "CLP": {
+        "name": "Chilean peso",
+        "symbol": "$",
+        "nameHe": "פסו צ׳ילאני"
+      }
+    },
+    "population": 19764771,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "CN",
+    "capital": [
+      "Beijing"
+    ],
+    "capitalNames": {
+      "Beijing": "בייג'ינג"
+    },
+    "languages": {
+      "zho": "Chinese"
+    },
+    "currencies": {
+      "CNY": {
+        "name": "Chinese yuan",
+        "symbol": "¥",
+        "nameHe": "יואן סיני"
+      }
+    },
+    "population": 1408975000,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "CI",
+    "capital": [
+      "Yamoussoukro"
+    ],
+    "capitalNames": {
+      "Yamoussoukro": "יאמוסוקרו"
+    },
+    "languages": {
+      "fra": "French"
+    },
+    "currencies": {
+      "XOF": {
+        "name": "West African CFA franc",
+        "symbol": "Fr",
+        "nameHe": "פרנק CFA מערב אפריקני"
+      }
+    },
+    "population": 31934230,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "CM",
+    "capital": [
+      "Yaoundé"
+    ],
+    "capitalNames": {
+      "Yaoundé": "יאונדה"
+    },
+    "languages": {
+      "eng": "English",
+      "fra": "French"
+    },
+    "currencies": {
+      "XAF": {
+        "name": "Central African CFA franc",
+        "symbol": "Fr",
+        "nameHe": "פרנק CFA מרכז אפריקני"
+      }
+    },
+    "population": 29123744,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "CD",
+    "capital": [
+      "Kinshasa"
+    ],
+    "capitalNames": {
+      "Kinshasa": "קינשאסה"
+    },
+    "languages": {
+      "fra": "French",
+      "kon": "Kikongo",
+      "lin": "Lingala",
+      "lua": "Tshiluba",
+      "swa": "Swahili"
+    },
+    "currencies": {
+      "CDF": {
+        "name": "Congolese franc",
+        "symbol": "FC",
+        "nameHe": "פרנק קונגולזי"
+      }
+    },
+    "population": 109276265,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "CG",
+    "capital": [
+      "Brazzaville"
+    ],
+    "capitalNames": {
+      "Brazzaville": "ברזוויל"
+    },
+    "languages": {
+      "fra": "French",
+      "kon": "Kikongo",
+      "lin": "Lingala"
+    },
+    "currencies": {
+      "XAF": {
+        "name": "Central African CFA franc",
+        "symbol": "Fr",
+        "nameHe": "פרנק CFA מרכז אפריקני"
+      }
+    },
+    "population": 6332961,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "CO",
+    "capital": [
+      "Bogotá"
+    ],
+    "capitalNames": {
+      "Bogotá": "בוגוטה"
+    },
+    "languages": {
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "COP": {
+        "name": "Colombian peso",
+        "symbol": "$",
+        "nameHe": "פסו קולומביאני"
+      }
+    },
+    "population": 52886363,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "KM",
+    "capital": [
+      "Moroni"
+    ],
+    "capitalNames": {
+      "Moroni": "מורוני"
+    },
+    "languages": {
+      "ara": "Arabic",
+      "fra": "French",
+      "zdj": "Comorian"
+    },
+    "currencies": {
+      "KMF": {
+        "name": "Comorian franc",
+        "symbol": "Fr",
+        "nameHe": "פרנק קומורואי"
+      }
+    },
+    "population": 866628,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "CV",
+    "capital": [
+      "Praia"
+    ],
+    "capitalNames": {
+      "Praia": "פראיה"
+    },
+    "languages": {
+      "por": "Portuguese"
+    },
+    "currencies": {
+      "CVE": {
+        "name": "Cape Verdean escudo",
+        "symbol": "Esc",
+        "nameHe": "אסקודו כף ורדה"
+      }
+    },
+    "population": 524877,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "CR",
+    "capital": [
+      "San José"
+    ],
+    "capitalNames": {
+      "San José": "סן חוסה (פירושונים)"
+    },
+    "languages": {
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "CRC": {
+        "name": "Costa Rican colón",
+        "symbol": "₡",
+        "nameHe": "קולון קוסטה־ריקני"
+      }
+    },
+    "population": 5129910,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "CU",
+    "capital": [
+      "Havana"
+    ],
+    "capitalNames": {
+      "Havana": "הוואנה"
+    },
+    "languages": {
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "CUC": {
+        "name": "Cuban convertible peso",
+        "symbol": "$",
+        "nameHe": "פסו קובני להמרה"
+      },
+      "CUP": {
+        "name": "Cuban peso",
+        "symbol": "$",
+        "nameHe": "פסו קובני"
+      }
+    },
+    "population": 10979783,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "CY",
+    "capital": [
+      "Nicosia"
+    ],
+    "capitalNames": {
+      "Nicosia": "ניקוסיה"
+    },
+    "languages": {
+      "ell": "Greek",
+      "tur": "Turkish"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 1358282,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "CZ",
+    "capital": [
+      "Prague"
+    ],
+    "capitalNames": {
+      "Prague": "פראג"
+    },
+    "languages": {
+      "ces": "Czech",
+      "slk": "Slovak"
+    },
+    "currencies": {
+      "CZK": {
+        "name": "Czech koruna",
+        "symbol": "Kč",
+        "nameHe": "קורונה צ׳כית"
+      }
+    },
+    "population": 10905028,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "DE",
+    "capital": [
+      "Berlin"
+    ],
+    "capitalNames": {
+      "Berlin": "ברלין"
+    },
+    "languages": {
+      "deu": "German"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 83516593,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "DJ",
+    "capital": [
+      "Djibouti"
+    ],
+    "capitalNames": {
+      "Djibouti": "ג'יבוטי"
+    },
+    "languages": {
+      "ara": "Arabic",
+      "fra": "French"
+    },
+    "currencies": {
+      "DJF": {
+        "name": "Djiboutian franc",
+        "symbol": "Fr",
+        "nameHe": "פרנק ג׳יבוטי"
+      }
+    },
+    "population": 1168722,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "DM",
+    "capital": [
+      "Roseau"
+    ],
+    "capitalNames": {
+      "Roseau": "רוזו"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "XCD": {
+        "name": "Eastern Caribbean dollar",
+        "symbol": "$",
+        "nameHe": "דולר מזרח קריבי"
+      }
+    },
+    "population": 66205,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "DK",
+    "capital": [
+      "Copenhagen"
+    ],
+    "capitalNames": {
+      "Copenhagen": "קופנהגן"
+    },
+    "languages": {
+      "dan": "Danish"
+    },
+    "currencies": {
+      "DKK": {
+        "name": "Danish krone",
+        "symbol": "kr",
+        "nameHe": "כתר דני"
+      }
+    },
+    "population": 5976992,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "DO",
+    "capital": [
+      "Santo Domingo"
+    ],
+    "capitalNames": {
+      "Santo Domingo": "סנטו דומינגו"
+    },
+    "languages": {
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "DOP": {
+        "name": "Dominican peso",
+        "symbol": "$",
+        "nameHe": "פסו דומיניקני"
+      }
+    },
+    "population": 11427557,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "DZ",
+    "capital": [
+      "Algiers"
+    ],
+    "capitalNames": {
+      "Algiers": "אלג'יר"
+    },
+    "languages": {
+      "ara": "Arabic"
+    },
+    "currencies": {
+      "DZD": {
+        "name": "Algerian dinar",
+        "symbol": "د.ج",
+        "nameHe": "דינר אלג׳ירי"
+      }
+    },
+    "population": 46814308,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "EC",
+    "capital": [
+      "Quito"
+    ],
+    "capitalNames": {
+      "Quito": "קיטו"
+    },
+    "languages": {
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "USD": {
+        "name": "United States dollar",
+        "symbol": "$",
+        "nameHe": "דולר אמריקאי"
+      }
+    },
+    "population": 18135478,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "EG",
+    "capital": [
+      "Cairo"
+    ],
+    "capitalNames": {
+      "Cairo": "קהיר"
+    },
+    "languages": {
+      "ara": "Arabic"
+    },
+    "currencies": {
+      "EGP": {
+        "name": "Egyptian pound",
+        "symbol": "£",
+        "nameHe": "לירה מצרית"
+      }
+    },
+    "population": 116538258,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "ER",
+    "capital": [
+      "Asmara"
+    ],
+    "capitalNames": {
+      "Asmara": "אסמרה"
+    },
+    "languages": {
+      "ara": "Arabic",
+      "eng": "English",
+      "tir": "Tigrinya"
+    },
+    "currencies": {
+      "ERN": {
+        "name": "Eritrean nakfa",
+        "symbol": "Nfk",
+        "nameHe": "נאקפה אריתראי"
+      }
+    },
+    "population": 3535603,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "ES",
+    "capital": [
+      "Madrid"
+    ],
+    "capitalNames": {
+      "Madrid": "מדריד"
+    },
+    "languages": {
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 48848840,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "EE",
+    "capital": [
+      "Tallinn"
+    ],
+    "capitalNames": {
+      "Tallinn": "טאלין"
+    },
+    "languages": {
+      "est": "Estonian"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 1372341,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "ET",
+    "capital": [
+      "Addis Ababa"
+    ],
+    "capitalNames": {
+      "Addis Ababa": "אדיס אבבה"
+    },
+    "languages": {
+      "amh": "Amharic"
+    },
+    "currencies": {
+      "ETB": {
+        "name": "Ethiopian birr",
+        "symbol": "Br",
+        "nameHe": "ביר אתיופי"
+      }
+    },
+    "population": 132059767,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "FI",
+    "capital": [
+      "Helsinki"
+    ],
+    "capitalNames": {
+      "Helsinki": "הלסינקי"
+    },
+    "languages": {
+      "fin": "Finnish",
+      "swe": "Swedish"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 5619911,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "FJ",
+    "capital": [
+      "Suva"
+    ],
+    "capitalNames": {
+      "Suva": "סובה"
+    },
+    "languages": {
+      "eng": "English",
+      "fij": "Fijian",
+      "hif": "Fiji Hindi"
+    },
+    "currencies": {
+      "FJD": {
+        "name": "Fijian dollar",
+        "symbol": "$",
+        "nameHe": "דולר פיג׳י"
+      }
+    },
+    "population": 928784,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "FR",
+    "capital": [
+      "Paris"
+    ],
+    "capitalNames": {
+      "Paris": "פריז"
+    },
+    "languages": {
+      "fra": "French"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 68551653,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "FM",
+    "capital": [
+      "Palikir"
+    ],
+    "capitalNames": {
+      "Palikir": "פליקיר"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {},
+    "population": 113160,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "GA",
+    "capital": [
+      "Libreville"
+    ],
+    "capitalNames": {
+      "Libreville": "ליברוויל"
+    },
+    "languages": {
+      "fra": "French"
+    },
+    "currencies": {
+      "XAF": {
+        "name": "Central African CFA franc",
+        "symbol": "Fr",
+        "nameHe": "פרנק CFA מרכז אפריקני"
+      }
+    },
+    "population": 2538952,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "GB",
+    "capital": [
+      "London"
+    ],
+    "capitalNames": {
+      "London": "לונדון"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "GBP": {
+        "name": "British pound",
+        "symbol": "£",
+        "nameHe": "לירה שטרלינג"
+      }
+    },
+    "population": 69281000,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "GE",
+    "capital": [
+      "Tbilisi"
+    ],
+    "capitalNames": {
+      "Tbilisi": "טביליסי"
+    },
+    "languages": {
+      "kat": "Georgian"
+    },
+    "currencies": {
+      "GEL": {
+        "name": "lari",
+        "symbol": "₾",
+        "nameHe": "לארי גאורגי"
+      }
+    },
+    "population": 3812518,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "GH",
+    "capital": [
+      "Accra"
+    ],
+    "capitalNames": {
+      "Accra": "אקרה"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "GHS": {
+        "name": "Ghanaian cedi",
+        "symbol": "₵",
+        "nameHe": "סדי גאני"
+      }
+    },
+    "population": 34427414,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "GN",
+    "capital": [
+      "Conakry"
+    ],
+    "capitalNames": {
+      "Conakry": "קונאקרי"
+    },
+    "languages": {
+      "fra": "French"
+    },
+    "currencies": {
+      "GNF": {
+        "name": "Guinean franc",
+        "symbol": "Fr",
+        "nameHe": "פרנק גינאי"
+      }
+    },
+    "population": 14754785,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "GM",
+    "capital": [
+      "Banjul"
+    ],
+    "capitalNames": {
+      "Banjul": "בנג'ול"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "GMD": {
+        "name": "dalasi",
+        "symbol": "D",
+        "nameHe": "דלסי גמבי"
+      }
+    },
+    "population": 2759988,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "GW",
+    "capital": [
+      "Bissau"
+    ],
+    "capitalNames": {
+      "Bissau": "ביסאו"
+    },
+    "languages": {
+      "por": "Portuguese",
+      "pov": "Upper Guinea Creole"
+    },
+    "currencies": {
+      "XOF": {
+        "name": "West African CFA franc",
+        "symbol": "Fr",
+        "nameHe": "פרנק CFA מערב אפריקני"
+      }
+    },
+    "population": 2201352,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "GQ",
+    "capital": [
+      "Malabo"
+    ],
+    "capitalNames": {
+      "Malabo": "מלאבו"
+    },
+    "languages": {
+      "fra": "French",
+      "por": "Portuguese",
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "XAF": {
+        "name": "Central African CFA franc",
+        "symbol": "Fr",
+        "nameHe": "פרנק CFA מרכז אפריקני"
+      }
+    },
+    "population": 1892516,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "GR",
+    "capital": [
+      "Athens"
+    ],
+    "capitalNames": {
+      "Athens": "אתונה"
+    },
+    "languages": {
+      "ell": "Greek"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 10405134,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "GD",
+    "capital": [
+      "St. George's"
+    ],
+    "capitalNames": {
+      "St. George's": "סנט ג׳ורג׳ס"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "XCD": {
+        "name": "Eastern Caribbean dollar",
+        "symbol": "$",
+        "nameHe": "דולר מזרח קריבי"
+      }
+    },
+    "population": 117207,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "GT",
+    "capital": [
+      "Guatemala City"
+    ],
+    "capitalNames": {
+      "Guatemala City": "גואטמלה סיטי"
+    },
+    "languages": {
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "GTQ": {
+        "name": "Guatemalan quetzal",
+        "symbol": "Q",
+        "nameHe": "קצאל גואטמלי"
+      }
+    },
+    "population": 18406359,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "GY",
+    "capital": [
+      "Georgetown"
+    ],
+    "capitalNames": {
+      "Georgetown": "ג'ורג'טאון"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "GYD": {
+        "name": "Guyanese dollar",
+        "symbol": "$",
+        "nameHe": "דולר גיאני"
+      }
+    },
+    "population": 831087,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "HN",
+    "capital": [
+      "Tegucigalpa"
+    ],
+    "capitalNames": {
+      "Tegucigalpa": "טגוסיגלפה"
+    },
+    "languages": {
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "HNL": {
+        "name": "Honduran lempira",
+        "symbol": "L",
+        "nameHe": "למפירה הונדורי"
+      }
+    },
+    "population": 10825703,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "HR",
+    "capital": [
+      "Zagreb"
+    ],
+    "capitalNames": {
+      "Zagreb": "זאגרב"
+    },
+    "languages": {
+      "hrv": "Croatian"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 3866200,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "HT",
+    "capital": [
+      "Port-au-Prince"
+    ],
+    "capitalNames": {
+      "Port-au-Prince": "פורט-או-פרנס"
+    },
+    "languages": {
+      "fra": "French",
+      "hat": "Haitian Creole"
+    },
+    "currencies": {
+      "HTG": {
+        "name": "Haitian gourde",
+        "symbol": "G",
+        "nameHe": "גורד האיטי"
+      }
+    },
+    "population": 11772557,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "HU",
+    "capital": [
+      "Budapest"
+    ],
+    "capitalNames": {
+      "Budapest": "בודפשט"
+    },
+    "languages": {
+      "hun": "Hungarian"
+    },
+    "currencies": {
+      "HUF": {
+        "name": "Hungarian forint",
+        "symbol": "Ft",
+        "nameHe": "פורינט הונגרי"
+      }
+    },
+    "population": 9562065,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "ID",
+    "capital": [
+      "Jakarta"
+    ],
+    "capitalNames": {
+      "Jakarta": "ג'קרטה"
+    },
+    "languages": {
+      "ind": "Indonesian"
+    },
+    "currencies": {
+      "IDR": {
+        "name": "Indonesian rupiah",
+        "symbol": "Rp",
+        "nameHe": "רופיה אינדונזית"
+      }
+    },
+    "population": 283487931,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "IN",
+    "capital": [
+      "New Delhi"
+    ],
+    "capitalNames": {
+      "New Delhi": "ניו דלהי"
+    },
+    "languages": {
+      "eng": "English",
+      "hin": "Hindi",
+      "tam": "Tamil"
+    },
+    "currencies": {
+      "INR": {
+        "name": "Indian rupee",
+        "symbol": "₹",
+        "nameHe": "רופי הודי"
+      }
+    },
+    "population": 1450935791,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "IE",
+    "capital": [
+      "Dublin"
+    ],
+    "capitalNames": {
+      "Dublin": "דבלין"
+    },
+    "languages": {
+      "eng": "English",
+      "gle": "Irish"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 5395790,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "IR",
+    "capital": [
+      "Tehran"
+    ],
+    "capitalNames": {
+      "Tehran": "טהראן"
+    },
+    "languages": {
+      "fas": "Persian (Farsi)"
+    },
+    "currencies": {
+      "IRR": {
+        "name": "Iranian rial",
+        "symbol": "﷼",
+        "nameHe": "ריאל איראני"
+      }
+    },
+    "population": 91567738,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "IQ",
+    "capital": [
+      "Baghdad"
+    ],
+    "capitalNames": {
+      "Baghdad": "בגדאד"
+    },
+    "languages": {
+      "ara": "Arabic",
+      "arc": "Aramaic",
+      "ckb": "Sorani"
+    },
+    "currencies": {
+      "IQD": {
+        "name": "Iraqi dinar",
+        "symbol": "ع.د",
+        "nameHe": "דינר עיראקי"
+      }
+    },
+    "population": 46042015,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "IS",
+    "capital": [
+      "Reykjavik"
+    ],
+    "capitalNames": {
+      "Reykjavik": "רייקיאוויק"
+    },
+    "languages": {
+      "isl": "Icelandic"
+    },
+    "currencies": {
+      "ISK": {
+        "name": "Icelandic króna",
+        "symbol": "kr",
+        "nameHe": "כתר איסלנדי"
+      }
+    },
+    "population": 386506,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "IL",
+    "capital": [
+      "Jerusalem"
+    ],
+    "capitalNames": {
+      "Jerusalem": "ירושלים"
+    },
+    "languages": {
+      "ara": "Arabic",
+      "heb": "Hebrew"
+    },
+    "currencies": {
+      "ILS": {
+        "name": "Israeli new shekel",
+        "symbol": "₪",
+        "nameHe": "שקל חדש"
+      }
+    },
+    "population": 10002200,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "IT",
+    "capital": [
+      "Rome"
+    ],
+    "capitalNames": {
+      "Rome": "רומא"
+    },
+    "languages": {
+      "ita": "Italian"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 58952704,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "JM",
+    "capital": [
+      "Kingston"
+    ],
+    "capitalNames": {
+      "Kingston": "קינגסטון (פירושונים)"
+    },
+    "languages": {
+      "eng": "English",
+      "jam": "Jamaican Patois"
+    },
+    "currencies": {
+      "JMD": {
+        "name": "Jamaican dollar",
+        "symbol": "$",
+        "nameHe": "דולר ג׳מייקני"
+      }
+    },
+    "population": 2839175,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "JO",
+    "capital": [
+      "Amman"
+    ],
+    "capitalNames": {
+      "Amman": "עמאן"
+    },
+    "languages": {
+      "ara": "Arabic"
+    },
+    "currencies": {
+      "JOD": {
+        "name": "Jordanian dinar",
+        "symbol": "د.ا",
+        "nameHe": "דינר ירדני"
+      }
+    },
+    "population": 11552876,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "JP",
+    "capital": [
+      "Tokyo"
+    ],
+    "capitalNames": {
+      "Tokyo": "טוקיו"
+    },
+    "languages": {
+      "jpn": "Japanese"
+    },
+    "currencies": {
+      "JPY": {
+        "name": "Japanese yen",
+        "symbol": "¥",
+        "nameHe": "ין יפני"
+      }
+    },
+    "population": 123975371,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "KZ",
+    "capital": [
+      "Astana"
+    ],
+    "capitalNames": {
+      "Astana": "אסטנה"
+    },
+    "languages": {
+      "kaz": "Kazakh",
+      "rus": "Russian"
+    },
+    "currencies": {
+      "KZT": {
+        "name": "Kazakhstani tenge",
+        "symbol": "₸",
+        "nameHe": "טנגה קזחסטני"
+      }
+    },
+    "population": 20592571,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "KE",
+    "capital": [
+      "Nairobi"
+    ],
+    "capitalNames": {
+      "Nairobi": "ניירובי"
+    },
+    "languages": {
+      "eng": "English",
+      "swa": "Swahili"
+    },
+    "currencies": {
+      "KES": {
+        "name": "Kenyan shilling",
+        "symbol": "Sh",
+        "nameHe": "שילינג קנייתי"
+      }
+    },
+    "population": 56432944,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "KG",
+    "capital": [
+      "Bishkek"
+    ],
+    "capitalNames": {
+      "Bishkek": "בישקק"
+    },
+    "languages": {
+      "kir": "Kyrgyz",
+      "rus": "Russian"
+    },
+    "currencies": {
+      "KGS": {
+        "name": "Kyrgyzstani som",
+        "symbol": "с",
+        "nameHe": "סום קירגיזי"
+      }
+    },
+    "population": 7221868,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "KH",
+    "capital": [
+      "Phnom Penh"
+    ],
+    "capitalNames": {
+      "Phnom Penh": "פנום פן"
+    },
+    "languages": {
+      "khm": "Khmer"
+    },
+    "currencies": {
+      "KHR": {
+        "name": "Cambodian riel",
+        "symbol": "៛",
+        "nameHe": "ריל קמבודי"
+      },
+      "USD": {
+        "name": "United States dollar",
+        "symbol": "$",
+        "nameHe": "דולר אמריקאי"
+      }
+    },
+    "population": 17638801,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "KI",
+    "capital": [
+      "South Tarawa"
+    ],
+    "capitalNames": {
+      "South Tarawa": "דרום טאראווה"
+    },
+    "languages": {
+      "eng": "English",
+      "gil": "Gilbertese"
+    },
+    "currencies": {
+      "AUD": {
+        "name": "Australian dollar",
+        "symbol": "$",
+        "nameHe": "דולר אוסטרלי"
+      },
+      "KID": {
+        "name": "Kiribati dollar",
+        "symbol": "$",
+        "nameHe": ""
+      }
+    },
+    "population": 134518,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "KN",
+    "capital": [
+      "Basseterre"
+    ],
+    "capitalNames": {
+      "Basseterre": "באסטר"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "XCD": {
+        "name": "Eastern Caribbean dollar",
+        "symbol": "$",
+        "nameHe": "דולר מזרח קריבי"
+      }
+    },
+    "population": 46843,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "KR",
+    "capital": [
+      "Seoul"
+    ],
+    "capitalNames": {
+      "Seoul": "סיאול"
+    },
+    "languages": {
+      "kor": "Korean"
+    },
+    "currencies": {
+      "KRW": {
+        "name": "South Korean won",
+        "symbol": "₩",
+        "nameHe": "וון דרום קוריאני"
+      }
+    },
+    "population": 51751065,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "XK",
+    "capital": [
+      "Pristina"
+    ],
+    "capitalNames": {
+      "Pristina": "פרישטינה"
+    },
+    "languages": {
+      "sqi": "Albanian",
+      "srp": "Serbian"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 1594353,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "KW",
+    "capital": [
+      "Kuwait City"
+    ],
+    "capitalNames": {
+      "Kuwait City": "כווית (עיר)"
+    },
+    "languages": {
+      "ara": "Arabic"
+    },
+    "currencies": {
+      "KWD": {
+        "name": "Kuwaiti dinar",
+        "symbol": "د.ك",
+        "nameHe": "דינר כוויתי"
+      }
+    },
+    "population": 4897263,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "LA",
+    "capital": [
+      "Vientiane"
+    ],
+    "capitalNames": {
+      "Vientiane": "ויינטיאן"
+    },
+    "languages": {
+      "lao": "Lao"
+    },
+    "currencies": {
+      "LAK": {
+        "name": "Lao kip",
+        "symbol": "₭",
+        "nameHe": "קיפ לאי"
+      }
+    },
+    "population": 7769819,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "LB",
+    "capital": [
+      "Beirut"
+    ],
+    "capitalNames": {
+      "Beirut": "ביירות"
+    },
+    "languages": {
+      "ara": "Arabic",
+      "fra": "French"
+    },
+    "currencies": {
+      "LBP": {
+        "name": "Lebanese pound",
+        "symbol": "ل.ل",
+        "nameHe": "לירה לבנונית"
+      }
+    },
+    "population": 5805962,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "LR",
+    "capital": [
+      "Monrovia"
+    ],
+    "capitalNames": {
+      "Monrovia": "מונרוביה"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "LRD": {
+        "name": "Liberian dollar",
+        "symbol": "$",
+        "nameHe": "דולר ליברי"
+      }
+    },
+    "population": 5612817,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "LY",
+    "capital": [
+      "Tripoli"
+    ],
+    "capitalNames": {
+      "Tripoli": "טריפולי"
+    },
+    "languages": {
+      "ara": "Arabic"
+    },
+    "currencies": {
+      "LYD": {
+        "name": "Libyan dinar",
+        "symbol": "ل.د",
+        "nameHe": "דינר לובי"
+      }
+    },
+    "population": 7381023,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "LC",
+    "capital": [
+      "Castries"
+    ],
+    "capitalNames": {
+      "Castries": "קסטריז"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "XCD": {
+        "name": "Eastern Caribbean dollar",
+        "symbol": "$",
+        "nameHe": "דולר מזרח קריבי"
+      }
+    },
+    "population": 179744,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "LI",
+    "capital": [
+      "Vaduz"
+    ],
+    "capitalNames": {
+      "Vaduz": "ואדוץ"
+    },
+    "languages": {
+      "deu": "German"
+    },
+    "currencies": {
+      "CHF": {
+        "name": "Swiss franc",
+        "symbol": "Fr",
+        "nameHe": "פרנק שוויצרי"
+      }
+    },
+    "population": 40450,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "LK",
+    "capital": [
+      "Colombo"
+    ],
+    "capitalNames": {
+      "Colombo": "קולומבו"
+    },
+    "languages": {
+      "sin": "Sinhala",
+      "tam": "Tamil"
+    },
+    "currencies": {
+      "LKR": {
+        "name": "Sri Lankan rupee",
+        "symbol": "Rs රු",
+        "nameHe": "רופי סרי לנקי"
+      }
+    },
+    "population": 21916000,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "LS",
+    "capital": [
+      "Maseru"
+    ],
+    "capitalNames": {
+      "Maseru": "מסרו"
+    },
+    "languages": {
+      "eng": "English",
+      "sot": "Sotho"
+    },
+    "currencies": {
+      "LSL": {
+        "name": "Lesotho loti",
+        "symbol": "L",
+        "nameHe": "לוטי לסותי"
+      },
+      "ZAR": {
+        "name": "South African rand",
+        "symbol": "R",
+        "nameHe": "ראנד דרום אפריקאי"
+      }
+    },
+    "population": 2337423,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "LT",
+    "capital": [
+      "Vilnius"
+    ],
+    "capitalNames": {
+      "Vilnius": "וילנה"
+    },
+    "languages": {
+      "lit": "Lithuanian"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 2888278,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "LU",
+    "capital": [
+      "Luxembourg"
+    ],
+    "capitalNames": {
+      "Luxembourg": "לוקסמבורג"
+    },
+    "languages": {
+      "deu": "German",
+      "fra": "French",
+      "ltz": "Luxembourgish"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 677012,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "LV",
+    "capital": [
+      "Riga"
+    ],
+    "capitalNames": {
+      "Riga": "ריגה"
+    },
+    "languages": {
+      "lav": "Latvian"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 1866124,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "MA",
+    "capital": [
+      "Rabat"
+    ],
+    "capitalNames": {
+      "Rabat": "רבאט"
+    },
+    "languages": {
+      "ara": "Arabic",
+      "ber": "Berber"
+    },
+    "currencies": {
+      "MAD": {
+        "name": "Moroccan dirham",
+        "symbol": "د.م.",
+        "nameHe": "דירהם מרוקאי"
+      }
+    },
+    "population": 38081173,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "MC",
+    "capital": [
+      "Monaco"
+    ],
+    "capitalNames": {
+      "Monaco": "מונקו"
+    },
+    "languages": {
+      "fra": "French"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 38631,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "MD",
+    "capital": [
+      "Chișinău"
+    ],
+    "capitalNames": {
+      "Chișinău": "קישינב"
+    },
+    "languages": {
+      "ron": "Moldavian"
+    },
+    "currencies": {
+      "MDL": {
+        "name": "Moldovan leu",
+        "symbol": "L",
+        "nameHe": "לאו מולדובני"
+      }
+    },
+    "population": 2402306,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "MG",
+    "capital": [
+      "Antananarivo"
+    ],
+    "capitalNames": {
+      "Antananarivo": "אנטננריבו"
+    },
+    "languages": {
+      "fra": "French",
+      "mlg": "Malagasy"
+    },
+    "currencies": {
+      "MGA": {
+        "name": "Malagasy ariary",
+        "symbol": "Ar",
+        "nameHe": "אריארי מלגשי"
+      }
+    },
+    "population": 31964956,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "MV",
+    "capital": [
+      "Malé"
+    ],
+    "capitalNames": {
+      "Malé": "מאלה"
+    },
+    "languages": {
+      "div": "Maldivian"
+    },
+    "currencies": {
+      "MVR": {
+        "name": "Maldivian rufiyaa",
+        "symbol": ".ރ",
+        "nameHe": "רופיה מלדיבית"
+      }
+    },
+    "population": 527799,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "MX",
+    "capital": [
+      "Mexico City"
+    ],
+    "capitalNames": {
+      "Mexico City": "מקסיקו סיטי"
+    },
+    "languages": {
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "MXN": {
+        "name": "Mexican peso",
+        "symbol": "$",
+        "nameHe": "פסו מקסיקני"
+      }
+    },
+    "population": 130861007,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "MH",
+    "capital": [
+      "Majuro"
+    ],
+    "capitalNames": {
+      "Majuro": "מג'ורו"
+    },
+    "languages": {
+      "eng": "English",
+      "mah": "Marshallese"
+    },
+    "currencies": {
+      "USD": {
+        "name": "United States dollar",
+        "symbol": "$",
+        "nameHe": "דולר אמריקאי"
+      }
+    },
+    "population": 37548,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "MK",
+    "capital": [
+      "Skopje"
+    ],
+    "capitalNames": {
+      "Skopje": "סקופיה"
+    },
+    "languages": {
+      "mkd": "Macedonian"
+    },
+    "currencies": {
+      "MKD": {
+        "name": "denar",
+        "symbol": "den",
+        "nameHe": "דינר מקדוני"
+      }
+    },
+    "population": 1824359,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "ML",
+    "capital": [
+      "Bamako"
+    ],
+    "capitalNames": {
+      "Bamako": "במקו"
+    },
+    "languages": {
+      "fra": "French"
+    },
+    "currencies": {
+      "XOF": {
+        "name": "West African CFA franc",
+        "symbol": "Fr",
+        "nameHe": "פרנק CFA מערב אפריקני"
+      }
+    },
+    "population": 24478595,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "MT",
+    "capital": [
+      "Valletta"
+    ],
+    "capitalNames": {
+      "Valletta": "ולטה"
+    },
+    "languages": {
+      "eng": "English",
+      "mlt": "Maltese"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 568847,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "MM",
+    "capital": [
+      "Naypyidaw"
+    ],
+    "capitalNames": {
+      "Naypyidaw": "נייפידאו"
+    },
+    "languages": {
+      "mya": "Burmese"
+    },
+    "currencies": {
+      "MMK": {
+        "name": "Burmese kyat",
+        "symbol": "Ks",
+        "nameHe": "קיאט מיאנמרי"
+      }
+    },
+    "population": 54500091,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "ME",
+    "capital": [
+      "Podgorica"
+    ],
+    "capitalNames": {
+      "Podgorica": "פודגוריצה"
+    },
+    "languages": {
+      "cnr": "Montenegrin"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 623525,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "MN",
+    "capital": [
+      "Ulan Bator"
+    ],
+    "capitalNames": {
+      "Ulan Bator": "אולן בטור"
+    },
+    "languages": {
+      "mon": "Mongolian"
+    },
+    "currencies": {
+      "MNT": {
+        "name": "Mongolian tögrög",
+        "symbol": "₮",
+        "nameHe": "טוגרוג מונגולי"
+      }
+    },
+    "population": 3524788,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "MZ",
+    "capital": [
+      "Maputo"
+    ],
+    "capitalNames": {
+      "Maputo": "מפוטו"
+    },
+    "languages": {
+      "por": "Portuguese"
+    },
+    "currencies": {
+      "MZN": {
+        "name": "Mozambican metical",
+        "symbol": "MT",
+        "nameHe": "מטיקל מוזמביני"
+      }
+    },
+    "population": 34631766,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "MR",
+    "capital": [
+      "Nouakchott"
+    ],
+    "capitalNames": {
+      "Nouakchott": "נואקשוט"
+    },
+    "languages": {
+      "ara": "Arabic"
+    },
+    "currencies": {
+      "MRU": {
+        "name": "Mauritanian ouguiya",
+        "symbol": "UM",
+        "nameHe": "אואוגויה מאוריטני"
+      }
+    },
+    "population": 5169395,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "MU",
+    "capital": [
+      "Port Louis"
+    ],
+    "capitalNames": {
+      "Port Louis": "פור לואי"
+    },
+    "languages": {
+      "eng": "English",
+      "fra": "French",
+      "mfe": "Mauritian Creole"
+    },
+    "currencies": {
+      "MUR": {
+        "name": "Mauritian rupee",
+        "symbol": "₨",
+        "nameHe": "רופי מאוריציני"
+      }
+    },
+    "population": 1245779,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "MW",
+    "capital": [
+      "Lilongwe"
+    ],
+    "capitalNames": {
+      "Lilongwe": "לילונגווה"
+    },
+    "languages": {
+      "eng": "English",
+      "nya": "Chewa"
+    },
+    "currencies": {
+      "MWK": {
+        "name": "Malawian kwacha",
+        "symbol": "MK",
+        "nameHe": "קואצ׳ה מלאווי"
+      }
+    },
+    "population": 21655286,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "MY",
+    "capital": [
+      "Kuala Lumpur"
+    ],
+    "capitalNames": {
+      "Kuala Lumpur": "קואלה לומפור"
+    },
+    "languages": {
+      "eng": "English",
+      "msa": "Malay"
+    },
+    "currencies": {
+      "MYR": {
+        "name": "Malaysian ringgit",
+        "symbol": "RM",
+        "nameHe": "רינגיט מלזי"
+      }
+    },
+    "population": 35557673,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "NA",
+    "capital": [
+      "Windhoek"
+    ],
+    "capitalNames": {
+      "Windhoek": "וינדהוק"
+    },
+    "languages": {
+      "afr": "Afrikaans",
+      "deu": "German",
+      "eng": "English",
+      "her": "Herero",
+      "hgm": "Khoekhoe",
+      "kwn": "Kwangali",
+      "loz": "Lozi",
+      "ndo": "Ndonga",
+      "tsn": "Tswana"
+    },
+    "currencies": {
+      "NAD": {
+        "name": "Namibian dollar",
+        "symbol": "$",
+        "nameHe": "דולר נמיבי"
+      },
+      "ZAR": {
+        "name": "South African rand",
+        "symbol": "R",
+        "nameHe": "ראנד דרום אפריקאי"
+      }
+    },
+    "population": 3030131,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "NE",
+    "capital": [
+      "Niamey"
+    ],
+    "capitalNames": {
+      "Niamey": "ניאמיי"
+    },
+    "languages": {
+      "fra": "French"
+    },
+    "currencies": {
+      "XOF": {
+        "name": "West African CFA franc",
+        "symbol": "Fr",
+        "nameHe": "פרנק CFA מערב אפריקני"
+      }
+    },
+    "population": 27032412,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "NG",
+    "capital": [
+      "Abuja"
+    ],
+    "capitalNames": {
+      "Abuja": "אבוג'ה"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "NGN": {
+        "name": "Nigerian naira",
+        "symbol": "₦",
+        "nameHe": "נאירה ניגרי"
+      }
+    },
+    "population": 232679478,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "NI",
+    "capital": [
+      "Managua"
+    ],
+    "capitalNames": {
+      "Managua": "מנגואה"
+    },
+    "languages": {
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "NIO": {
+        "name": "Nicaraguan córdoba",
+        "symbol": "C$",
+        "nameHe": "קורדובה ניקרגואה"
+      }
+    },
+    "population": 6916140,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "NL",
+    "capital": [
+      "Amsterdam"
+    ],
+    "capitalNames": {
+      "Amsterdam": "אמסטרדם"
+    },
+    "languages": {
+      "nld": "Dutch"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 17993485,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "NO",
+    "capital": [
+      "Oslo"
+    ],
+    "capitalNames": {
+      "Oslo": "אוסלו"
+    },
+    "languages": {
+      "nno": "Norwegian Nynorsk",
+      "nob": "Norwegian Bokmål",
+      "smi": "Sami"
+    },
+    "currencies": {
+      "NOK": {
+        "name": "Norwegian krone",
+        "symbol": "kr",
+        "nameHe": "כתר נורווגי"
+      }
+    },
+    "population": 5572279,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "NP",
+    "capital": [
+      "Kathmandu"
+    ],
+    "capitalNames": {
+      "Kathmandu": "קטמנדו"
+    },
+    "languages": {
+      "nep": "Nepali"
+    },
+    "currencies": {
+      "NPR": {
+        "name": "Nepalese rupee",
+        "symbol": "₨",
+        "nameHe": "רופי נפאלי"
+      }
+    },
+    "population": 29651054,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "NR",
+    "capital": [
+      "Yaren"
+    ],
+    "capitalNames": {
+      "Yaren": "יארן"
+    },
+    "languages": {
+      "eng": "English",
+      "nau": "Nauru"
+    },
+    "currencies": {
+      "AUD": {
+        "name": "Australian dollar",
+        "symbol": "$",
+        "nameHe": "דולר אוסטרלי"
+      }
+    },
+    "population": 11947,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "NZ",
+    "capital": [
+      "Wellington"
+    ],
+    "capitalNames": {
+      "Wellington": "ולינגטון (ניו זילנד)"
+    },
+    "languages": {
+      "eng": "English",
+      "mri": "Māori",
+      "nzs": "New Zealand Sign Language"
+    },
+    "currencies": {
+      "NZD": {
+        "name": "New Zealand dollar",
+        "symbol": "$",
+        "nameHe": "דולר ניו זילנדי"
+      }
+    },
+    "population": 5290000,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "OM",
+    "capital": [
+      "Muscat"
+    ],
+    "capitalNames": {
+      "Muscat": "מסקט"
+    },
+    "languages": {
+      "ara": "Arabic"
+    },
+    "currencies": {
+      "OMR": {
+        "name": "Omani rial",
+        "symbol": "ر.ع.",
+        "nameHe": "ריאל עומאני"
+      }
+    },
+    "population": 5281538,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "PK",
+    "capital": [
+      "Islamabad"
+    ],
+    "capitalNames": {
+      "Islamabad": "אסלאמאבאד"
+    },
+    "languages": {
+      "eng": "English",
+      "urd": "Urdu"
+    },
+    "currencies": {
+      "PKR": {
+        "name": "Pakistani rupee",
+        "symbol": "₨",
+        "nameHe": "רופי פקיסטני"
+      }
+    },
+    "population": 251269164,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "PA",
+    "capital": [
+      "Panama City"
+    ],
+    "capitalNames": {
+      "Panama City": "פנמה סיטי"
+    },
+    "languages": {
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "PAB": {
+        "name": "Panamanian balboa",
+        "symbol": "B/.",
+        "nameHe": "בלבואה פנמי"
+      },
+      "USD": {
+        "name": "United States dollar",
+        "symbol": "$",
+        "nameHe": "דולר אמריקאי"
+      }
+    },
+    "population": 4515577,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "PE",
+    "capital": [
+      "Lima"
+    ],
+    "capitalNames": {
+      "Lima": "לימה"
+    },
+    "languages": {
+      "aym": "Aymara",
+      "que": "Quechua",
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "PEN": {
+        "name": "Peruvian sol",
+        "symbol": "S/.",
+        "nameHe": "סול פרואני"
+      }
+    },
+    "population": 34217848,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "PH",
+    "capital": [
+      "Manila"
+    ],
+    "capitalNames": {
+      "Manila": "מנילה"
+    },
+    "languages": {
+      "eng": "English",
+      "fil": "Filipino"
+    },
+    "currencies": {
+      "PHP": {
+        "name": "Philippine peso",
+        "symbol": "₱",
+        "nameHe": "פסו פיליפיני"
+      }
+    },
+    "population": 115843670,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "PW",
+    "capital": [
+      "Ngerulmud"
+    ],
+    "capitalNames": {
+      "Ngerulmud": "נגרולמוד"
+    },
+    "languages": {
+      "eng": "English",
+      "pau": "Palauan"
+    },
+    "currencies": {
+      "USD": {
+        "name": "United States dollar",
+        "symbol": "$",
+        "nameHe": "דולר אמריקאי"
+      }
+    },
+    "population": 17695,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "PG",
+    "capital": [
+      "Port Moresby"
+    ],
+    "capitalNames": {
+      "Port Moresby": "פורט מורסבי"
+    },
+    "languages": {
+      "eng": "English",
+      "hmo": "Hiri Motu",
+      "tpi": "Tok Pisin"
+    },
+    "currencies": {
+      "PGK": {
+        "name": "Papua New Guinean kina",
+        "symbol": "K",
+        "nameHe": "קינה של פפואה גינאה החדשה"
+      }
+    },
+    "population": 10576502,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "PL",
+    "capital": [
+      "Warsaw"
+    ],
+    "capitalNames": {
+      "Warsaw": "ורשה"
+    },
+    "languages": {
+      "pol": "Polish"
+    },
+    "currencies": {
+      "PLN": {
+        "name": "Polish złoty",
+        "symbol": "zł",
+        "nameHe": "זלוטי פולני"
+      }
+    },
+    "population": 36559233,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "KP",
+    "capital": [
+      "Pyongyang"
+    ],
+    "capitalNames": {
+      "Pyongyang": "פיונגיאנג"
+    },
+    "languages": {
+      "kor": "Korean"
+    },
+    "currencies": {
+      "KPW": {
+        "name": "North Korean won",
+        "symbol": "₩",
+        "nameHe": "וון צפון קוריאני"
+      }
+    },
+    "population": 26498823,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "PT",
+    "capital": [
+      "Lisbon"
+    ],
+    "capitalNames": {
+      "Lisbon": "ליסבון"
+    },
+    "languages": {
+      "por": "Portuguese"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 10694681,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "PY",
+    "capital": [
+      "Asunción"
+    ],
+    "capitalNames": {
+      "Asunción": "אסונסיון"
+    },
+    "languages": {
+      "grn": "Guaraní",
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "PYG": {
+        "name": "Paraguayan guaraní",
+        "symbol": "₲",
+        "nameHe": "גוארני פרגוואי"
+      }
+    },
+    "population": 6929153,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "PS",
+    "capital": [
+      "Ramallah"
+    ],
+    "capitalNames": {
+      "Ramallah": "רמאללה"
+    },
+    "languages": {
+      "ara": "Arabic"
+    },
+    "currencies": {
+      "EGP": {
+        "name": "Egyptian pound",
+        "symbol": "E£",
+        "nameHe": "לירה מצרית"
+      },
+      "ILS": {
+        "name": "Israeli new shekel",
+        "symbol": "₪",
+        "nameHe": "שקל חדש"
+      },
+      "JOD": {
+        "name": "Jordanian dinar",
+        "symbol": "JD",
+        "nameHe": "דינר ירדני"
+      }
+    },
+    "population": 5289152,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "QA",
+    "capital": [
+      "Doha"
+    ],
+    "capitalNames": {
+      "Doha": "דוחה"
+    },
+    "languages": {
+      "ara": "Arabic"
+    },
+    "currencies": {
+      "QAR": {
+        "name": "Qatari riyal",
+        "symbol": "ر.ق",
+        "nameHe": "ריאל קטארי"
+      }
+    },
+    "population": 2857822,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "RO",
+    "capital": [
+      "Bucharest"
+    ],
+    "capitalNames": {
+      "Bucharest": "בוקרשט"
+    },
+    "languages": {
+      "ron": "Romanian"
+    },
+    "currencies": {
+      "RON": {
+        "name": "Romanian leu",
+        "symbol": "lei",
+        "nameHe": "לאו רומני"
+      }
+    },
+    "population": 19051804,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "RU",
+    "capital": [
+      "Moscow"
+    ],
+    "capitalNames": {
+      "Moscow": "מוסקבה"
+    },
+    "languages": {
+      "rus": "Russian"
+    },
+    "currencies": {
+      "RUB": {
+        "name": "Russian ruble",
+        "symbol": "₽",
+        "nameHe": "רובל רוסי"
+      }
+    },
+    "population": 143669648,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "RW",
+    "capital": [
+      "Kigali"
+    ],
+    "capitalNames": {
+      "Kigali": "קיגאלי"
+    },
+    "languages": {
+      "eng": "English",
+      "fra": "French",
+      "kin": "Kinyarwanda"
+    },
+    "currencies": {
+      "RWF": {
+        "name": "Rwandan franc",
+        "symbol": "Fr",
+        "nameHe": "פרנק רואנדי"
+      }
+    },
+    "population": 14256567,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "SA",
+    "capital": [
+      "Riyadh"
+    ],
+    "capitalNames": {
+      "Riyadh": "ריאד"
+    },
+    "languages": {
+      "ara": "Arabic"
+    },
+    "currencies": {
+      "SAR": {
+        "name": "Saudi riyal",
+        "symbol": "ر.س",
+        "nameHe": "ריאל סעודי"
+      }
+    },
+    "population": 35300280,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "SD",
+    "capital": [
+      "Khartoum"
+    ],
+    "capitalNames": {
+      "Khartoum": "ח'רטום"
+    },
+    "languages": {
+      "ara": "Arabic",
+      "eng": "English"
+    },
+    "currencies": {
+      "SDG": {
+        "name": "Sudanese pound",
+        "symbol": "PT",
+        "nameHe": "לירה סודנית"
+      }
+    },
+    "population": 50448963,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "SN",
+    "capital": [
+      "Dakar"
+    ],
+    "capitalNames": {
+      "Dakar": "דקר (עיר)"
+    },
+    "languages": {
+      "fra": "French"
+    },
+    "currencies": {
+      "XOF": {
+        "name": "West African CFA franc",
+        "symbol": "Fr",
+        "nameHe": "פרנק CFA מערב אפריקני"
+      }
+    },
+    "population": 18501984,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "SG",
+    "capital": [
+      "Singapore"
+    ],
+    "capitalNames": {
+      "Singapore": "סינגפור"
+    },
+    "languages": {
+      "eng": "English",
+      "msa": "Malay",
+      "tam": "Tamil",
+      "zho": "Chinese"
+    },
+    "currencies": {
+      "SGD": {
+        "name": "Singapore dollar",
+        "symbol": "$",
+        "nameHe": "דולר סינגפורי"
+      }
+    },
+    "population": 6036860,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "SB",
+    "capital": [
+      "Honiara"
+    ],
+    "capitalNames": {
+      "Honiara": "הוניארה"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "SBD": {
+        "name": "Solomon Islands dollar",
+        "symbol": "$",
+        "nameHe": "דולר איי שלמה"
+      }
+    },
+    "population": 819198,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "SL",
+    "capital": [
+      "Freetown"
+    ],
+    "capitalNames": {
+      "Freetown": "פריטאון"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "SLE": {
+        "name": "Sierra Leonean leone",
+        "symbol": "Le",
+        "nameHe": "ליאון סיירה לאוני"
+      }
+    },
+    "population": 8642022,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "SV",
+    "capital": [
+      "San Salvador"
+    ],
+    "capitalNames": {
+      "San Salvador": "סן סלוודור"
+    },
+    "languages": {
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "USD": {
+        "name": "United States dollar",
+        "symbol": "$",
+        "nameHe": "דולר אמריקאי"
+      }
+    },
+    "population": 6338193,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "SM",
+    "capital": [
+      "City of San Marino"
+    ],
+    "capitalNames": {
+      "City of San Marino": "סן מרינו (עיר)"
+    },
+    "languages": {
+      "ita": "Italian"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 33977,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "SO",
+    "capital": [
+      "Mogadishu"
+    ],
+    "capitalNames": {
+      "Mogadishu": "מוגדישו"
+    },
+    "languages": {
+      "ara": "Arabic",
+      "som": "Somali"
+    },
+    "currencies": {
+      "SOS": {
+        "name": "Somali shilling",
+        "symbol": "Sh",
+        "nameHe": "שילינג סומלי"
+      }
+    },
+    "population": 19009151,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "RS",
+    "capital": [
+      "Belgrade"
+    ],
+    "capitalNames": {
+      "Belgrade": "בלגרד"
+    },
+    "languages": {
+      "srp": "Serbian"
+    },
+    "currencies": {
+      "RSD": {
+        "name": "Serbian dinar",
+        "symbol": "дин.",
+        "nameHe": "דינר סרבי"
+      }
+    },
+    "population": 6586476,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "SS",
+    "capital": [
+      "Juba"
+    ],
+    "capitalNames": {
+      "Juba": "ג'ובה"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "SSP": {
+        "name": "South Sudanese pound",
+        "symbol": "£",
+        "nameHe": "לירה דרום-סודנית"
+      }
+    },
+    "population": 11943408,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "ST",
+    "capital": [
+      "São Tomé"
+    ],
+    "capitalNames": {
+      "São Tomé": "סאו טומה (עיר)"
+    },
+    "languages": {
+      "por": "Portuguese"
+    },
+    "currencies": {
+      "STN": {
+        "name": "São Tomé and Príncipe dobra",
+        "symbol": "Db",
+        "nameHe": "דוברה של סאו טומה ופרינסיפה"
+      }
+    },
+    "population": 235536,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "SR",
+    "capital": [
+      "Paramaribo"
+    ],
+    "capitalNames": {
+      "Paramaribo": "פרמריבו"
+    },
+    "languages": {
+      "nld": "Dutch"
+    },
+    "currencies": {
+      "SRD": {
+        "name": "Surinamese dollar",
+        "symbol": "$",
+        "nameHe": "דולר סורינאמי"
+      }
+    },
+    "population": 634431,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "SK",
+    "capital": [
+      "Bratislava"
+    ],
+    "capitalNames": {
+      "Bratislava": "ברטיסלאבה"
+    },
+    "languages": {
+      "slk": "Slovak"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 5422069,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "SI",
+    "capital": [
+      "Ljubljana"
+    ],
+    "capitalNames": {
+      "Ljubljana": "ליובליאנה"
+    },
+    "languages": {
+      "slv": "Slovene"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 2127400,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "SE",
+    "capital": [
+      "Stockholm"
+    ],
+    "capitalNames": {
+      "Stockholm": "סטוקהולם"
+    },
+    "languages": {
+      "swe": "Swedish"
+    },
+    "currencies": {
+      "SEK": {
+        "name": "Swedish krona",
+        "symbol": "kr",
+        "nameHe": "כתר שוודי"
+      }
+    },
+    "population": 10569709,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "SZ",
+    "capital": [
+      "Lobamba"
+    ],
+    "capitalNames": {
+      "Lobamba": "לובמבה"
+    },
+    "languages": {
+      "eng": "English",
+      "ssw": "Swazi"
+    },
+    "currencies": {
+      "SZL": {
+        "name": "Swazi lilangeni",
+        "symbol": "L",
+        "nameHe": "לילנגני סווזילנדי"
+      },
+      "ZAR": {
+        "name": "South African rand",
+        "symbol": "R",
+        "nameHe": "ראנד דרום אפריקאי"
+      }
+    },
+    "population": 1242822,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "SC",
+    "capital": [
+      "Victoria"
+    ],
+    "capitalNames": {
+      "Victoria": "ויקטוריה"
+    },
+    "languages": {
+      "crs": "Seychellois Creole",
+      "eng": "English",
+      "fra": "French"
+    },
+    "currencies": {
+      "SCR": {
+        "name": "Seychellois rupee",
+        "symbol": "₨",
+        "nameHe": "רופי סיישלי"
+      }
+    },
+    "population": 121354,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "SY",
+    "capital": [
+      "Damascus"
+    ],
+    "capitalNames": {
+      "Damascus": "דמשק"
+    },
+    "languages": {
+      "ara": "Arabic"
+    },
+    "currencies": {
+      "SYP": {
+        "name": "Syrian pound",
+        "symbol": "£",
+        "nameHe": "לירה סורית"
+      }
+    },
+    "population": 24672760,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "TD",
+    "capital": [
+      "N'Djamena"
+    ],
+    "capitalNames": {
+      "N'Djamena": "נג'מנה"
+    },
+    "languages": {
+      "ara": "Arabic",
+      "fra": "French"
+    },
+    "currencies": {
+      "XAF": {
+        "name": "Central African CFA franc",
+        "symbol": "Fr",
+        "nameHe": "פרנק CFA מרכז אפריקני"
+      }
+    },
+    "population": 20299123,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "TG",
+    "capital": [
+      "Lomé"
+    ],
+    "capitalNames": {
+      "Lomé": "לומה"
+    },
+    "languages": {
+      "fra": "French"
+    },
+    "currencies": {
+      "XOF": {
+        "name": "West African CFA franc",
+        "symbol": "Fr",
+        "nameHe": "פרנק CFA מערב אפריקני"
+      }
+    },
+    "population": 8406558,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "TH",
+    "capital": [
+      "Bangkok"
+    ],
+    "capitalNames": {
+      "Bangkok": "בנגקוק"
+    },
+    "languages": {
+      "tha": "Thai"
+    },
+    "currencies": {
+      "THB": {
+        "name": "Thai baht",
+        "symbol": "฿",
+        "nameHe": "בהט תאילנדי"
+      }
+    },
+    "population": 71668011,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "TJ",
+    "capital": [
+      "Dushanbe"
+    ],
+    "capitalNames": {
+      "Dushanbe": "דושנבה"
+    },
+    "languages": {
+      "rus": "Russian",
+      "tgk": "Tajik"
+    },
+    "currencies": {
+      "TJS": {
+        "name": "Tajikistani somoni",
+        "symbol": "ЅМ",
+        "nameHe": "סומוני טג׳קיסטני"
+      }
+    },
+    "population": 10590927,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "TM",
+    "capital": [
+      "Ashgabat"
+    ],
+    "capitalNames": {
+      "Ashgabat": "אשגבאט"
+    },
+    "languages": {
+      "rus": "Russian",
+      "tuk": "Turkmen"
+    },
+    "currencies": {
+      "TMT": {
+        "name": "Turkmenistan manat",
+        "symbol": "m",
+        "nameHe": "מאנאט טורקמני"
+      }
+    },
+    "population": 7494498,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "TL",
+    "capital": [
+      "Dili"
+    ],
+    "capitalNames": {
+      "Dili": "דילי"
+    },
+    "languages": {
+      "por": "Portuguese",
+      "tet": "Tetum"
+    },
+    "currencies": {
+      "USD": {
+        "name": "United States dollar",
+        "symbol": "$",
+        "nameHe": "דולר אמריקאי"
+      }
+    },
+    "population": 1400638,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "TO",
+    "capital": [
+      "Nuku'alofa"
+    ],
+    "capitalNames": {
+      "Nuku'alofa": "נוקואלופה"
+    },
+    "languages": {
+      "eng": "English",
+      "ton": "Tongan"
+    },
+    "currencies": {
+      "TOP": {
+        "name": "Tongan paʻanga",
+        "symbol": "T$",
+        "nameHe": "פאנגה טונגי"
+      }
+    },
+    "population": 104175,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "TT",
+    "capital": [
+      "Port of Spain"
+    ],
+    "capitalNames": {
+      "Port of Spain": "פורט אוף ספיין"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "TTD": {
+        "name": "Trinidad and Tobago dollar",
+        "symbol": "$",
+        "nameHe": "דולר טרינידדי"
+      }
+    },
+    "population": 1368333,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "TN",
+    "capital": [
+      "Tunis"
+    ],
+    "capitalNames": {
+      "Tunis": "תוניס"
+    },
+    "languages": {
+      "ara": "Arabic"
+    },
+    "currencies": {
+      "TND": {
+        "name": "Tunisian dinar",
+        "symbol": "د.ت",
+        "nameHe": "דינר טוניסאי"
+      }
+    },
+    "population": 12277109,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "TR",
+    "capital": [
+      "Ankara"
+    ],
+    "capitalNames": {
+      "Ankara": "אנקרה"
+    },
+    "languages": {
+      "tur": "Turkish"
+    },
+    "currencies": {
+      "TRY": {
+        "name": "Turkish lira",
+        "symbol": "₺",
+        "nameHe": "לירה טורקית חדשה"
+      }
+    },
+    "population": 85518661,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "TV",
+    "capital": [
+      "Funafuti"
+    ],
+    "capitalNames": {
+      "Funafuti": "פונאפוטי"
+    },
+    "languages": {
+      "eng": "English",
+      "tvl": "Tuvaluan"
+    },
+    "currencies": {
+      "AUD": {
+        "name": "Australian dollar",
+        "symbol": "$",
+        "nameHe": "דולר אוסטרלי"
+      },
+      "TVD": {
+        "name": "Tuvaluan dollar",
+        "symbol": "$",
+        "nameHe": ""
+      }
+    },
+    "population": 9646,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "TW",
+    "capital": [
+      "Taipei"
+    ],
+    "capitalNames": {
+      "Taipei": "טאיפיי"
+    },
+    "languages": {
+      "zho": "Chinese"
+    },
+    "currencies": {
+      "TWD": {
+        "name": "New Taiwan dollar",
+        "symbol": "$",
+        "nameHe": "דולר טייוואני חדש"
+      }
+    },
+    "population": 23400220,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "משרד הפנים של טייוואן",
+      "url": "https://www.ris.gov.tw/info-liferay/app/channel/newsEnglishDetail/25010859"
+    }
+  },
+  {
+    "cca2": "TZ",
+    "capital": [
+      "Dodoma"
+    ],
+    "capitalNames": {
+      "Dodoma": "דודומה"
+    },
+    "languages": {
+      "eng": "English",
+      "swa": "Swahili"
+    },
+    "currencies": {
+      "TZS": {
+        "name": "Tanzanian shilling",
+        "symbol": "Sh",
+        "nameHe": "שילינג טנזני"
+      }
+    },
+    "population": 68560157,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "UG",
+    "capital": [
+      "Kampala"
+    ],
+    "capitalNames": {
+      "Kampala": "קמפלה"
+    },
+    "languages": {
+      "eng": "English",
+      "swa": "Swahili"
+    },
+    "currencies": {
+      "UGX": {
+        "name": "Ugandan shilling",
+        "symbol": "Sh",
+        "nameHe": "שילינג אוגנדי"
+      }
+    },
+    "population": 50015092,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "UA",
+    "capital": [
+      "Kyiv"
+    ],
+    "capitalNames": {
+      "Kyiv": "קייב"
+    },
+    "languages": {
+      "ukr": "Ukrainian"
+    },
+    "currencies": {
+      "UAH": {
+        "name": "Ukrainian hryvnia",
+        "symbol": "₴",
+        "nameHe": "הריבנה אוקראיני"
+      }
+    },
+    "population": 37860221,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "UY",
+    "capital": [
+      "Montevideo"
+    ],
+    "capitalNames": {
+      "Montevideo": "מונטווידאו"
+    },
+    "languages": {
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "UYU": {
+        "name": "Uruguayan peso",
+        "symbol": "$",
+        "nameHe": "פסו אורוגוואי"
+      }
+    },
+    "population": 3386588,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "US",
+    "capital": [
+      "Washington D.C."
+    ],
+    "capitalNames": {
+      "Washington D.C.": "וושינגטון די. סי."
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "USD": {
+        "name": "United States dollar",
+        "symbol": "$",
+        "nameHe": "דולר אמריקאי"
+      }
+    },
+    "population": 340003797,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "UZ",
+    "capital": [
+      "Tashkent"
+    ],
+    "capitalNames": {
+      "Tashkent": "טשקנט"
+    },
+    "languages": {
+      "rus": "Russian",
+      "uzb": "Uzbek"
+    },
+    "currencies": {
+      "UZS": {
+        "name": "Uzbekistani soʻm",
+        "symbol": "so'm",
+        "nameHe": "סום אוזבקי"
+      }
+    },
+    "population": 36361859,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "VA",
+    "capital": [
+      "Vatican City"
+    ],
+    "capitalNames": {
+      "Vatican City": "קריית הוותיקן"
+    },
+    "languages": {
+      "ita": "Italian",
+      "lat": "Latin"
+    },
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      }
+    },
+    "population": 882,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "מדינת הוותיקן",
+      "url": "https://vaticanstate.va/en/state-and-government/general-informations/population.html"
+    }
+  },
+  {
+    "cca2": "VC",
+    "capital": [
+      "Kingstown"
+    ],
+    "capitalNames": {
+      "Kingstown": "קינגסטאון"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "XCD": {
+        "name": "Eastern Caribbean dollar",
+        "symbol": "$",
+        "nameHe": "דולר מזרח קריבי"
+      }
+    },
+    "population": 100616,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "VE",
+    "capital": [
+      "Caracas"
+    ],
+    "capitalNames": {
+      "Caracas": "קראקס"
+    },
+    "languages": {
+      "spa": "Spanish"
+    },
+    "currencies": {
+      "VES": {
+        "name": "Venezuelan bolívar soberano",
+        "symbol": "Bs.S.",
+        "nameHe": "בוליבר ונצואלי"
+      }
+    },
+    "population": 28405543,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "VN",
+    "capital": [
+      "Hanoi"
+    ],
+    "capitalNames": {
+      "Hanoi": "האנוי"
+    },
+    "languages": {
+      "vie": "Vietnamese"
+    },
+    "currencies": {
+      "VND": {
+        "name": "Vietnamese đồng",
+        "symbol": "₫",
+        "nameHe": "דונג וייטנאמי"
+      }
+    },
+    "population": 100987686,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "VU",
+    "capital": [
+      "Port Vila"
+    ],
+    "capitalNames": {
+      "Port Vila": "פורט וילה"
+    },
+    "languages": {
+      "bis": "Bislama",
+      "eng": "English",
+      "fra": "French"
+    },
+    "currencies": {
+      "VUV": {
+        "name": "Vanuatu vatu",
+        "symbol": "Vt",
+        "nameHe": "ואטו של ונואטו"
+      }
+    },
+    "population": 327777,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "WS",
+    "capital": [
+      "Apia"
+    ],
+    "capitalNames": {
+      "Apia": "אפיה (עיר)"
+    },
+    "languages": {
+      "eng": "English",
+      "smo": "Samoan"
+    },
+    "currencies": {
+      "WST": {
+        "name": "Samoan tālā",
+        "symbol": "T",
+        "nameHe": "טאלה סמואי"
+      }
+    },
+    "population": 218019,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "YE",
+    "capital": [
+      "Sana'a"
+    ],
+    "capitalNames": {
+      "Sana'a": "צנעא"
+    },
+    "languages": {
+      "ara": "Arabic"
+    },
+    "currencies": {
+      "YER": {
+        "name": "Yemeni rial",
+        "symbol": "﷼",
+        "nameHe": "ריאל תימני"
+      }
+    },
+    "population": 40583164,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "ZA",
+    "capital": [
+      "Pretoria",
+      "Bloemfontein",
+      "Cape Town"
+    ],
+    "capitalNames": {
+      "Pretoria": "פרטוריה",
+      "Bloemfontein": "בלומפונטיין",
+      "Cape Town": "קייפטאון"
+    },
+    "languages": {
+      "afr": "Afrikaans",
+      "eng": "English",
+      "nbl": "Southern Ndebele",
+      "nso": "Northern Sotho",
+      "sot": "Southern Sotho",
+      "ssw": "Swazi",
+      "tsn": "Tswana",
+      "tso": "Tsonga",
+      "ven": "Venda",
+      "xho": "Xhosa",
+      "zul": "Zulu"
+    },
+    "currencies": {
+      "ZAR": {
+        "name": "South African rand",
+        "symbol": "R",
+        "nameHe": "ראנד דרום אפריקאי"
+      }
+    },
+    "population": 64007187,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "ZM",
+    "capital": [
+      "Lusaka"
+    ],
+    "capitalNames": {
+      "Lusaka": "לוסקה"
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "currencies": {
+      "ZMW": {
+        "name": "Zambian kwacha",
+        "symbol": "ZK",
+        "nameHe": "קוואצ׳ה זמבי"
+      }
+    },
+    "population": 21314956,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  },
+  {
+    "cca2": "ZW",
+    "capital": [
+      "Harare"
+    ],
+    "capitalNames": {
+      "Harare": "הארארה"
+    },
+    "languages": {
+      "bwg": "Chibarwe",
+      "eng": "English",
+      "kck": "Kalanga",
+      "khi": "Khoisan",
+      "ndc": "Ndau",
+      "nde": "Northern Ndebele",
+      "nya": "Chewa",
+      "sna": "Shona",
+      "sot": "Sotho",
+      "toi": "Tonga",
+      "tsn": "Tswana",
+      "tso": "Tsonga",
+      "ven": "Venda",
+      "xho": "Xhosa",
+      "zib": "Zimbabwean Sign Language"
+    },
+    "currencies": {
+      "BWP": {
+        "name": "Botswana pula",
+        "symbol": "P",
+        "nameHe": "פולה בוטסואני"
+      },
+      "CNY": {
+        "name": "Chinese yuan",
+        "symbol": "¥",
+        "nameHe": "יואן סיני"
+      },
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€",
+        "nameHe": "אירו"
+      },
+      "GBP": {
+        "name": "British pound",
+        "symbol": "£",
+        "nameHe": "לירה שטרלינג"
+      },
+      "INR": {
+        "name": "Indian rupee",
+        "symbol": "₹",
+        "nameHe": "רופי הודי"
+      },
+      "JPY": {
+        "name": "Japanese yen",
+        "symbol": "¥",
+        "nameHe": "ין יפני"
+      },
+      "USD": {
+        "name": "United States dollar",
+        "symbol": "$",
+        "nameHe": "דולר אמריקאי"
+      },
+      "ZAR": {
+        "name": "South African rand",
+        "symbol": "Rs",
+        "nameHe": "ראנד דרום אפריקאי"
+      },
+      "ZWB": {
+        "name": "Zimbabwean bonds",
+        "symbol": "$",
+        "nameHe": ""
+      }
+    },
+    "population": 16634373,
+    "populationYear": 2024,
+    "populationSource": {
+      "label": "הבנק העולמי",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    }
+  }
+]

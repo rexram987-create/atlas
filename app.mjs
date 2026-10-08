@@ -4,7 +4,7 @@ import { compactList, formatPopulation, localizeCapitalList, normalizeCountryFac
 
 const labels = { all: 'כל העולם', Asia: 'אסיה', Europe: 'אירופה', Africa: 'אפריקה', 'North America': 'אמריקה הצפונית', 'South America': 'אמריקה הדרומית', Oceania: 'אוקיאניה', Antarctica: 'אנטארקטיקה' };
 const FACTS_URL = '/api/country-facts';
-const FACTS_CACHE_KEY = 'atlas-country-facts-v4';
+const FACTS_CACHE_KEY = 'atlas-country-facts-v5';
 const FACTS_MAX_AGE = 24 * 60 * 60 * 1000;
 const $ = id => document.getElementById(id);
 const languageNames = (() => { try { return new Intl.DisplayNames(['he'], { type: 'language' }); } catch { return null; } })();
@@ -43,11 +43,20 @@ function localizeCurrency(code, fallbackNames = {}) {
 function setFact(id, value, fullValue = value) {
   const element = $(id);
   element.textContent = value;
-  element.setAttribute('aria-label', fullValue || value);
+  if (fullValue && fullValue !== value) {
+    const details = document.createElement('details');
+    const summary = document.createElement('summary');
+    summary.textContent = `${value} — הצגת הכל`;
+    const full = document.createElement('p');
+    full.textContent = fullValue;
+    details.append(summary, full);
+    element.replaceChildren(details);
+  }
 }
 
 function renderCountryFacts(code) {
   const fact = countryFacts[code];
+  $('country-population-meta').replaceChildren();
   if (!fact) {
     const value = factsAttempted ? 'לא זמין' : 'טוען…';
     for (const id of ['country-fact-capital','country-fact-languages','country-fact-currency','country-fact-population']) setFact(id, value);
@@ -62,7 +71,19 @@ function renderCountryFacts(code) {
   setFact('country-fact-languages', compactList(languages, 2), languages.join(', ') || 'לא זמין');
   setFact('country-fact-currency', compactList(currencies, 1), currencies.join(', ') || 'לא זמין');
   const population = formatPopulation(fact.population);
-  setFact('country-fact-population', fact.population == null ? population : `≈ ${population}`, population);
+  setFact('country-fact-population', fact.population == null ? population : `≈ ${population}`);
+  if (fact.populationYear) {
+    const meta = $('country-population-meta');
+    meta.append(`נתוני ${fact.populationYear}`);
+    if (fact.populationSource) {
+      const source = document.createElement('a');
+      source.href = fact.populationSource.url;
+      source.textContent = fact.populationSource.label;
+      source.target = '_blank';
+      source.rel = 'noopener noreferrer';
+      meta.append(' · ', source);
+    }
+  }
 }
 
 async function refreshCountryFacts() {
@@ -72,8 +93,17 @@ async function refreshCountryFacts() {
     if (!response.ok) throw new Error('Country facts unavailable');
     const normalized = normalizeCountryFacts(await response.json());
     if (Object.keys(normalized).length < 190) throw new Error('Country facts incomplete');
-    countryFacts = normalized;
-    localStorage.setItem(FACTS_CACHE_KEY, JSON.stringify({ updatedAt: Date.now(), facts: normalized }));
+    for (const [code, fact] of Object.entries(normalized)) {
+      const previous = countryFacts[code];
+      fact.capitalNames = { ...previous?.capitalNames, ...fact.capitalNames };
+      if (fact.population === null && previous?.population != null) {
+        fact.population = previous.population;
+        fact.populationYear = previous.populationYear;
+        fact.populationSource = previous.populationSource;
+      }
+      countryFacts[code] = fact;
+    }
+    localStorage.setItem(FACTS_CACHE_KEY, JSON.stringify({ updatedAt: Date.now(), facts: countryFacts }));
   } catch {
     // Keep the last successfully cached facts when offline or if the public data source is unavailable.
   } finally {
@@ -104,7 +134,7 @@ function openCountryDialog(country, originElement) {
   if (detail) {
     $('country-detail-etymology').textContent = detail.etymology;
     $('country-detail-name-story').textContent = detail.nameStory;
-    const labels = { independence: 'עצמאות', formation: 'ייסוד המדינה / איחוד', constitution: 'אימוץ חוקה', nameChange: 'שינוי שם המדינה' };
+    const labels = { independence: 'עצמאות', formation: 'ייסוד המדינה / איחוד', constitution: 'חוקה / כניסה לתוקף', nameChange: 'שינוי שם המדינה' };
     const historyItems = [];
     const pending = [];
     for (const [key, label] of Object.entries(labels)) {
@@ -146,7 +176,7 @@ function openCountryDialog(country, originElement) {
     const alreadyShown = Object.values(detail.history ?? {}).some(item => item?.year === milestoneYear);
     const legacy = $('country-history-legacy');
     legacy.hidden = alreadyShown || !milestoneNote;
-    legacy.open = false;
+    legacy.open = historyItems.length === 0;
     $('country-detail-year-note').textContent = `${milestoneYear}: ${milestoneNote}`;
     const items = detail.sources.map(source => {
       const li = document.createElement('li');
@@ -226,6 +256,12 @@ try {
   const response = await fetch('/countries.json'); if (!response.ok) throw new Error('Data unavailable');
   countries = await response.json(); countries.sort((a,b) => a.name.localeCompare(b.name, 'he'));
   try {
+    const factsResponse = await fetch('/country-facts.json');
+    if (factsResponse.ok) countryFacts = { ...normalizeCountryFacts(await factsResponse.json()), ...countryFacts };
+  } catch {
+    // Previously cached facts remain usable if the bundled snapshot cannot load.
+  }
+  try {
     const detailsResponse = await fetch('/country-details.json');
     if (detailsResponse.ok) countryDetails = await detailsResponse.json();
   } catch {
@@ -242,7 +278,7 @@ try {
 } catch { $('load-error').hidden = false; }
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js').then(reg => {
-    const ready = () => { $('offline-status').textContent = 'קובצי הליבה והמדינות מוכנים לשימוש ללא אינטרנט.'; };
+    const ready = () => { $('offline-status').textContent = 'המדינות, ההסברים, נתוני היסוד והדגלים מוכנים לשימוש ללא אינטרנט.'; };
     if (reg.active) ready();
     reg.addEventListener('updatefound', () => { const worker = reg.installing; worker?.addEventListener('statechange', () => { if (worker.state === 'activated') ready(); }); });
     navigator.serviceWorker.ready.then(ready);

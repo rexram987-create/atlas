@@ -1,5 +1,8 @@
 const COUNTRY_SOURCE = 'https://raw.githubusercontent.com/mledoze/countries/master/countries.json';
 const POPULATION_SOURCE = 'https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?format=json&per_page=400&date=2024';
+const POPULATION_YEAR = 2024;
+const POPULATION_CITATION = {"label": "הבנק העולמי", "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"};
+const SUPPLEMENTAL_POPULATIONS = {"TW": {"population": 23400220, "populationYear": 2024, "populationSource": {"label": "משרד הפנים של טייוואן", "url": "https://www.ris.gov.tw/info-liferay/app/channel/newsEnglishDetail/25010859"}}, "VA": {"population": 882, "populationYear": 2024, "populationSource": {"label": "מדינת הוותיקן", "url": "https://vaticanstate.va/en/state-and-government/general-informations/population.html"}}};
 const WIKIDATA_API = 'https://www.wikidata.org/w/api.php';
 // Stable Hebrew spellings for capitals whose English Wikipedia titles can differ
 // from the names in the country data, or whose Hebrew sitelink is unavailable.
@@ -9,7 +12,13 @@ const CAPITAL_OVERRIDES = Object.freeze({
   OM: { Muscat: 'מסקט' },
   KZ: { Astana: 'אסטנה' },
   MN: { Ulaanbaatar: 'אולן בטור', 'Ulan Bator': 'אולן בטור' },
-  KG: { Bishkek: 'בישקק' }
+  KG: { Bishkek: 'בישקק' },
+  US: {"Washington D.C.": "וושינגטון די. סי."},
+  BS: {"Nassau": "נסאו"},
+  KM: {"Moroni": "מורוני"},
+  GD: {"St. George's": "סנט ג׳ורג׳ס"},
+  IS: {"Reykjavik": "רייקיאוויק"},
+  TO: {"Nuku'alofa": "נוקואלופה"}
 });
 const currencyDisplayNames = (() => {
   try { return new Intl.DisplayNames(['he'], { type: 'currency' }); }
@@ -101,7 +110,10 @@ export default async function handler(request, response) {
         capitalNames,
         languages: country.languages,
         currencies,
-        population: populationByCode[country.cca2] ?? null
+        population: populationByCode[country.cca2] ?? null,
+        populationYear: populationByCode[country.cca2] == null ? null : POPULATION_YEAR,
+        populationSource: populationByCode[country.cca2] == null ? null : POPULATION_CITATION,
+        ...(SUPPLEMENTAL_POPULATIONS[country.cca2] || {})
       };
     });
 

@@ -3,6 +3,7 @@ name: Atlas tests
 on:
   push:
     branches:
+      - main
       - 'feature/**'
   pull_request:
     branches:

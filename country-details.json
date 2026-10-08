@@ -1176,14 +1176,23 @@
     ],
     "history": {
       "independence": null,
-      "formation": null,
-      "constitution": null,
+      "formation": {
+        "year": 1990,
+        "note": "גרמניה התאחדה מחדש ב־3 באוקטובר 1990, לאחר עשרות שנות חלוקה. זהו איחוד מחדש, ולא ראשית קיומה ההיסטורי של גרמניה.",
+        "source": "https://www.bundesregierung.de/breg-en/service/archive/archive/the-chancellor-who-reunited-germany-413888"
+      },
+      "constitution": {
+        "year": 1949,
+        "note": "חוק היסוד של הרפובליקה הפדרלית פורסם ב־23 במאי 1949. מדובר במסגרת החוקתית, בנפרד מהאיחוד מחדש ב־1990.",
+        "source": "https://www.bundestag.de/en/documents/textarchive/kw21-festival-basic-law-1003926"
+      },
       "nameChange": null
     },
     "historicalMilestone": {
       "year": 1949,
       "note": "הרפובליקה הפדרלית של גרמניה נוסדה ב־1949; האיחוד מחדש התרחש ב־3 באוקטובר 1990."
-    }
+    },
+    "historyReviewedAt": "2026-10-08"
   },
   "DJ": {
     "etymology": "Djibouti נגזר משמו של המקום והנמל ג׳יבוטי; מקור השם עצמו שנוי במחלוקת והוצעו לו הסברים בשפות אפאר וסומלית.",
@@ -1357,7 +1366,11 @@
       }
     ],
     "history": {
-      "independence": null,
+      "independence": {
+        "year": 1922,
+        "note": "ב־28 בפברואר 1922 הודיעה בריטניה על סיום משטר החסות והכרה במצרים כמדינה עצמאית. העצמאות הייתה מוגבלת: בריטניה שמרה לעצמה סמכויות בארבעה תחומים, ובהם ביטחון וסודן.",
+        "source": "https://api.parliament.uk/historic-hansard/lords/1922/feb/28/statement-on-egypt"
+      },
       "formation": null,
       "constitution": null,
       "nameChange": null
@@ -1365,7 +1378,8 @@
     "historicalMilestone": {
       "year": 1922,
       "note": "1922 נבחרה כנקודת הריבונות המודרנית; המלוכה בוטלה והרפובליקה הוכרזה ב־1953."
-    }
+    },
+    "historyReviewedAt": "2026-10-08"
   },
   "ER": {
     "etymology": "Eritrea נגזר מן היוונית Erythraia, אדומה, דרך השם העתיק לים האדום, Erythra Thalassa.",
@@ -1541,13 +1555,18 @@
     "history": {
       "independence": null,
       "formation": null,
-      "constitution": null,
+      "constitution": {
+        "year": 1958,
+        "note": "חוקת 4 באוקטובר 1958 קבעה את המסגרת של הרפובליקה החמישית. צרפת כמדינה קדמה לה במאות שנים.",
+        "source": "https://www.elysee.fr/en/french-presidency/the-institutions"
+      },
       "nameChange": null
     },
     "historicalMilestone": {
       "year": 1958,
       "note": "1958 נבחרה כשנת המסגרת החוקתית הנוכחית; צרפת כמדינה וממלכה עתיקה בהרבה."
-    }
+    },
+    "historyReviewedAt": "2026-10-08"
   },
   "FM": {
     "etymology": "Micronesia הוא מן היוונית mikros, קטן, ו־nesos, אי: איים קטנים. זהו שם גאוגרפי לאזור רחב באוקיינוס השקט.",
@@ -1618,14 +1637,19 @@
     ],
     "history": {
       "independence": null,
-      "formation": null,
+      "formation": {
+        "year": 1707,
+        "note": "אנגליה וסקוטלנד התאחדו ב־1 במאי 1707 לממלכת בריטניה הגדולה. זהו שלב בתהליך התהוות הממלכה המאוחדת, ולא תאריך עצמאות.",
+        "source": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/act-of-union-1707/"
+      },
       "constitution": null,
       "nameChange": null
     },
     "historicalMilestone": {
       "year": 1707,
       "note": "1707 נבחרה כבסיס המדינה המאוחדת; United Kingdom בשם ובמבנה מאוחר יותר נוצר ב־1801 והשתנה שוב לאחר 1922."
-    }
+    },
+    "historyReviewedAt": "2026-10-08"
   },
   "GE": {
     "etymology": "השם הבינלאומי Georgia מקורו אינו ודאי וכנראה קשור למסורות פרסיות וטורקיות על הגאורגים; השם המקומי Sakartvelo פירושו ארץ הקרתבלים.",
@@ -4889,15 +4913,24 @@
       }
     ],
     "history": {
-      "independence": null,
+      "independence": {
+        "year": 1776,
+        "note": "הכרזת העצמאות התקבלה בקונגרס ב־4 ביולי 1776.",
+        "source": "https://www.archives.gov/founding-docs/timeline"
+      },
       "formation": null,
-      "constitution": null,
+      "constitution": {
+        "year": 1789,
+        "note": "הממשל לפי החוקה החל לפעול מבחינה משפטית ב־4 במרץ 1789. החוקה נחתמה ב־1787, ורף אשרור תשע המדינות הושג ב־21 ביוני 1788.",
+        "source": "https://www.archives.gov/founding-docs/constitution-q-and-a"
+      },
       "nameChange": null
     },
     "historicalMilestone": {
       "year": 1776,
       "note": "שלוש־עשרה המושבות הכריזו עצמאות ב־4 ביולי 1776; החוקה הפדרלית הנוכחית נכנסה לתוקף ב־1789."
-    }
+    },
+    "historyReviewedAt": "2026-10-08"
   },
   "UZ": {
     "etymology": "Uzbekistan משלב Uzbek, שם העם האוזבקי, עם ‎-stan, ארץ. Uzbek מיוחס בדרך כלל לשם החאן אוזבג או למסורת טורקית קשורה.",

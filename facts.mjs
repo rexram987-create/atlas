@@ -20,6 +20,12 @@ export function normalizeCountryFacts(records) {
     }));
     const population = Number.isFinite(record.population) && record.population >= 0 ? Math.round(record.population) : null;
     byCode[code] = { capital, capitalNames, languages, currencies, currencyNames, population };
+    if (population !== null && Number.isInteger(record.populationYear)) {
+      byCode[code].populationYear = record.populationYear;
+      if (typeof record.populationSource?.label === 'string' && typeof record.populationSource?.url === 'string' && record.populationSource.url.startsWith('https://')) {
+        byCode[code].populationSource = record.populationSource;
+      }
+    }
   }
 
   return byCode;
@@ -31,7 +37,13 @@ const HEBREW_CAPITAL_FALLBACKS = Object.freeze({
   OM: { Muscat: 'מסקט' },
   KZ: { Astana: 'אסטנה' },
   MN: { Ulaanbaatar: 'אולן בטור', 'Ulan Bator': 'אולן בטור' },
-  KG: { Bishkek: 'בישקק' }
+  KG: { Bishkek: 'בישקק' },
+  US: { 'Washington D.C.': 'וושינגטון די. סי.' },
+  BS: { Nassau: 'נסאו' },
+  KM: { Moroni: 'מורוני' },
+  GD: { "St. George's": 'סנט ג׳ורג׳ס' },
+  IS: { Reykjavik: 'רייקיאוויק' },
+  TO: { "Nuku'alofa": 'נוקואלופה' }
 });
 
 export function localizeCapitalList(capitals, capitalNames = {}, countryCode = '') {
