@@ -150,8 +150,8 @@ function openCountryDialog(country, originElement) {
     const labels = { independence: 'עצמאות', formation: 'ייסוד המדינה / איחוד', constitution: 'חוקה / כניסה לתוקף', nameChange: 'שינוי שם המדינה' };
     const historyItems = [];
     const pending = [];
-    for (const [key, label] of Object.entries(labels)) {
-      const item = detail.history?.[key];
+    for (const [key, item] of Object.entries(detail.history)) {
+      const label = labels[key];
       if (!item) {
         pending.push(label);
         continue;

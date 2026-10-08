@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
 import { getCountryDetail, validSources } from './details.mjs';
 
 test('getCountryDetail returns the matching valid record by ISO code', () => {
@@ -56,4 +57,22 @@ test('accepts a sourced explanation when a historical category has no single dat
   const invalid = structuredClone(record);
   invalid.history.constitution.source = '';
   assert.equal(getCountryDetail({ IL: invalid }, 'IL'), null);
+});
+
+const bundledDetails = JSON.parse(readFileSync(new URL('./country-details.json', import.meta.url), 'utf8'));
+
+test('Lebanon history is presented from earliest to latest', () => {
+  const detail = getCountryDetail(bundledDetails, 'LB');
+  assert.deepEqual(Object.entries(detail.history).filter(([, event]) => event).map(([key, event]) => [key, event.year]), [
+    ['formation', 1920], ['constitution', 1926], ['independence', 1943]
+  ]);
+});
+
+test('undated history follows dated events and equal years retain category order', () => {
+  const canada = getCountryDetail(bundledDetails, 'CA');
+  assert.deepEqual(Object.entries(canada.history).filter(([, event]) => event).map(([key]) => key), ['formation', 'constitution', 'independence']);
+  const jordan = getCountryDetail(bundledDetails, 'JO');
+  assert.deepEqual(Object.keys(jordan.history), ['independence', 'formation', 'nameChange', 'constitution']);
+  assert.equal(canada.history.nameChange, null);
+  assert.deepEqual(Object.keys(bundledDetails.LB.history), ['independence', 'formation', 'constitution', 'nameChange'], 'source data is not reordered');
 });

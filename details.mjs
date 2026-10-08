@@ -24,5 +24,8 @@ export function getCountryDetail(detailsByCode, code) {
       typeof event.source !== 'string' || !event.source.startsWith('https://'))) return null;
   }
   if (!Number.isInteger(detail.historicalMilestone?.year) || typeof detail.historicalMilestone?.note !== 'string') return null;
-  return { ...detail, sources: validSources(detail.sources) };
+  const yearForOrder = event => Number.isInteger(event?.year) ? event.year : Infinity;
+  const history = Object.fromEntries(categories.map(key => [key, detail.history[key]])
+    .sort(([, a], [, b]) => yearForOrder(a) - yearForOrder(b)));
+  return { ...detail, history, sources: validSources(detail.sources) };
 }
