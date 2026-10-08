@@ -17,7 +17,9 @@ export function getCountryDetail(detailsByCode, code) {
   for (const category of categories) {
     if (!Object.hasOwn(detail.history, category)) return null;
     const event = detail.history[category];
-    if (event !== null && (!Number.isInteger(event?.year) ||
+    const hasDate = Number.isInteger(event?.year) && !event?.status;
+    const hasContext = ['no_single_date', 'not_applicable'].includes(event?.status) && event?.year == null;
+    if (event !== null && ((!hasDate && !hasContext) ||
       typeof event.note !== 'string' || !event.note.trim() ||
       typeof event.source !== 'string' || !event.source.startsWith('https://'))) return null;
   }

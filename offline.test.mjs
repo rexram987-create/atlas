@@ -24,5 +24,10 @@ test('bundled facts cover every country even before a successful API request', (
     assert.ok(Number.isFinite(fact.population), country.code);
     assert.equal(fact.populationYear, 2024);
     assert.ok(fact.populationSource.url.startsWith('https://'));
+    assert.ok(Object.keys(fact.currencies).length > 0, `missing currency: ${country.code}`);
+    for (const capital of fact.capital) assert.match(fact.capitalNames[capital], /[\u0590-\u05ff]/, `untranslated capital: ${country.code}`);
   }
+  const za = facts.find(item => item.cca2 === 'ZA');
+  assert.equal(Object.keys(za.languages).length, 12);
+  assert.ok(za.languages.sfs);
 });

@@ -1,3 +1,5 @@
+import { applyCountryFactCorrections } from '../facts.mjs';
+
 const COUNTRY_SOURCE = 'https://raw.githubusercontent.com/mledoze/countries/master/countries.json';
 const POPULATION_SOURCE = 'https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?format=json&per_page=400&date=2024';
 const POPULATION_YEAR = 2024;
@@ -87,7 +89,7 @@ export default async function handler(request, response) {
       if (code && Number.isFinite(row?.value)) populationByCode[code] = row.value;
     }
 
-    const compact = countries.map(country => {
+    const compact = countries.map(applyCountryFactCorrections).map(country => {
       const currencies = {};
       for (const [code, info] of Object.entries(country.currencies || {})) {
         let nameHe = '';
@@ -109,6 +111,8 @@ export default async function handler(request, response) {
         capital: country.capital,
         capitalNames,
         languages: country.languages,
+        ...(country.languageNames ? { languageNames: country.languageNames } : {}),
+        ...(country.factNotes ? { factNotes: country.factNotes } : {}),
         currencies,
         population: populationByCode[country.cca2] ?? null,
         populationYear: populationByCode[country.cca2] == null ? null : POPULATION_YEAR,

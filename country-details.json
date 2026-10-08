@@ -2205,7 +2205,11 @@
         "note": "הכרזת מדינת ישראל ב־14 במאי 1948.",
         "source": "https://main.knesset.gov.il/about/occasion/pages/declaration.aspx"
       },
-      "constitution": null,
+      "constitution": {
+        "status": "no_single_date",
+        "note": "בישראל אין חוקה מאוחדת בעלת מועד כניסה לתוקף יחיד; המסגרת החוקתית כוללת חוקי יסוד שנחקקו במועדים שונים.",
+        "source": "https://main.knesset.gov.il/en/about/lexicon/pages/constitution.aspx"
+      },
       "nameChange": null
     },
     "historicalMilestone": {

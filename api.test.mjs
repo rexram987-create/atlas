@@ -5,6 +5,9 @@ import handler from './api/country-facts.js';
 
 test('API returns dated populations, official supplements and Hebrew capital fallbacks', async t => {
   const countries = JSON.parse(readFileSync(new URL('./country-facts.json', import.meta.url)));
+  // Reproduce upstream omissions even after the bundled snapshot is corrected.
+  countries.find(country => country.cca2 === 'FM').currencies = {};
+  delete countries.find(country => country.cca2 === 'ZA').languages.sfs;
   t.mock.method(globalThis, 'fetch', async url => {
     if (String(url).includes('mledoze/countries')) return Response.json(countries);
     if (String(url).includes('api.worldbank.org')) return Response.json([{ pages: 1 }, [{ country: { id: 'US' }, date: '2024', value: 340003797 }]]);
@@ -25,4 +28,8 @@ test('API returns dated populations, official supplements and Hebrew capital fal
   assert.equal(new URL(byCode.TW.populationSource.url).hostname, 'www.ris.gov.tw');
   assert.equal(byCode.JP.population, null);
   assert.equal(byCode.JP.populationYear, null);
+  assert.ok(byCode.FM.currencies.USD, 'Micronesia uses the US dollar');
+  assert.equal(Object.keys(byCode.ZA.languages).length, 12);
+  assert.ok(byCode.ZA.languages.sfs);
+  assert.match(byCode.IL.factNotes[0].text, /מעמד מיוחד/);
 });

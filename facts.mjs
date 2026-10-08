@@ -1,8 +1,28 @@
+// Curated corrections apply to both the offline snapshot and refreshed upstream data.
+// Sources are displayed alongside the facts rather than only in the general bibliography.
+export function applyCountryFactCorrections(record) {
+  const code = typeof record?.cca2 === 'string' ? record.cca2.trim().toUpperCase() : '';
+  if (code === 'FM') return { ...record,
+    currencies: { ...record.currencies, USD: { name: 'United States dollar', nameHe: 'דולר אמריקאי', symbol: '$' } },
+    factNotes: [{ text: 'המטבע הרשמי הוא דולר אמריקאי.', label: 'לשכת התיירות של מיקרונזיה', url: 'https://visit-micronesia.fm/general-information/' }]
+  };
+  if (code === 'ZA') return { ...record,
+    languages: { ...record.languages, sfs: 'South African Sign Language' },
+    languageNames: { ...record.languageNames, sfs: 'שפת הסימנים הדרום־אפריקאית' },
+    factNotes: [{ text: 'שפת הסימנים הדרום־אפריקאית הוכרה כשפה הרשמית ה־12 ב־19 ביולי 2023.', label: 'ממשלת דרום אפריקה', url: 'https://www.gov.za/news/speeches/president-cyril-ramaphosa-signing-ceremony-south-african-sign-language-bill-19-jul' }]
+  };
+  if (code === 'IL') return { ...record,
+    factNotes: [{ text: 'עברית היא שפת המדינה; לערבית מעמד מיוחד. חוק היסוד אינו פוגע במעמד שניתן לערבית לפני תחילתו.', label: 'הכנסת — חוק יסוד: ישראל, סעיף 4', url: 'https://main.knesset.gov.il/EN/News/PressReleases/Pages/Pr13978_pg.aspx' }]
+  };
+  return record;
+}
+
 export function normalizeCountryFacts(records) {
   const byCode = {};
   if (!Array.isArray(records)) return byCode;
 
-  for (const record of records) {
+  for (const input of records) {
+    const record = applyCountryFactCorrections(input);
     const code = typeof record?.cca2 === 'string' ? record.cca2.trim().toUpperCase() : '';
     if (!code) continue;
     const capital = Array.isArray(record.capital) ? record.capital.filter(value => typeof value === 'string' && value.trim()) : [];
@@ -20,6 +40,11 @@ export function normalizeCountryFacts(records) {
     }));
     const population = Number.isFinite(record.population) && record.population >= 0 ? Math.round(record.population) : null;
     byCode[code] = { capital, capitalNames, languages, currencies, currencyNames, population };
+    if (record.languageNames && typeof record.languageNames === 'object') {
+      byCode[code].languageNames = Object.fromEntries(Object.entries(record.languageNames).filter(([key, value]) => languages.includes(key) && typeof value === 'string' && value.trim()));
+    }
+    const notes = Array.isArray(record.factNotes) ? record.factNotes.filter(note => typeof note?.text === 'string' && note.text.trim() && typeof note.label === 'string' && note.label.trim() && typeof note.url === 'string' && note.url.startsWith('https://')) : [];
+    if (notes.length) byCode[code].factNotes = notes;
     if (population !== null && Number.isInteger(record.populationYear)) {
       byCode[code].populationYear = record.populationYear;
       if (typeof record.populationSource?.label === 'string' && typeof record.populationSource?.url === 'string' && record.populationSource.url.startsWith('https://')) {

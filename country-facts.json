@@ -1543,13 +1543,26 @@
     "languages": {
       "eng": "English"
     },
-    "currencies": {},
+    "currencies": {
+      "USD": {
+        "name": "United States dollar",
+        "nameHe": "דולר אמריקאי",
+        "symbol": "$"
+      }
+    },
     "population": 113160,
     "populationYear": 2024,
     "populationSource": {
       "label": "הבנק העולמי",
       "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
-    }
+    },
+    "factNotes": [
+      {
+        "text": "המטבע הרשמי הוא דולר אמריקאי.",
+        "label": "לשכת התיירות של מיקרונזיה",
+        "url": "https://visit-micronesia.fm/general-information/"
+      }
+    ]
   },
   {
     "cca2": "GA",
@@ -2134,7 +2147,14 @@
     "populationSource": {
       "label": "הבנק העולמי",
       "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
-    }
+    },
+    "factNotes": [
+      {
+        "text": "עברית היא שפת המדינה; לערבית מעמד מיוחד. חוק היסוד אינו פוגע במעמד שניתן לערבית לפני תחילתו.",
+        "label": "הכנסת — חוק יסוד: ישראל, סעיף 4",
+        "url": "https://main.knesset.gov.il/EN/News/PressReleases/Pages/Pr13978_pg.aspx"
+      }
+    ]
   },
   {
     "cca2": "IT",
@@ -5042,7 +5062,8 @@
       "tso": "Tsonga",
       "ven": "Venda",
       "xho": "Xhosa",
-      "zul": "Zulu"
+      "zul": "Zulu",
+      "sfs": "South African Sign Language"
     },
     "currencies": {
       "ZAR": {
@@ -5056,7 +5077,17 @@
     "populationSource": {
       "label": "הבנק העולמי",
       "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
-    }
+    },
+    "languageNames": {
+      "sfs": "שפת הסימנים הדרום־אפריקאית"
+    },
+    "factNotes": [
+      {
+        "text": "שפת הסימנים הדרום־אפריקאית הוכרה כשפה הרשמית ה־12 ב־19 ביולי 2023.",
+        "label": "ממשלת דרום אפריקה",
+        "url": "https://www.gov.za/news/speeches/president-cyril-ramaphosa-signing-ceremony-south-african-sign-language-bill-19-jul"
+      }
+    ]
   },
   {
     "cca2": "ZM",

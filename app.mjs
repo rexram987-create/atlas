@@ -4,7 +4,7 @@ import { compactList, formatPopulation, localizeCapitalList, normalizeCountryFac
 
 const labels = { all: 'כל העולם', Asia: 'אסיה', Europe: 'אירופה', Africa: 'אפריקה', 'North America': 'אמריקה הצפונית', 'South America': 'אמריקה הדרומית', Oceania: 'אוקיאניה', Antarctica: 'אנטארקטיקה' };
 const FACTS_URL = '/api/country-facts';
-const FACTS_CACHE_KEY = 'atlas-country-facts-v5';
+const FACTS_CACHE_KEY = 'atlas-country-facts-v6';
 const FACTS_MAX_AGE = 24 * 60 * 60 * 1000;
 const $ = id => document.getElementById(id);
 const languageNames = (() => { try { return new Intl.DisplayNames(['he'], { type: 'language' }); } catch { return null; } })();
@@ -57,6 +57,9 @@ function setFact(id, value, fullValue = value) {
 function renderCountryFacts(code) {
   const fact = countryFacts[code];
   $('country-population-meta').replaceChildren();
+  const factNotes = $('country-fact-notes');
+  factNotes.replaceChildren();
+  factNotes.hidden = !fact?.factNotes?.length;
   if (!fact) {
     const value = factsAttempted ? 'לא זמין' : 'טוען…';
     for (const id of ['country-fact-capital','country-fact-languages','country-fact-currency','country-fact-population']) setFact(id, value);
@@ -65,13 +68,23 @@ function renderCountryFacts(code) {
 
   const localizedCapitals = localizeCapitalList(fact.capital, fact.capitalNames, code);
   const capitals = localizedCapitals.length ? localizedCapitals : ['לא זמין'];
-  const languages = fact.languages.map(localizeLanguage);
+  const languages = fact.languages.map(language => fact.languageNames?.[language] || localizeLanguage(language));
   const currencies = fact.currencies.map(currencyCode => localizeCurrency(currencyCode, fact.currencyNames));
   setFact('country-fact-capital', compactList(capitals, 2), capitals.join(', '));
   setFact('country-fact-languages', compactList(languages, 2), languages.join(', ') || 'לא זמין');
   setFact('country-fact-currency', compactList(currencies, 1), currencies.join(', ') || 'לא זמין');
   const population = formatPopulation(fact.population);
   setFact('country-fact-population', fact.population == null ? population : `≈ ${population}`);
+  for (const note of fact.factNotes || []) {
+    const item = document.createElement('li');
+    const source = document.createElement('a');
+    source.href = note.url;
+    source.textContent = note.label;
+    source.target = '_blank';
+    source.rel = 'noopener noreferrer';
+    item.append(note.text, ' ', source);
+    factNotes.append(item);
+  }
   if (fact.populationYear) {
     const meta = $('country-population-meta');
     meta.append(`נתוני ${fact.populationYear}`);
@@ -149,7 +162,7 @@ function openCountryDialog(country, originElement) {
       term.textContent = label;
       const description = document.createElement('dd');
       const year = document.createElement('strong');
-      year.textContent = String(item.year);
+      year.textContent = Number.isInteger(item.year) ? String(item.year) : (item.status === 'no_single_date' ? 'אין תאריך יחיד' : 'לא חל');
       description.append(year);
       if (item.note) {
         const note = document.createElement('span');
@@ -168,7 +181,7 @@ function openCountryDialog(country, originElement) {
       historyItems.push(wrapper);
     }
     $('country-history').replaceChildren(...historyItems);
-    $('country-history-pending').textContent = pending.length ? `טרם אומת במאגר: ${pending.join(' · ')}` : '';
+    $('country-history-pending').textContent = pending.length ? `טרם הושלם תיעוד נפרד במאגר עבור: ${pending.join(' · ')}. אין בכך קביעה שאירוע כזה התרחש או שלא התרחש.` : '';
     $('country-history-pending').hidden = pending.length === 0;
     const milestone = detail.historicalMilestone;
     const milestoneYear = milestone?.year ?? detail.modernStateYear;

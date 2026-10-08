@@ -45,3 +45,15 @@ test('rejects historical dates without category or source', () => {
   assert.equal(getCountryDetail({ JP: { ...base, history: { independence: null } } }, 'JP'), null);
   assert.equal(getCountryDetail({ JP: { ...base, history: { independence: null, formation: null, constitution: { year: 1947, note: 'חוקה', source: '' }, nameChange: null } } }, 'JP'), null);
 });
+
+test('accepts a sourced explanation when a historical category has no single date', () => {
+  const record = { etymology: 'שם', nameStory: 'סיפור', modernStateYear: 1948, modernStateNote: '', historicalMilestone: { year: 1948, note: '' }, sources: [],
+    history: { independence: null, formation: null, nameChange: null, constitution: { status: 'no_single_date', note: 'חוקי יסוד במקום חוקה מאוחדת', source: 'https://main.knesset.gov.il/en/about/lexicon/pages/constitution.aspx' } }
+  };
+  const detail = getCountryDetail({ IL: record }, 'IL');
+  assert.equal(detail?.history.constitution.status, 'no_single_date');
+  assert.equal(detail.history.nameChange, null, 'unknown stays unknown');
+  const invalid = structuredClone(record);
+  invalid.history.constitution.source = '';
+  assert.equal(getCountryDetail({ IL: invalid }, 'IL'), null);
+});

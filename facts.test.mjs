@@ -20,8 +20,21 @@ test('normalizes compact facts by ISO alpha-2 code', () => {
     languages: ['ara', 'heb'],
     currencies: ['ILS'],
     currencyNames: { ILS: 'שקל חדש ישראלי' },
-    population: 10305000
+    population: 10305000,
+    factNotes: [{ text: 'עברית היא שפת המדינה; לערבית מעמד מיוחד. חוק היסוד אינו פוגע במעמד שניתן לערבית לפני תחילתו.', label: 'הכנסת — חוק יסוד: ישראל, סעיף 4', url: 'https://main.knesset.gov.il/EN/News/PressReleases/Pages/Pr13978_pg.aspx' }]
   });
+});
+
+test('keeps sourced country corrections when upstream facts omit them', () => {
+  const result = normalizeCountryFacts([
+    { cca2: 'FM', currencies: {} },
+    { cca2: 'ZA', languages: { eng: 'English' } }
+  ]);
+  assert.deepEqual(result.FM.currencies, ['USD']);
+  assert.equal(result.FM.currencyNames.USD, 'דולר אמריקאי');
+  assert.ok(result.ZA.languages.includes('sfs'));
+  assert.equal(result.ZA.languageNames.sfs, 'שפת הסימנים הדרום־אפריקאית');
+  assert.ok(result.FM.factNotes[0].url.startsWith('https://'));
 });
 
 test('ignores malformed records and keeps safe defaults', () => {

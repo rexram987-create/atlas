@@ -2,3 +2,4 @@
 
 .country-fact details summary{cursor:pointer;color:var(--green);line-height:1.6}.country-fact details p{margin:8px 0 0;line-height:1.7;font-weight:400}.country-fact small{display:block;margin-top:8px;font-size:12px;line-height:1.6;color:var(--muted)}.country-fact small a{color:var(--green)}
 @media(max-width:650px){.country-fact span{font-size:13px}.country-fact .fact-value{font-size:14px}.country-facts{align-items:start}}
+.fact-notes{margin:0 0 18px;padding-right:20px;font-size:13px;line-height:1.8;color:var(--muted)}.fact-notes a{color:var(--green);text-underline-offset:3px}
