@@ -6,6 +6,15 @@ import { getCountryDetail } from './details.mjs';
 const countries = JSON.parse(readFileSync(new URL('./countries.json', import.meta.url), 'utf8'));
 const details = JSON.parse(readFileSync(new URL('./country-details.json', import.meta.url), 'utf8'));
 
+test('Egypt distinguishes independence, republic, official name and current constitution', () => {
+  assert.deepEqual(Object.values(details.EG.history).map(event => event?.year), [1922, 1953, 2014, 1971]);
+  assert.match(details.EG.history.formation.note, /רפובליקה/);
+  assert.match(details.EG.history.formation.note, /אינה/);
+  assert.match(details.EG.history.constitution.note, /2019/);
+  assert.match(details.EG.history.nameChange.note, /1958/);
+  for (const event of Object.values(details.EG.history)) assert.ok(details.EG.sources.some(source => source.url === event.source));
+});
+
 test('history batch 5 distinguishes federation, independence and constitutional milestones', () => {
   assert.deepEqual([details.FM.history.formation?.year, details.FM.history.constitution?.year, details.FM.history.independence?.year], [1979, 1979, 1986]);
   assert.deepEqual([details.ZA.history.formation?.year, details.ZA.history.constitution?.year], [1910, 1997]);
@@ -31,7 +40,7 @@ test('every Atlas country has one valid detail record and no extras', () => {
     const detail = getCountryDetail(details, code);
     assert.ok(detail, `missing or malformed detail record: ${code}`);
     assert.equal(detail.historicalMilestone.year, detail.modernStateYear, `legacy milestone mismatch: ${code}`);
-    assert.ok(detail.sources.length >= 2 && detail.sources.length <= 4, `invalid source count: ${code}`);
+    assert.ok(detail.sources.length >= 2 && detail.sources.length <= 8, `invalid source count: ${code}`);
   }
 
   for (const code of Object.keys(details)) {

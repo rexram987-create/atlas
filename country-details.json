@@ -1372,7 +1372,7 @@
   },
   "EG": {
     "etymology": "Egypt מגיע דרך היוונית Aigyptos ושמות קדומים יותר של מצרים; השם הערבי המקומי הוא Miṣr, שם שמי עתיק למצרים ולאזור.",
-    "nameStory": "Egypt נשאר השם הבינלאומי מן המסורת היוונית־לטינית, בעוד Miṣr הוא השם הערבי הרשמי. המדינה קיבלה עצמאות מוגבלת מבריטניה ב־1922.",
+    "nameStory": "Egypt הוא השם הבינלאומי מן המסורת היוונית־לטינית, ו־Miṣr הוא השם הערבי המקומי. ב־1953 הוכרזה הרפובליקה המצרית; ב־1958 התאחדו מצרים וסוריה בשם ״הרפובליקה הערבית המאוחדת״. מצרים המשיכה להשתמש בשם זה אחרי פרישת סוריה ב־1961, וב־2 בספטמבר 1971 אימצה את השם הרשמי הנוכחי: ״הרפובליקה הערבית של מצרים״.",
     "modernStateYear": 1922,
     "modernStateNote": "1922 נבחרה כנקודת הריבונות המודרנית; המלוכה בוטלה והרפובליקה הוכרזה ב־1953.",
     "sources": [
@@ -1383,6 +1383,22 @@
       {
         "label": "Encyclopaedia Britannica — Egypt",
         "url": "https://www.britannica.com/place/Egypt"
+      },
+      {
+        "label": "הפרלמנט הבריטי — ההכרזה על עצמאות מצרים, 1922",
+        "url": "https://api.parliament.uk/historic-hansard/lords/1922/feb/28/statement-on-egypt"
+      },
+      {
+        "label": "שירות המידע הממלכתי של מצרים — מוחמד נגיב והכרזת הרפובליקה",
+        "url": "https://sis.gov.eg/en/egypt/egyptian-figures/mohamed-naguib/"
+      },
+      {
+        "label": "WIPO Lex — חוקת מצרים מ־2014, כולל תיקוני 2019",
+        "url": "https://www.wipo.int/wipolex/ar/legislation/details/19863"
+      },
+      {
+        "label": "האומות המאוחדות — האיחוד עם סוריה ושינוי השם",
+        "url": "https://treaties-prod.un.org/Pages/HistoricalInfo.aspx?clang=_en"
       }
     ],
     "history": {
@@ -1391,9 +1407,21 @@
         "note": "ב־28 בפברואר 1922 הודיעה בריטניה על סיום משטר החסות והכרה במצרים כמדינה עצמאית. העצמאות הייתה מוגבלת: בריטניה שמרה לעצמה סמכויות בארבעה תחומים, ובהם ביטחון וסודן.",
         "source": "https://api.parliament.uk/historic-hansard/lords/1922/feb/28/statement-on-egypt"
       },
-      "formation": null,
-      "constitution": null,
-      "nameChange": null
+      "formation": {
+        "year": 1953,
+        "note": "ב־18 ביוני 1953 בוטלה המלוכה והוכרזה הרפובליקה המצרית. מוחמד נגיב היה לנשיא הראשון. זהו המעבר למשטר רפובליקני; זו אינה שנת הקמתה הראשונה של מצרים ואינה מועד העצמאות ב־1922.",
+        "source": "https://sis.gov.eg/en/egypt/egyptian-figures/mohamed-naguib/"
+      },
+      "constitution": {
+        "year": 2014,
+        "note": "החוקה הנוכחית אומצה ב־18 בינואר 2014, לאחר משאל עם שנערך ב־14–15 בינואר. היא כוללת תיקונים שאומצו ב־23 באפריל 2019. שנת 2014 מציינת את אימוץ החוקה, ולא את הכרזת העצמאות או הרפובליקה.",
+        "source": "https://www.wipo.int/wipolex/ar/legislation/details/19863"
+      },
+      "nameChange": {
+        "year": 1971,
+        "note": "ב־2 בספטמבר 1971 הוחלף השם הרשמי ״הרפובליקה הערבית המאוחדת״ ב״הרפובליקה הערבית של מצרים״. השם הקודם שימש באיחוד מצרים וסוריה מ־1958, ומצרים שמרה עליו גם אחרי פרישת סוריה ב־1961.",
+        "source": "https://treaties-prod.un.org/Pages/HistoricalInfo.aspx?clang=_en"
+      }
     },
     "historicalMilestone": {
       "year": 1922,
