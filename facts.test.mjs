@@ -2,6 +2,13 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { normalizeCountryFacts, formatPopulation, compactList, localizeCapitalList } from './facts.mjs';
 
+test('South African language labels work without browser Intl language support', () => {
+  const codes = ['afr', 'eng', 'nbl', 'nso', 'sot', 'ssw', 'tsn', 'tso', 'ven', 'xho', 'zul'];
+  const fact = normalizeCountryFacts([{ cca2: 'ZA', languages: Object.fromEntries(codes.map(code => [code, code])) }]).ZA;
+  assert.equal(fact.languages.length, 12);
+  for (const code of fact.languages) assert.match(fact.languageNames[code] || '', /[א-ת]/, code);
+});
+
 test('normalizes compact facts by ISO alpha-2 code', () => {
   const result = normalizeCountryFacts([
     {
