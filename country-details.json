@@ -1351,12 +1351,28 @@
       {
         "label": "Encyclopaedia Britannica — Algeria",
         "url": "https://www.britannica.com/place/Algeria"
+      },
+      {
+        "label": "מקור היסטורי — מסמך רשמי",
+        "url": "https://history.state.gov/countries/algeria"
+      },
+      {
+        "label": "מקור היסטורי — WIPO Lex",
+        "url": "https://www.wipo.int/wipolex/en/legislation/details/20552"
       }
     ],
     "history": {
-      "independence": null,
+      "independence": {
+        "year": 1962,
+        "note": "במשאל העם ב־1 ביולי 1962 נבחרה העצמאות; צרפת הכירה באלג׳יריה כמדינה עצמאית ב־3 ביולי 1962.",
+        "source": "https://history.state.gov/countries/algeria"
+      },
       "formation": null,
-      "constitution": null,
+      "constitution": {
+        "year": 2020,
+        "note": "תיקון החוקה אושר במשאל עם ב־1 בנובמבר 2020 ופורסם בצו נשיאותי ב־30 בדצמבר 2020. זהו תיקון לחוקת 1996, ולא חוקה ראשונה או שנת יסוד המדינה.",
+        "source": "https://www.wipo.int/wipolex/en/legislation/details/20552"
+      },
       "nameChange": null
     },
     "historicalMilestone": {
@@ -1778,13 +1794,41 @@
       {
         "label": "Encyclopaedia Britannica — Ghana",
         "url": "https://www.britannica.com/place/Ghana"
+      },
+      {
+        "label": "מקור היסטורי — מסמך רשמי",
+        "url": "https://history.state.gov/countries/ghana"
+      },
+      {
+        "label": "מקור היסטורי — מסמך רשמי",
+        "url": "https://www.judicial.gov.gh/index.php/after-independence"
+      },
+      {
+        "label": "מקור היסטורי — WIPO Lex",
+        "url": "https://www.wipo.int/wipolex/en/legislation/details/9414"
       }
     ],
     "history": {
-      "independence": null,
-      "formation": null,
-      "constitution": null,
-      "nameChange": null
+      "independence": {
+        "year": 1957,
+        "note": "ב־6 במרץ 1957 הוכרזה גאנה עצמאית מן האימפריה הבריטית.",
+        "source": "https://history.state.gov/countries/ghana"
+      },
+      "formation": {
+        "year": 1960,
+        "note": "ב־1 ביולי 1960 נכנסה לתוקף חוקת הרפובליקה הראשונה. נשיא החליף את המלכה כראש המדינה; העצמאות קדמה לכך ב־1957.",
+        "source": "https://www.judicial.gov.gh/index.php/after-independence"
+      },
+      "constitution": {
+        "year": 1993,
+        "note": "חוקת 1992, שאושרה במשאל עם ב־28 באפריל 1992, נכנסה לתוקף ב־7 בינואר 1993. השנה המוצגת היא שנת הכניסה לתוקף; נוסח המקור כולל את תיקון 1996.",
+        "source": "https://www.wipo.int/wipolex/en/legislation/details/9414"
+      },
+      "nameChange": {
+        "year": 1957,
+        "note": "עם העצמאות ב־6 במרץ 1957 הייתה המדינה מוכרת בשם גאנה, במקום השם הקולוניאלי חוף הזהב.",
+        "source": "https://history.state.gov/countries/ghana"
+      }
     },
     "historicalMilestone": {
       "year": 1957,
@@ -3038,12 +3082,28 @@
       {
         "label": "Encyclopaedia Britannica — Morocco",
         "url": "https://www.britannica.com/place/Morocco"
+      },
+      {
+        "label": "מקור היסטורי — מסמך רשמי",
+        "url": "https://history.state.gov/countries/morocco"
+      },
+      {
+        "label": "מקור היסטורי — WIPO Lex",
+        "url": "https://www.wipo.int/wipolex/en/legislation/details/13535"
       }
     ],
     "history": {
-      "independence": null,
+      "independence": {
+        "year": 1956,
+        "note": "ב־2 במרץ 1956 הכירה צרפת בעצמאות מרוקו בהצהרה משותפת. זהו סיום החסות הצרפתית, ולא ראשית המלוכה המרוקאית.",
+        "source": "https://history.state.gov/countries/morocco"
+      },
       "formation": null,
-      "constitution": null,
+      "constitution": {
+        "year": 2011,
+        "note": "חוקת 2011 נכנסה לתוקף ב־29 ביולי 2011. היא החליפה את חוקת 1996; אין זה מועד הקמת הממלכה.",
+        "source": "https://www.wipo.int/wipolex/en/legislation/details/13535"
+      },
       "nameChange": null
     },
     "historicalMilestone": {
@@ -4268,12 +4328,28 @@
       {
         "label": "Encyclopaedia Britannica — Senegal",
         "url": "https://www.britannica.com/place/Senegal"
+      },
+      {
+        "label": "מקור היסטורי — מסמך רשמי",
+        "url": "https://history.state.gov/countries/senegal"
+      },
+      {
+        "label": "מקור היסטורי — מסמך רשמי",
+        "url": "https://conseilconstitutionnel.sn/la-constitution/"
       }
     ],
     "history": {
-      "independence": null,
+      "independence": {
+        "year": 1960,
+        "note": "ב־20 באוגוסט 1960 פרשה סנגל מפדרציית מאלי והכריזה על עצמאותה כמדינה נפרדת. יש להבחין בין אירוע זה לבין העצמאות מצרפת במסגרת הפדרציה.",
+        "source": "https://history.state.gov/countries/senegal"
+      },
       "formation": null,
-      "constitution": null,
+      "constitution": {
+        "year": 2001,
+        "note": "חוקת סנגל נקבעה בחוק מספר 2001-03 מ־22 בינואר 2001. המקור הרשמי מציג את החוקה עם תיקונים שנעשו לאחר מכן; השנה מציינת את החוקה המקורית.",
+        "source": "https://conseilconstitutionnel.sn/la-constitution/"
+      },
       "nameChange": null
     },
     "historicalMilestone": {
@@ -4918,12 +4994,32 @@
       {
         "label": "Encyclopaedia Britannica — Tunisia",
         "url": "https://www.britannica.com/place/Tunisia"
+      },
+      {
+        "label": "מקור היסטורי — מסמך רשמי",
+        "url": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=YzWPzNXdzQH4xI2S7LSS20KxrIF6Qv5M3tlACTiZEUEzVYjDibW99o9QE%2Fuq0aYMhX37VsytFZnv3%2FWF%2FxeE0A%3D%3D"
+      },
+      {
+        "label": "מקור היסטורי — WIPO Lex",
+        "url": "https://www.wipo.int/wipolex/en/legislation/details/21853"
       }
     ],
     "history": {
-      "independence": null,
-      "formation": null,
-      "constitution": null,
+      "independence": {
+        "year": 1956,
+        "note": "ב־20 במרץ 1956 נחתם הפרוטוקול שהכיר בעצמאות תוניסיה וביטל את חוזה בארדו, הבסיס לחסות הצרפתית.",
+        "source": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=YzWPzNXdzQH4xI2S7LSS20KxrIF6Qv5M3tlACTiZEUEzVYjDibW99o9QE%2Fuq0aYMhX37VsytFZnv3%2FWF%2FxeE0A%3D%3D"
+      },
+      "formation": {
+        "year": 1957,
+        "note": "ב־25 ביולי 1957 בוטלה המלוכה והוכרזה הרפובליקה. זהו שינוי צורת המשטר לאחר העצמאות, ולא תחילת תולדות תוניסיה.",
+        "source": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=YzWPzNXdzQH4xI2S7LSS20KxrIF6Qv5M3tlACTiZEUEzVYjDibW99o9QE%2Fuq0aYMhX37VsytFZnv3%2FWF%2FxeE0A%3D%3D"
+      },
+      "constitution": {
+        "year": 2022,
+        "note": "חוקת 2022 אומצה במשאל העם ב־25 ביולי 2022 ופורסמה ב־18 באוגוסט 2022. זהו אירוע חוקתי נפרד מהעצמאות ומהכרזת הרפובליקה.",
+        "source": "https://www.wipo.int/wipolex/en/legislation/details/21853"
+      },
       "nameChange": null
     },
     "historicalMilestone": {
