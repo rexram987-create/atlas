@@ -6,6 +6,21 @@ import { getCountryDetail } from './details.mjs';
 const countries = JSON.parse(readFileSync(new URL('./countries.json', import.meta.url), 'utf8'));
 const details = JSON.parse(readFileSync(new URL('./country-details.json', import.meta.url), 'utf8'));
 
+test('history batch 5 distinguishes federation, independence and constitutional milestones', () => {
+  assert.deepEqual([details.FM.history.formation?.year, details.FM.history.constitution?.year, details.FM.history.independence?.year], [1979, 1979, 1986]);
+  assert.deepEqual([details.ZA.history.formation?.year, details.ZA.history.constitution?.year], [1910, 1997]);
+  assert.deepEqual([details.IN.history.independence?.year, details.IN.history.constitution?.year], [1947, 1950]);
+  assert.equal(details.CA.history.independence?.status, 'no_single_date');
+  assert.equal(details.CA.history.formation?.year, 1867);
+  assert.equal(details.CA.history.constitution?.year, 1982);
+  assert.equal(details.NZ.history.constitution?.status, 'no_single_date');
+  assert.equal(details.NZ.history.formation?.year, 1907);
+  assert.equal(details.NZ.history.independence?.year, 1947);
+  for (const code of ['ZA','FM','CA','NZ','IN']) for (const event of Object.values(details[code].history)) {
+    if (event) assert.ok(details[code].sources.some(source => source.url === event.source), `${code}: event source absent from bibliography`);
+  }
+});
+
 test('every Atlas country has one valid detail record and no extras', () => {
   assert.equal(countries.length, 197);
   const codes = new Set(countries.map(country => country.code));

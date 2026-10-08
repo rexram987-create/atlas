@@ -780,14 +780,34 @@
         "url": "https://www.canada.ca/en/canadian-heritage/services/origin-name-canada.html"
       },
       {
-        "label": "Government of Canada — Federalism",
-        "url": "https://www.canada.ca/en/intergovernmental-affairs/services/federation/federalism-canada.html"
+        "label": "ממשלת קנדה — תולדות יום קנדה",
+        "url": "https://www.canada.ca/en/canadian-heritage/campaigns/canada-day/about.html"
+      },
+      {
+        "label": "ממשלת קנדה — התפתחות הפדרציה והעצמאות",
+        "url": "https://www.canada.ca/en/intergovernmental-affairs/services/provinces-territories.html"
+      },
+      {
+        "label": "משרד המשפטים הקנדי — חוקי החוקה",
+        "url": "https://laws.justice.gc.ca/eng/Const/FullText.html"
       }
     ],
     "history": {
-      "independence": null,
-      "formation": null,
-      "constitution": null,
+      "independence": {
+        "status": "no_single_date",
+        "note": "העצמאות התפתחה בשלבים: האיחוד ב־1867, אוטונומיה לפי חוק וסטמינסטר ב־1931 והעברת הסמכות לתיקון החוקה לקנדה ב־1982. אין כאן יום עצמאות יחיד.",
+        "source": "https://www.canada.ca/en/intergovernmental-affairs/services/provinces-territories.html"
+      },
+      "formation": {
+        "year": 1867,
+        "note": "ב־1 ביולי 1867 הוקמה הפדרציה הקנדית מכוח חוק צפון אמריקה הבריטית, ששמו כיום חוק החוקה, 1867. האיחוד לא העניק מיד עצמאות מלאה מבריטניה.",
+        "source": "https://www.canada.ca/en/canadian-heritage/campaigns/canada-day/about.html"
+      },
+      "constitution": {
+        "year": 1982,
+        "note": "חוק החוקה, 1982 נכנס לתוקף ב־17 באפריל 1982 והוסיף את מגילת הזכויות ואת מנגנון תיקון החוקה. הוא מצטרף לחוק החוקה, 1867 ואינו החוקה הראשונה של קנדה.",
+        "source": "https://laws.justice.gc.ca/eng/Const/FullText.html"
+      },
       "nameChange": null
     },
     "historicalMilestone": {
@@ -1581,12 +1601,32 @@
       {
         "label": "Encyclopaedia Britannica — Micronesia",
         "url": "https://www.britannica.com/place/Micronesia-republic-Pacific-Ocean"
+      },
+      {
+        "label": "ממשלת מיקרונזיה — יום החוקה",
+        "url": "https://www.fsmgov.org/const25.htm"
+      },
+      {
+        "label": "הקונגרס של מיקרונזיה — יום העצמאות",
+        "url": "https://www.fsmgov.org/press/cn110602.htm"
       }
     ],
     "history": {
-      "independence": null,
-      "formation": null,
-      "constitution": null,
+      "independence": {
+        "year": 1986,
+        "note": "ב־3 בנובמבר 1986 החלה העצמאות במסגרת הסכם ההתאגדות החופשית עם ארצות הברית. זהו מועד יום העצמאות, ולא מועד הקמת הפדרציה.",
+        "source": "https://www.fsmgov.org/press/cn110602.htm"
+      },
+      "formation": {
+        "year": 1979,
+        "note": "ב־10 במאי 1979 הוקמה המסגרת החוקתית של המדינות הפדרטיביות של מיקרונזיה. זהו מועד הקמת הפדרציה, שקדם לעצמאות ב־1986.",
+        "source": "https://www.fsmgov.org/const25.htm"
+      },
+      "constitution": {
+        "year": 1979,
+        "note": "החוקה נכנסה לתוקף ב־10 במאי 1979; יום זה מצוין כיום החוקה והקמת המדינה.",
+        "source": "https://www.fsmgov.org/const25.htm"
+      },
       "nameChange": null
     },
     "historicalMilestone": {
@@ -2054,12 +2094,24 @@
       {
         "label": "Encyclopaedia Britannica — India",
         "url": "https://www.britannica.com/place/India"
+      },
+      {
+        "label": "לשכת המידע הממשלתית של הודו — העצמאות והחוקה",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2218369&lang=1&reg=1"
       }
     ],
     "history": {
-      "independence": null,
+      "independence": {
+        "year": 1947,
+        "note": "הודו קיבלה עצמאות מן השלטון הבריטי ב־15 באוגוסט 1947. המעבר לרפובליקה התרחש מאוחר יותר, ב־1950.",
+        "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2218369&lang=1&reg=1"
+      },
       "formation": null,
-      "constitution": null,
+      "constitution": {
+        "year": 1950,
+        "note": "החוקה אומצה ב־26 בנובמבר 1949 ונכנסה לתוקף ב־26 בינואר 1950. כניסתה לתוקף מציינת את המעבר לרפובליקה ונחגגת ביום הרפובליקה.",
+        "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2218369&lang=1&reg=1"
+      },
       "nameChange": null
     },
     "historicalMilestone": {
@@ -3549,26 +3601,46 @@
     "etymology": "New Zealand נקראה בידי קרטוגרפים הולנדים Nieuw Zeeland על שם המחוז ההולנדי Zeeland. השם המאורי Aotearoa נפוץ גם הוא כיום.",
     "nameStory": "הצורה האנגלית New Zealand התקבעה תחת השלטון הבריטי; ב־1907 קיבלה המושבה מעמד Dominion והעצמאות החוקתית התפתחה בשלבים.",
     "modernStateYear": 1907,
-    "modernStateNote": "1907 נבחרה כנקודת המעבר למדינה בעלת מעמד Dominion; עצמאות חקיקתית מלאה הושלמה בהדרגה עד אימוץ חוק וסטמינסטר ב־1947.",
+    "modernStateNote": "1907 היא שנת המעבר למעמד דומיניון. העצמאות התפתחה בשלבים, ובהם אימוץ חוק וסטמינסטר ב־1947 וחוק החוקה מ־1986.",
     "sources": [
-      {
-        "label": "CIA World Factbook Archive — New Zealand",
-        "url": "https://www.cia.gov/the-world-factbook/about/archives/2021/countries/new-zealand/"
-      },
       {
         "label": "Encyclopaedia Britannica — New Zealand",
         "url": "https://www.britannica.com/place/New-Zealand"
+      },
+      {
+        "label": "משרד התרבות של ניו זילנד — מעמד דומיניון",
+        "url": "https://nzhistory.govt.nz/page/dominion-status"
+      },
+      {
+        "label": "משרד התרבות של ניו זילנד — חוק וסטמינסטר",
+        "url": "https://nzhistory.govt.nz/statute-of-westminster-passed-confirming-nz-autonomy"
+      },
+      {
+        "label": "המושל הכללי של ניו זילנד — החוקה",
+        "url": "https://gg.govt.nz/office-governor-general/roles-and-functions-governor-general/constitutional-role/constitution/constitution"
       }
     ],
     "history": {
-      "independence": null,
-      "formation": null,
-      "constitution": null,
+      "independence": {
+        "year": 1947,
+        "note": "ב־25 בנובמבר 1947 אימצה ניו זילנד את חוק וסטמינסטר והרחיבה את עצמאותה החקיקתית. זהו שלב בתהליך העצמאות; חוק החוקה מ־1986 הסיר את השריד האחרון לסמכות חקיקה בריטית.",
+        "source": "https://nzhistory.govt.nz/statute-of-westminster-passed-confirming-nz-autonomy"
+      },
+      "formation": {
+        "year": 1907,
+        "note": "ב־26 בספטמבר 1907 קיבלה ניו זילנד מעמד דומיניון במקום מושבה. זהו ציון דרך במעמדה המדיני, ולא הקמת מדינה חדשה או עצמאות מלאה ביום אחד.",
+        "source": "https://nzhistory.govt.nz/page/dominion-status"
+      },
+      "constitution": {
+        "status": "no_single_date",
+        "note": "חוקת ניו זילנד אינה מרוכזת במסמך יחיד, אלא מורכבת מחוקים, פסיקה ומוסכמות. חוק החוקה מ־1986 הוא מסמך מרכזי במערכת זו, ולא חוקה יחידה שאומצה בתאריך אחד.",
+        "source": "https://gg.govt.nz/office-governor-general/roles-and-functions-governor-general/constitutional-role/constitution/constitution"
+      },
       "nameChange": null
     },
     "historicalMilestone": {
       "year": 1907,
-      "note": "1907 נבחרה כנקודת המעבר למדינה בעלת מעמד Dominion; עצמאות חקיקתית מלאה הושלמה בהדרגה עד אימוץ חוק וסטמינסטר ב־1947."
+      "note": "1907 היא שנת המעבר למעמד דומיניון. העצמאות התפתחה בשלבים, ובהם אימוץ חוק וסטמינסטר ב־1947 וחוק החוקה מ־1986."
     }
   },
   "OM": {
@@ -5165,12 +5237,28 @@
       {
         "label": "Encyclopaedia Britannica — South Africa",
         "url": "https://www.britannica.com/place/South-Africa"
+      },
+      {
+        "label": "ממשלת דרום אפריקה — תולדות המדינה",
+        "url": "https://www.gov.za/about-sa/history"
+      },
+      {
+        "label": "ממשלת דרום אפריקה — החוקה",
+        "url": "https://www.gov.za/documents/constitution/constitution-republic-south-africa-04-feb-1997"
       }
     ],
     "history": {
       "independence": null,
-      "formation": null,
-      "constitution": null,
+      "formation": {
+        "year": 1910,
+        "note": "איחוד דרום אפריקה הוקם מאיחוד כף התקווה הטובה, נטאל, טרנסוואל ומדינת אורנג׳ החופשית. זהו איחוד המדינה, ולא תאריך כינון הדמוקרטיה ב־1994.",
+        "source": "https://www.gov.za/about-sa/history"
+      },
+      "constitution": {
+        "year": 1997,
+        "note": "החוקה הנוכחית נכנסה לתוקף ב־4 בפברואר 1997, לאחר שאושרה ב־1996. היא נבדלת מחוקת הביניים של תקופת המעבר לדמוקרטיה.",
+        "source": "https://www.gov.za/documents/constitution/constitution-republic-south-africa-04-feb-1997"
+      },
       "nameChange": null
     },
     "historicalMilestone": {
