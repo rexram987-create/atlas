@@ -5079,7 +5079,10 @@
       "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
     },
     "languageNames": {
-      "sfs": "שפת הסימנים הדרום־אפריקאית"
+      "sfs": "שפת הסימנים הדרום־אפריקאית",
+      "nbl": "נדבלה דרומית",
+      "ssw": "סוואזי",
+      "ven": "ונדה"
     },
     "factNotes": [
       {

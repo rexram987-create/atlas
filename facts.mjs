@@ -8,7 +8,7 @@ export function applyCountryFactCorrections(record) {
   };
   if (code === 'ZA') return { ...record,
     languages: { ...record.languages, sfs: 'South African Sign Language' },
-    languageNames: { ...record.languageNames, sfs: 'שפת הסימנים הדרום־אפריקאית' },
+    languageNames: { ...record.languageNames, sfs: 'שפת הסימנים הדרום־אפריקאית', nbl: 'נדבלה דרומית', ssw: 'סוואזי', ven: 'ונדה' },
     factNotes: [{ text: 'שפת הסימנים הדרום־אפריקאית הוכרה כשפה הרשמית ה־12 ב־19 ביולי 2023.', label: 'ממשלת דרום אפריקה', url: 'https://www.gov.za/news/speeches/president-cyril-ramaphosa-signing-ceremony-south-african-sign-language-bill-19-jul' }]
   };
   if (code === 'IL') return { ...record,

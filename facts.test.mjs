@@ -28,12 +28,15 @@ test('normalizes compact facts by ISO alpha-2 code', () => {
 test('keeps sourced country corrections when upstream facts omit them', () => {
   const result = normalizeCountryFacts([
     { cca2: 'FM', currencies: {} },
-    { cca2: 'ZA', languages: { eng: 'English' } }
+    { cca2: 'ZA', languages: { eng: 'English', nbl: 'Southern Ndebele', ssw: 'Swazi', ven: 'Venda' } }
   ]);
   assert.deepEqual(result.FM.currencies, ['USD']);
   assert.equal(result.FM.currencyNames.USD, 'דולר אמריקאי');
   assert.ok(result.ZA.languages.includes('sfs'));
   assert.equal(result.ZA.languageNames.sfs, 'שפת הסימנים הדרום־אפריקאית');
+  assert.equal(result.ZA.languageNames.nbl, 'נדבלה דרומית');
+  assert.equal(result.ZA.languageNames.ssw, 'סוואזי');
+  assert.equal(result.ZA.languageNames.ven, 'ונדה');
   assert.ok(result.FM.factNotes[0].url.startsWith('https://'));
 });
 
