@@ -116,12 +116,32 @@
       {
         "label": "Encyclopaedia Britannica — United Arab Emirates",
         "url": "https://www.britannica.com/place/United-Arab-Emirates"
+      },
+      {
+        "label": "UAE National Library and Archives — formation of the federation",
+        "url": "https://www.nla.ae/en/our-history/historical-periods/the-formation-of-the-federation/"
+      },
+      {
+        "label": "WIPO Lex — UAE Constitution and 1996 amendment",
+        "url": "https://www.wipo.int/wipolex/en/legislation/details/17027"
       }
     ],
     "history": {
-      "independence": null,
-      "formation": null,
-      "constitution": null,
+      "independence": {
+        "year": 1971,
+        "note": "ב־2 בדצמבר 1971 הוכרז איחוד האמירויות כמדינה עצמאית וריבונית. עצמאות המדינה והקמת הפדרציה קשורות לאותה הכרזה.",
+        "source": "https://www.nla.ae/en/our-history/historical-periods/the-formation-of-the-federation/"
+      },
+      "formation": {
+        "year": 1971,
+        "note": "ב־2 בדצמבר 1971 הקימו שש אמירויות את הפדרציה. ראס אל־ח׳ימה הצטרפה ב־1972, והאיחוד מונה שבע אמירויות.",
+        "source": "https://www.nla.ae/en/our-history/historical-periods/the-formation-of-the-federation/"
+      },
+      "constitution": {
+        "year": 1971,
+        "note": "החוקה אומצה ב־2 בדצמבר 1971 כחוקה זמנית. ב־1996 בוטלה זמניותה והיא נעשתה קבועה; שנת 1971 מציינת את אימוץ החוקה המקורית.",
+        "source": "https://www.wipo.int/wipolex/en/legislation/details/17027"
+      },
       "nameChange": null
     },
     "historicalMilestone": {
@@ -2220,12 +2240,32 @@
       {
         "label": "Encyclopaedia Britannica — Iraq",
         "url": "https://www.britannica.com/place/Iraq"
+      },
+      {
+        "label": "UK PCGN — Iraq Toponymic Factfile, 2025",
+        "url": "https://assets.publishing.service.gov.uk/media/691c7a6bd140bbbaa59a2999/Iraq_Toponymic_Factfile.pdf"
+      },
+      {
+        "label": "WIPO Lex — Iraqi Constitution 2005",
+        "url": "https://www.wipo.int/wipolex/ar/legislation/details/10027"
       }
     ],
     "history": {
-      "independence": null,
-      "formation": null,
-      "constitution": null,
+      "independence": {
+        "year": 1932,
+        "note": "ממלכת עיראק קיבלה עצמאות מבריטניה ב־1932. העצמאות קדמה לביטול המלוכה ולהקמת הרפובליקה. ",
+        "source": "https://assets.publishing.service.gov.uk/media/691c7a6bd140bbbaa59a2999/Iraq_Toponymic_Factfile.pdf"
+      },
+      "formation": {
+        "year": 1958,
+        "note": "ב־1958 הופלה המלוכה והוקמה הרפובליקה של עיראק. זו החלפת צורת המשטר, ולא שנת הקמתה הראשונה של המדינה או שנת עצמאותה.",
+        "source": "https://assets.publishing.service.gov.uk/media/691c7a6bd140bbbaa59a2999/Iraq_Toponymic_Factfile.pdf"
+      },
+      "constitution": {
+        "year": 2005,
+        "note": "חוקת עיראק אושרה במשאל עם ב־15 באוקטובר 2005. היא החליפה את חוק ניהול המדינה בתקופת המעבר; זהו מועד אישור החוקה במשאל, ולא תאריך העצמאות.",
+        "source": "https://www.wipo.int/wipolex/ar/legislation/details/10027"
+      },
       "nameChange": null
     },
     "historicalMilestone": {
@@ -2359,9 +2399,9 @@
   },
   "JO": {
     "etymology": "Jordan נקראת על שם נהר הירדן. מקור Jordan הוא מן העברית ירדן, הקשורה לשורש ירד, כנראה במשמעות הנהר היורד.",
-    "nameStory": "אמירות עבר הירדן Transjordan קיבלה עצמאות ב־1946; ב־1949 שונה השם ל־Hashemite Kingdom of Jordan.",
+    "nameStory": "השם ירדן נגזר מנהר הירדן. לאחר תקופת אמירות עבר הירדן הוכרזה הממלכה העצמאית ב־1946. הודעה רשמית שפורסמה ב־1949 הבהירה שיש להשתמש בשם ״הממלכה ההאשמית של ירדן״ במקום ״עבר הירדן״, והפנתה גם למסמכי 1946–1947.",
     "modernStateYear": 1946,
-    "modernStateNote": "עבר הירדן קיבלה עצמאות מן המנדט הבריטי ב־1946; השם Jordan במתכונתו המלכותית הנוכחית אומץ ב־1949.",
+    "modernStateNote": "ב־25 במאי 1946 הוכרזה עצמאות ירדן והמלוכה. ב־1949 פורסמה הבהרה רשמית לגבי השימוש בשם הממלכה.",
     "sources": [
       {
         "label": "CIA World Factbook Archive — Jordan",
@@ -2370,17 +2410,45 @@
       {
         "label": "Encyclopaedia Britannica — Jordan",
         "url": "https://www.britannica.com/place/Jordan"
+      },
+      {
+        "label": "רئاسة الوزراء الأردنية — وثيقة الاستقلال",
+        "url": "https://pm.gov.jo/Ar/Pages/وثيقة_الاستقلال"
+      },
+      {
+        "label": "WIPO Lex — Jordan Constitution 1952, amended through 2022",
+        "url": "https://www.wipo.int/wipolex/en/legislation/details/22013"
+      },
+      {
+        "label": "US Office of the Historian — Jordan official name notice, 1949",
+        "url": "https://history.state.gov//historicaldocuments/frus1949v06/d714"
       }
     ],
     "history": {
-      "independence": null,
-      "formation": null,
-      "constitution": null,
-      "nameChange": null
+      "independence": {
+        "year": 1946,
+        "note": "ב־25 במאי 1946 הכריז הפרלמנט על עצמאות הארץ ועל עבדאללה הראשון כמלך. זהו יום העצמאות המצוין בירדן.",
+        "source": "https://pm.gov.jo/Ar/Pages/وثيقة_الاستقلال"
+      },
+      "formation": {
+        "year": 1946,
+        "note": "באותה הכרזה נקבע משטר מלוכני פרלמנטרי ועבדאללה הראשון הוכרז כמלך. זהו המעבר מאמירות לממלכה, ולא תחילת ההתיישבות באזור.",
+        "source": "https://pm.gov.jo/Ar/Pages/وثيقة_الاستقلال"
+      },
+      "constitution": {
+        "year": 1952,
+        "note": "חוקת הממלכה אומצה ב־1 בינואר 1952. היא מסדירה מלוכה תורשתית ומשטר פרלמנטרי; נוסח המקור כולל תיקונים עד 2022.",
+        "source": "https://www.wipo.int/wipolex/en/legislation/details/22013"
+      },
+      "nameChange": {
+        "year": 1949,
+        "note": "ביוני 1949 פורסמה ברשומות הבהרה שיש להשתמש בשם הרשמי ״הממלכה ההאשמית של ירדן״ ולא ״עבר הירדן״. ההודעה עצמה מפנה להכרזת 1946 ולחוקת 1947: זהו תיעוד של הבהרת השם, ולא בהכרח אימוצו הראשון.",
+        "source": "https://history.state.gov//historicaldocuments/frus1949v06/d714"
+      }
     },
     "historicalMilestone": {
       "year": 1946,
-      "note": "עבר הירדן קיבלה עצמאות מן המנדט הבריטי ב־1946; השם Jordan במתכונתו המלכותית הנוכחית אומץ ב־1949."
+      "note": "ב־25 במאי 1946 הוכרזה עצמאות ירדן והמלוכה. ב־1949 פורסמה הבהרה רשמית לגבי השימוש בשם הממלכה."
     }
   },
   "JP": {
@@ -2686,12 +2754,36 @@
       {
         "label": "Encyclopaedia Britannica — Lebanon",
         "url": "https://www.britannica.com/place/Lebanon"
+      },
+      {
+        "label": "נשיאות לבנון — יום העצמאות",
+        "url": "https://www.presidency.gov.lb/media/news/798"
+      },
+      {
+        "label": "נשיאות לבנון — הכרזת לבנון הגדולה",
+        "url": "https://www.presidency.gov.lb/media/news/1376"
+      },
+      {
+        "label": "WIPO Lex — Constitution of Lebanon",
+        "url": "https://www.wipo.int/wipolex/en/legislation/details/6675"
       }
     ],
     "history": {
-      "independence": null,
-      "formation": null,
-      "constitution": null,
+      "independence": {
+        "year": 1943,
+        "note": "22 בנובמבר 1943 הוא יום העצמאות של לבנון. זהו אירוע נפרד מהקמת לבנון הגדולה ב־1920 ומאימוץ החוקה ב־1926.",
+        "source": "https://www.presidency.gov.lb/media/news/798"
+      },
+      "formation": {
+        "year": 1920,
+        "note": "ב־1 בספטמבר 1920 הוכרזה ״לבנון הגדולה״. זו הקמת הישות המדינית בתקופת השלטון הצרפתי; העצמאות מצוינת בנפרד ב־1943.",
+        "source": "https://www.presidency.gov.lb/media/news/1376"
+      },
+      "constitution": {
+        "year": 1926,
+        "note": "החוקה הוכרזה ב־23 במאי 1926. היא תוקנה בהמשך; נוסח המקור כולל את התיקון מ־21 בספטמבר 1990. אימוץ החוקה קדם לעצמאות.",
+        "source": "https://www.wipo.int/wipolex/en/legislation/details/6675"
+      },
       "nameChange": null
     },
     "historicalMilestone": {
@@ -4104,13 +4196,33 @@
       {
         "label": "Encyclopaedia Britannica — Saudi Arabia",
         "url": "https://www.britannica.com/place/Saudi-Arabia"
+      },
+      {
+        "label": "Saudipedia — official proclamation of unification",
+        "url": "https://saudipedia.com/en/when-was-the-unification-of-saudi-arabia-officially-announced"
+      },
+      {
+        "label": "WIPO Lex — Saudi Basic Law of Governance",
+        "url": "https://www.wipo.int/wipolex/en/legislation/details/7973"
       }
     ],
     "history": {
       "independence": null,
-      "formation": null,
-      "constitution": null,
-      "nameChange": null
+      "formation": {
+        "year": 1932,
+        "note": "איחוד הממלכה בשם ״ממלכת ערב הסעודית״ נכנס לתוקף ב־23 בספטמבר 1932, בעקבות צו מ־18 בספטמבר. מדובר בממלכה המאוחדת הנוכחית.",
+        "source": "https://saudipedia.com/en/when-was-the-unification-of-saudi-arabia-officially-announced"
+      },
+      "constitution": {
+        "year": 1992,
+        "note": "חוק היסוד של הממשל הוכרז ב־1 במרץ 1992 ונכנס לתוקף ב־5 במרץ. סעיף 1 מגדיר את הקוראן והסונה כחוקת המדינה; השנה מציינת את חוק היסוד הכתוב.",
+        "source": "https://www.wipo.int/wipolex/en/legislation/details/7973"
+      },
+      "nameChange": {
+        "year": 1932,
+        "note": "הצו מ־18 בספטמבר 1932 קבע את השם ״ממלכת ערב הסעודית״ עם תחילת תוקפו ב־23 בספטמבר. השם מתייחס לבית סעוד.",
+        "source": "https://saudipedia.com/en/when-was-the-unification-of-saudi-arabia-officially-announced"
+      }
     },
     "historicalMilestone": {
       "year": 1932,
